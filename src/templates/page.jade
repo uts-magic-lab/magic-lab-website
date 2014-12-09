@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        title= title + " | " + site.title
+        link(rel='stylesheet', href='/style/main.css')
+    body
+        .container
+            header
+                h1= title
+            != contents

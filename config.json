@@ -1,0 +1,16 @@
+{
+    "paths": {
+        "source": ["src/**"],
+        "assets": ["src/assets/**"],
+        "stylesheets": ["src/style/main.css"],
+        "templates": ["src/templates/**/*.jade"],
+        "content": ["src/content/**/*.md"],
+        "dest": "build"
+    },
+
+    "globals": {
+        "site": {
+            "title": "Magic Lab"
+        }
+    }
+}

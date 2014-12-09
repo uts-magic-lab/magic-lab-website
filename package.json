@@ -1,0 +1,38 @@
+{
+  "name": "magic-lab-website",
+  "version": "1.0.0",
+  "description": "Statically-generated website for university research lab",
+  "homepage": "http://themagiclab.org/",
+  "main": "gulpfile.coffee",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "Jesse Clark <jjclark1982@gmail.com>",
+  "license": "Build script: MIT License. Content: Copyright University of Technology Sydney, all rights reserved.",
+  "dependencies": {
+    "autoprefixer-core": "~4.0.1",
+    "coffee-script": "~1.8.0",
+    "csswring": "~2.0.0",
+    "del": "~0.1.3",
+    "event-stream": "~3.1.7",
+    "google-spreadsheet": "^0.2.8",
+    "gulp": "~3.8.10",
+    "gulp-cached": "~1.0.1",
+    "gulp-front-matter": "~1.0.0",
+    "gulp-marked": "~1.0.0",
+    "gulp-postcss": "~3.0.0",
+    "gulp-remember": "~0.2.2",
+    "gulp-sourcemaps": "~1.2.8",
+    "highlight.js": "~8.4.0",
+    "jade": "~1.8.0",
+    "lodash": "~2.4.1",
+    "normalize.css": "~3.0.2",
+    "postcss-import": "~3.2.0",
+    "run-sequence": "~1.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "~1.7.2"
+  }
+}
