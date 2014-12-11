@@ -1,14 +1,13 @@
 gulp = require('gulp')
-gutil = require('gulp/node_modules/gulp-util')
-cached = require('gulp-cached')
-remember = require('gulp-remember')
-es = require('event-stream')
-del = require('del')
 _ = require('lodash')
+$ = require('gulp-load-plugins')()
+$.map = require('map-stream')
 sysPath = require('path')
+del = require('del')
 
 config = require('./config')
 paths = config.paths
+
 
 gulp.task('default', ['build'])
 
@@ -20,13 +19,11 @@ gulp.task('clean', (done)->
 
 gulp.task('assets', ->
     gulp.src(paths.assets)
-        .pipe(cached('assets'))
+        .pipe($.cached('assets'))
         .pipe(gulp.dest(paths.dest))
 )
 
 gulp.task('css', ->
-    sourcemaps = require('gulp-sourcemaps')
-    postcss = require('gulp-postcss')
     processors = [
         require('autoprefixer-core')({
             browsers: '> 0.1%'
@@ -36,63 +33,64 @@ gulp.task('css', ->
         }),
         # require('csswring')
     ]
+
     gulp.src(paths.stylesheets)
-        .pipe(sourcemaps.init())
-            .pipe(postcss(processors))
-        .pipe(sourcemaps.write('.'))
-        .pipe(cached('css'))
+        .pipe($.sourcemaps.init())
+            .pipe($.postcss(processors))
+        .pipe($.sourcemaps.write('.'))
+        .pipe($.cached('css'))
         .pipe(gulp.dest(paths.dest+'/style'))
 )
 
 templates = []
 gulp.task('templates', ->
     jade = require('jade')
+
     gulp.src(paths.templates)
-        .pipe(cached('templates'))
-        .pipe(es.mapSync((file)->
+        .pipe($.cached('templates'))
+        .pipe($.map((file, cb)->
             template = jade.compile(file.contents, {
                 filename: file.path
                 pretty: "  "
             })
             templates[file.relative] = template
+            cb()
         ))
-        .pipe(remember('templates'))
+        # .pipe($.remember('templates'))
 )
+
+renderFile = (file, cb)->
+    tmplName = file.frontMatter?.template
+    if tmplName
+        template = templates[tmplName]
+        locals = file.frontMatter
+        locals.stat = file.stat
+        locals.contents = file.contents.toString()
+        context = _.extend({}, config.globals, locals)
+        text = template(context)
+        file.contents = new Buffer(text)
+    cb(null, file)
 
 gulp.task('collections', (done)->
     done() # TBD
 )
 
 gulp.task('content', ['collections', 'templates'], ->
-    frontMatter = require('gulp-front-matter')
-    marked = require('gulp-marked')
-
     gulp.src(paths.content)
-        .pipe(cached('content'))
-            .pipe(frontMatter({}))
-            .pipe(marked({}))
-            .pipe(es.mapSync((file)->
-                tmplName = file.frontMatter?.template
-                if tmplName
-                    template = templates[tmplName]
-                    locals = file.frontMatter
-                    locals.stat = file.stat
-                    locals.contents = file.contents.toString()
-                    context = _.extend({}, config.globals, locals)
-                    text = template(context)
-                    file.contents = new Buffer(text)
-                return file
-            ))
-        .pipe(remember('content'))
+        .pipe($.cached('content'))
+            .pipe($.frontMatter({}))
+            .pipe($.marked({}))
+            .pipe($.map(renderFile))
+        .pipe($.remember('content'))
         .pipe(gulp.dest(paths.dest))
 )
 
 gulp.task('watch', ['server', 'build'], (done)->
     gulp.watch(paths.source, ['build']).on('change', (event)->
         if event.type is 'deleted'
-            for domain, val of cached.caches
-                delete cached.caches[domain][event.path]
-                remember.forget(domain, event.path)
+            for domain, val of $.cached.caches
+                delete $.cached.caches[domain][event.path]
+                $.remember.forget(domain, event.path)
             # TODO: delete from dest
     )
 )
