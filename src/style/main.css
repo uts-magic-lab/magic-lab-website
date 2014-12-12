@@ -1,2 +1,4 @@
-@import url(normalize.css);
-@import url(hljs-github.css);
+@import "normalize.css";
+
+@import "highlight.js/styles/github.css";
+
