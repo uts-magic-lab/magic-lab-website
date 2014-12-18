@@ -19,6 +19,7 @@
     "google-spreadsheet": "^0.2.8",
     "gulp": "~3.8.10",
     "gulp-cached": "~1.0.1",
+    "gulp-concat": "^2.4.2",
     "gulp-front-matter": "~1.0.0",
     "gulp-load-plugins": "^0.8.0",
     "gulp-marked": "~1.0.0",

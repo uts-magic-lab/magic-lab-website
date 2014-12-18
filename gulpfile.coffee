@@ -30,28 +30,34 @@ gulp.task('css', ->
         }),
         require('postcss-import')({
             path: sysPath.dirname(paths.stylesheets)
-        }),
-        # require('csswring')
+        })
     ]
+    if process.env.MINIFY
+        processors.push(require('csswring'))
 
     gulp.src(paths.stylesheets)
         .pipe($.sourcemaps.init())
             .pipe($.postcss(processors))
+            # .pipe($.concat('style/main.css'))
         .pipe($.sourcemaps.write('.'))
         .pipe($.cached('css'))
-        .pipe(gulp.dest(paths.dest+'/style'))
+        .pipe(gulp.dest(paths.dest))
 )
 
 templates = []
 gulp.task('templates', ->
     jade = require('jade')
+    if process.env.MINIFY
+        pretty = false
+    else
+        pretty = "  "
 
     gulp.src(paths.templates)
         .pipe($.cached('templates'))
         .pipe($.map((file, cb)->
             template = jade.compile(file.contents, {
                 filename: file.path
-                pretty: "  "
+                pretty: pretty
             })
             templates[file.relative] = template
             cb()
@@ -85,7 +91,7 @@ gulp.task('content', ['collections', 'templates'], ->
         .pipe(gulp.dest(paths.dest))
 )
 
-gulp.task('watch', ['server', 'build'], (done)->
+gulp.task('watch', ['build', 'serve'], (done)->
     gulp.watch(paths.source, ['build']).on('change', (event)->
         if event.type is 'deleted'
             for domain, val of $.cached.caches
@@ -95,7 +101,7 @@ gulp.task('watch', ['server', 'build'], (done)->
     )
 )
 
-gulp.task('serve', ['build'], (ready)->
+gulp.task('serve', (ready)->
     browserSync = require('browser-sync')
 
     browserSync({
