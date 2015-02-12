@@ -8,8 +8,8 @@ del = require('del')
 config = require('./config')
 paths = config.paths
 
-
-gulp.task('default', ['build'])
+gulp.task('default', ['start'])
+gulp.task('start', ['build', 'serve-static'])
 
 gulp.task('build', ['assets', 'css', 'content'])
 
@@ -91,7 +91,7 @@ gulp.task('content', ['collections', 'templates'], ->
         .pipe(gulp.dest(paths.dest))
 )
 
-gulp.task('watch', ['build', 'serve'], (done)->
+gulp.task('watch', ['build', 'serve-with-reload'], (done)->
     gulp.watch(paths.source, ['build']).on('change', (event)->
         if event.type is 'deleted'
             for domain, val of $.cached.caches
@@ -101,7 +101,7 @@ gulp.task('watch', ['build', 'serve'], (done)->
     )
 )
 
-gulp.task('serve', (ready)->
+gulp.task('serve-with-reload', (ready)->
     browserSync = require('browser-sync')
 
     browserSync({
@@ -113,6 +113,21 @@ gulp.task('serve', (ready)->
         online: false
         open: false
     }, ready)
+)
+
+gulp.task('serve-static', (ready)->
+    express = require('express')
+    morgan = require('morgan')
+    app = express().use([
+        morgan('common'),
+        express.static(__dirname+'/build')
+    ])
+    host = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
+    port = process.env.OPENSHIFT_NODEJS_PORT || 3000
+    server = app.listen(port, host, ->
+        console.log("HTTP server started on port", this.address().port)
+        ready()
+    )
 )
 
 gulp.task('fetch-data', (done)->
