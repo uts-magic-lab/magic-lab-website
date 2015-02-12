@@ -1,7 +1,7 @@
 
 Static site generator for university research lab website.
 
-We use the [Gulp](http://gulpjs.com/) task-runner to assemble content into static pages that can be served by a CDN. We make use of standard plugins to transpile, concatenate, minify, and render higher-level languages into servable HTML and CSS. Care is taken to choose high-level languages that will age well, such as [polyfill](http://en.wikipedia.org/wiki/Polyfill)s for backwards compatibility of recently established standards.
+We use [Gulp](http://gulpjs.com/) to assemble content into static pages that can be served by a CDN. We make use of standard plugins to transpile, concatenate, minify, and render higher-level languages into servable HTML and CSS. Care is taken to choose high-level languages that will age well, such as [polyfill](http://en.wikipedia.org/wiki/Polyfill)s for backwards compatibility of recently established standards.
 
 We store data in a [normalized](http://en.wikipedia.org/wiki/Database_normalization) Google Spreadsheet and use a custom plugin to feed it into the gulp workflow.
 
