@@ -40,8 +40,12 @@ Gulp encourages a "code over configuration" style, so in many cases it is best t
 
 Some situational behavior is controlled by environment variables:
 
-- `GSS_ID`: ID of Google Spreadsheet to fetch data from.
-
 - `MINIFY`: Set to any non-empty value to enable minification of generated HTML and CSS.
 
 - `PORT=8000`: Port to serve site on when using `gulp serve` and `gulp watch`.
+
+- `GSS_ID`: ID of Google Spreadsheet to fetch data from.
+
+- `GOOGLE_DRIVE_FOLDER_ID`: Set this to the folder where assets are stored.
+
+- `OAUTH_CLIENT_ID`, `OAUTH_CLIENT_SECRET`, `OAUTH_REFRESH_TOKEN`: Set these to an app that has access to the assets folder.

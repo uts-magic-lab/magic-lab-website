@@ -145,3 +145,32 @@ gulp.task('fetch-data', (done)->
             )
     )
 )
+
+gulp.task('fetch-assets', (done)->
+    clientId = process.env.OAUTH_CLIENT_ID
+    clientSecret = process.env.OAUTH_CLIENT_SECRET
+    unless clientId and clientSecret
+        throw new Error("OAUTH_CLIENT_ID and OAUTH_CLIENT_SECRET must be set to the values at https://console.developers.google.com/project/${app_id}/apiui/credential")
+    refreshToken = process.env.OAUTH_REFRESH_TOKEN
+    unless refreshToken
+        throw new Error("OAUTH_REFRESH_TOKEN must be set to a valid token")
+    folderId = process.env.GOOGLE_DRIVE_FOLDER_ID
+    unless folderId
+        throw new Error("GOOGLE_DRIVE_FOLDER_ID must be set to the assets folder")
+
+    google = require('googleapis')
+    OAuth2 = google.auth.OAuth2
+    client = new OAuth2(clientId, clientSecret, 'http://localhost/')
+    client.setCredentials({refresh_token: refreshToken})
+    drive = google.drive({version: 'v2', auth: client})
+
+    drive.children.list({folderId: folderId}, (err, files)->
+        if err then return done(err)
+        for item in files.items
+            drive.files.get({fileId: item.id}, (err, file)->
+                if err then return done(err)
+                console.log(file)
+            )
+            # TODO: transform the list of files into a gulp stream
+    )
+)
