@@ -4,6 +4,7 @@ $ = require('gulp-load-plugins')()
 $.map = require('map-stream')
 sysPath = require('path')
 del = require('del')
+StreamFromArray = require('stream-from-array')
 
 config = require('./config')
 paths = config.paths
@@ -147,6 +148,19 @@ gulp.task('fetch-data', (done)->
 )
 
 gulp.task('fetch-assets', (done)->
+    listAssets((err, files)->
+        if err then return done(err)
+
+        files
+            .pipe(getFileInfo) # TODO: cache by Date or ETag
+            .pipe(downloadFile)
+            .pipe(gulp.dest(paths.dest+'/assets'))
+)
+
+_drive = null
+drive = ->
+    if _drive then return _drive
+
     clientId = process.env.OAUTH_CLIENT_ID
     clientSecret = process.env.OAUTH_CLIENT_SECRET
     unless clientId and clientSecret
@@ -154,23 +168,37 @@ gulp.task('fetch-assets', (done)->
     refreshToken = process.env.OAUTH_REFRESH_TOKEN
     unless refreshToken
         throw new Error("OAUTH_REFRESH_TOKEN must be set to a valid token")
-    folderId = process.env.GOOGLE_DRIVE_FOLDER_ID
-    unless folderId
-        throw new Error("GOOGLE_DRIVE_FOLDER_ID must be set to the assets folder")
 
     google = require('googleapis')
     OAuth2 = google.auth.OAuth2
     client = new OAuth2(clientId, clientSecret, 'http://localhost/')
     client.setCredentials({refresh_token: refreshToken})
     drive = google.drive({version: 'v2', auth: client})
+    _drive = drive
+    return _drive
 
-    drive.children.list({folderId: folderId}, (err, files)->
-        if err then return done(err)
-        for item in files.items
-            drive.files.get({fileId: item.id}, (err, file)->
-                if err then return done(err)
-                console.log(file)
-            )
-            # TODO: transform the list of files into a gulp stream
+listAssets = (callback)->
+    folderId = process.env.GOOGLE_DRIVE_FOLDER_ID
+    unless folderId
+        throw new Error("GOOGLE_DRIVE_FOLDER_ID must be set to the assets folder")
+
+    drive().children.list({folderId: folderId}, (err, folder)->
+        if err then return callback(err)
+        callback(null, StreamFromArray.obj(folder.items))
     )
 )
+
+getFileInfo = $.map((file, callback)->
+    drive().files.get({fileId: file.id}, callback)
+)
+
+downloadFile = $.map((fileInfo, callback)->
+    request = require('request')
+    stream = request.get(fileInfo.webContentLink)
+    # somehowe pipe stream into output
+)
+
+
+# would like to structure some of these as modules
+# gulp-src-gss
+# gulp-src-gdrive (recursive)
