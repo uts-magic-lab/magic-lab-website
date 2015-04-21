@@ -4,9 +4,6 @@ $ = require('gulp-load-plugins')()
 es = require('event-stream')
 sysPath = require('path')
 del = require('del')
-StreamFromArray = require('stream-from-array')
-File = require('vinyl')
-async = require('async')
 
 config = require('./config')
 paths = config.paths
@@ -96,45 +93,10 @@ renderFile = (file, cb)->
         file.contents = new Buffer(text)
     cb(null, file)
 
-collections = {}
-gulp.task('collections', (done)->
-    GoogleSpreadsheet = require("google-spreadsheet")
-
-    spreadsheet = new GoogleSpreadsheet(process.env.GSS_ID)
-    spreadsheet.getInfo((err, info)->
-        if err then return done(err)
-
-        fetchWorksheet = (worksheet, callback)->
-            spreadsheet.getRows(worksheet.id, (err, rows)->
-                if err then return callback(err)
-                collections[worksheet.title] = rows
-                callback()
-            )
-        async.each(info.worksheets, fetchWorksheet, done)
-    )
-)
-
-makeFilename = (title)->
-    title.replace(/\W+/g, '-').toLowerCase() + '.html'
-
-gulp.task('content', ['collections', 'templates'], ->
-    stream = new es.Stream()
-    stream.pipe(es.map(renderFile))
+gulp.task('content', ['templates'], ->
+    $.googleSpreadsheets(process.env.GSS_ID)
+    .pipe(es.map(renderFile))
     .pipe(gulp.dest(paths.dest))
-
-    for title, rows of collections
-        file = new File({
-            path: makeFilename(title)
-            contents: new Buffer("")
-        })
-        file.frontMatter = {
-            title: title
-            rows: rows
-            template: 'page.jade'
-        }
-        stream.emit('data', file)
-    stream.emit('end')
-
 
     # gulp.src(paths.content)
     #     .pipe($.cached('content'))
@@ -181,21 +143,5 @@ gulp.task('serve-static', (ready)->
     server = app.listen(port, host, ->
         console.log("HTTP server started on port", this.address().port)
         ready()
-    )
-)
-
-gulp.task('fetch-data', (done)->
-    GoogleSpreadsheet = require("google-spreadsheet")
-
-    spreadsheet = new GoogleSpreadsheet(process.env.GSS_ID)
-    spreadsheet.getInfo((err, info)->
-        if err then return done(err)
-
-        for worksheet in info.worksheets then do (worksheet)->
-            spreadsheet.getRows(worksheet.id, (err, rows)->
-                if err then return done(err)
-
-                console.log("#{worksheet.title}: #{rows.length} rows")
-            )
     )
 )
