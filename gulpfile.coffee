@@ -18,10 +18,26 @@ gulp.task('clean', (done)->
     del(paths.dest, done)
 )
 
-gulp.task('assets', ->
+gulp.task('assets', ['local-assets', 'cloud-assets'])
+
+gulp.task('local-assets', ->
     gulp.src(paths.assets)
-        .pipe($.cached('assets'))
+        .pipe($.cached('local-assets'))
         .pipe(gulp.dest(paths.dest))
+)
+
+gulp.task('cloud-assets', ->
+    config = {
+        clientId: process.env.OAUTH_CLIENT_ID
+        clientSecret: process.env.OAUTH_CLIENT_SECRET
+        refreshToken: process.env.OAUTH_REFRESH_TOKEN
+    }
+    drive = require("gulp-google-drive")(config)
+    drive.src(process.env.GOOGLE_DRIVE_FOLDER_ID)
+    .pipe($.cached('cloud-assets'))
+    .pipe(drive.fetch)
+    .pipe($.remember('cloud-assets'))
+    .pipe(gulp.dest(paths.dest + '/assets'))
 )
 
 gulp.task('css', ->
@@ -121,7 +137,7 @@ gulp.task('serve-static', (ready)->
     morgan = require('morgan')
     app = express().use([
         morgan('common'),
-        express.static(__dirname+'/build')
+        express.static(paths.dest)
     ])
     host = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
     port = process.env.OPENSHIFT_NODEJS_PORT || 3000
@@ -146,59 +162,3 @@ gulp.task('fetch-data', (done)->
             )
     )
 )
-
-gulp.task('fetch-assets', (done)->
-    listAssets((err, files)->
-        if err then return done(err)
-
-        files
-            .pipe(getFileInfo) # TODO: cache by Date or ETag
-            .pipe(downloadFile)
-            .pipe(gulp.dest(paths.dest+'/assets'))
-)
-
-_drive = null
-drive = ->
-    if _drive then return _drive
-
-    clientId = process.env.OAUTH_CLIENT_ID
-    clientSecret = process.env.OAUTH_CLIENT_SECRET
-    unless clientId and clientSecret
-        throw new Error("OAUTH_CLIENT_ID and OAUTH_CLIENT_SECRET must be set to the values at https://console.developers.google.com/project/${app_id}/apiui/credential")
-    refreshToken = process.env.OAUTH_REFRESH_TOKEN
-    unless refreshToken
-        throw new Error("OAUTH_REFRESH_TOKEN must be set to a valid token")
-
-    google = require('googleapis')
-    OAuth2 = google.auth.OAuth2
-    client = new OAuth2(clientId, clientSecret, 'http://localhost/')
-    client.setCredentials({refresh_token: refreshToken})
-    drive = google.drive({version: 'v2', auth: client})
-    _drive = drive
-    return _drive
-
-listAssets = (callback)->
-    folderId = process.env.GOOGLE_DRIVE_FOLDER_ID
-    unless folderId
-        throw new Error("GOOGLE_DRIVE_FOLDER_ID must be set to the assets folder")
-
-    drive().children.list({folderId: folderId}, (err, folder)->
-        if err then return callback(err)
-        callback(null, StreamFromArray.obj(folder.items))
-    )
-)
-
-getFileInfo = $.map((file, callback)->
-    drive().files.get({fileId: file.id}, callback)
-)
-
-downloadFile = $.map((fileInfo, callback)->
-    request = require('request')
-    stream = request.get(fileInfo.webContentLink)
-    # somehowe pipe stream into output
-)
-
-
-# would like to structure some of these as modules
-# gulp-src-gss
-# gulp-src-gdrive (recursive)

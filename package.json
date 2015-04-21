@@ -2,6 +2,7 @@
   "name": "magic-lab-website",
   "version": "1.0.0",
   "description": "Statically-generated website for university research lab",
+  "repository": "https://github.com/uts-magic-lab/magic-lab-website.git",
   "homepage": "http://themagiclab.org/",
   "main": "node_modules/gulp/bin/gulp",
   "scripts": {
@@ -13,6 +14,7 @@
   "author": "Jesse Clark <jjclark1982@gmail.com>",
   "license": "Build script: MIT License. Content: Copyright University of Technology Sydney, all rights reserved.",
   "dependencies": {
+    "async": "^0.9.0",
     "autoprefixer-core": "~4.0.1",
     "coffee-script": "~1.8.0",
     "csswring": "~2.0.0",
@@ -24,6 +26,7 @@
     "gulp-cached": "~1.0.1",
     "gulp-concat": "^2.4.2",
     "gulp-front-matter": "~1.0.0",
+    "gulp-google-drive": "*",
     "gulp-load-plugins": "^0.8.0",
     "gulp-marked": "~1.0.0",
     "gulp-postcss": "~3.0.0",
@@ -32,12 +35,15 @@
     "gulp-util": "^3.0.1",
     "highlight.js": "~8.4.0",
     "jade": "~1.8.0",
+    "lazypipe": "^0.2.2",
     "lodash": "~2.4.1",
     "map-stream": "0.0.5",
     "morgan": "^1.5.1",
     "normalize.css": "~3.0.2",
     "postcss-import": "~3.2.0",
-    "run-sequence": "~1.0.2"
+    "request": "^2.53.0",
+    "run-sequence": "~1.0.2",
+    "stream-from-array": "^0.1.0"
   },
   "devDependencies": {
     "browser-sync": "~1.7.2"
