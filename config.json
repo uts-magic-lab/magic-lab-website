@@ -5,7 +5,7 @@
         "stylesheets": ["src/**/*.css"],
         "templates": ["src/templates/**/*.jade"],
         "content": ["src/content/**/*.md"],
-        "dest": "build"
+        "dest": "public"
     },
 
     "globals": {

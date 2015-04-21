@@ -1,3 +1,5 @@
+- className = function(str) { return str.replace(/\W+/g, '-') }
+
 doctype html
 html
     head
@@ -6,5 +8,27 @@ html
     body
         .container
             header
+                ul
+                    li
+                        a(href="/")
+                            img(src="logo.png")
+                    li
+                        a(href="/news-items.html") News
+                    li
+                        a(href="/people.html") People
+                    li
+                        a(href="/projects.html") Research
+                    li
+                        a(href="/invited-speaker-presentations.html") Speakers
+                    li
+                        a(href="/engagement.html") Join Us
                 h1= title
+
+            div(class=className("data "+title))
+                each row in rows
+                    div.row
+                        each col in Object.keys(row)
+                            if (col[0] != '_' && col != 'id' && col != 'save' && col != 'del' && col != 'content' && row.hasOwnProperty(col))
+                                span(class=col)= row[col]
+
             != contents

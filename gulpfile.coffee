@@ -1,10 +1,12 @@
 gulp = require('gulp')
 _ = require('lodash')
 $ = require('gulp-load-plugins')()
-$.map = require('map-stream')
+es = require('event-stream')
 sysPath = require('path')
 del = require('del')
 StreamFromArray = require('stream-from-array')
+File = require('vinyl')
+async = require('async')
 
 config = require('./config')
 paths = config.paths
@@ -27,12 +29,12 @@ gulp.task('local-assets', ->
 )
 
 gulp.task('cloud-assets', ->
-    config = {
+    options = {
         clientId: process.env.OAUTH_CLIENT_ID
         clientSecret: process.env.OAUTH_CLIENT_SECRET
         refreshToken: process.env.OAUTH_REFRESH_TOKEN
     }
-    drive = require("gulp-google-drive")(config)
+    drive = require("gulp-google-drive")(options)
     drive.src(process.env.GOOGLE_DRIVE_FOLDER_ID)
     .pipe($.cached('cloud-assets'))
     .pipe(drive.fetch)
@@ -71,7 +73,7 @@ gulp.task('templates', ->
 
     gulp.src(paths.templates)
         .pipe($.cached('templates'))
-        .pipe($.map((file, cb)->
+        .pipe(es.map((file, cb)->
             template = jade.compile(file.contents, {
                 filename: file.path
                 pretty: pretty
@@ -94,18 +96,53 @@ renderFile = (file, cb)->
         file.contents = new Buffer(text)
     cb(null, file)
 
+collections = {}
 gulp.task('collections', (done)->
-    done() # TBD
+    GoogleSpreadsheet = require("google-spreadsheet")
+
+    spreadsheet = new GoogleSpreadsheet(process.env.GSS_ID)
+    spreadsheet.getInfo((err, info)->
+        if err then return done(err)
+
+        fetchWorksheet = (worksheet, callback)->
+            spreadsheet.getRows(worksheet.id, (err, rows)->
+                if err then return callback(err)
+                collections[worksheet.title] = rows
+                callback()
+            )
+        async.each(info.worksheets, fetchWorksheet, done)
+    )
 )
 
+makeFilename = (title)->
+    title.replace(/\W+/g, '-').toLowerCase() + '.html'
+
 gulp.task('content', ['collections', 'templates'], ->
-    gulp.src(paths.content)
-        .pipe($.cached('content'))
-            .pipe($.frontMatter({}))
-            .pipe($.marked({}))
-            .pipe($.map(renderFile))
-        .pipe($.remember('content'))
-        .pipe(gulp.dest(paths.dest))
+    stream = new es.Stream()
+    stream.pipe(es.map(renderFile))
+    .pipe(gulp.dest(paths.dest))
+
+    for title, rows of collections
+        file = new File({
+            path: makeFilename(title)
+            contents: new Buffer("")
+        })
+        file.frontMatter = {
+            title: title
+            rows: rows
+            template: 'page.jade'
+        }
+        stream.emit('data', file)
+    stream.emit('end')
+
+
+    # gulp.src(paths.content)
+    #     .pipe($.cached('content'))
+    #         .pipe($.frontMatter({}))
+    #         .pipe($.marked({}))
+    #         .pipe(es.map(renderFile))
+    #     .pipe($.remember('content'))
+    #     .pipe(gulp.dest(paths.dest))
 )
 
 gulp.task('watch', ['build', 'serve-with-reload'], (done)->
