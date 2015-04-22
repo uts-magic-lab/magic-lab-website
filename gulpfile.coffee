@@ -82,29 +82,24 @@ gulp.task('templates', ->
 )
 
 renderFile = (file, cb)->
-    tmplName = file.frontMatter?.template
-    if tmplName
-        template = templates[tmplName]
-        locals = file.frontMatter
-        locals.stat = file.stat
-        locals.contents = file.contents.toString()
-        context = _.extend({}, config.globals, locals)
-        text = template(context)
-        file.contents = new Buffer(text)
+    tmplName = file.frontMatter?.template || 'page.jade'
+    template = templates[tmplName]
+    locals = JSON.parse(file.contents)
+    context = _.extend({}, config.globals, file, locals)
+    text = template(context)
+    file.contents = new Buffer(text)
+    file.path = file.path.replace(/\.[^.]*?$/, '.html')
     cb(null, file)
 
-gulp.task('content', ['templates'], ->
+gulp.task('cloud-data', ->
     $.googleSpreadsheets(process.env.GSS_ID)
+    .pipe(gulp.dest(paths.data))
+)
+
+gulp.task('content', ['templates', 'cloud-data'], ->
+    gulp.src(paths.data+'/**/*.json')
     .pipe(es.map(renderFile))
     .pipe(gulp.dest(paths.dest))
-
-    # gulp.src(paths.content)
-    #     .pipe($.cached('content'))
-    #         .pipe($.frontMatter({}))
-    #         .pipe($.marked({}))
-    #         .pipe(es.map(renderFile))
-    #     .pipe($.remember('content'))
-    #     .pipe(gulp.dest(paths.dest))
 )
 
 gulp.task('watch', ['build', 'serve-with-reload'], (done)->

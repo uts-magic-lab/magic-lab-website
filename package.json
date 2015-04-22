@@ -25,7 +25,7 @@
     "gulp-concat": "^2.4.2",
     "gulp-front-matter": "~1.0.0",
     "gulp-google-drive": "^1.0.2",
-    "gulp-google-spreadsheets": "^1.0.0",
+    "gulp-google-spreadsheets": "^1.1.0",
     "gulp-load-plugins": "^0.8.0",
     "gulp-marked": "~1.0.0",
     "gulp-postcss": "~3.0.0",

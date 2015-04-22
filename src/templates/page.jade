@@ -28,7 +28,7 @@ html
                 each row in rows
                     div.row
                         each col in Object.keys(row)
-                            if (col[0] != '_' && col != 'id' && col != 'save' && col != 'del' && col != 'content' && row.hasOwnProperty(col))
+                            if (col[0] != '_' && col != 'id' && col != 'content' && row.hasOwnProperty(col))
                                 span(class=col)= row[col]
 
             != contents
