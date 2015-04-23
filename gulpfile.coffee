@@ -85,7 +85,11 @@ renderFile = (file, cb)->
     tmplName = file.frontMatter?.template || 'page.jade'
     template = templates[tmplName]
     locals = JSON.parse(file.contents)
-    context = _.extend({}, config.globals, file, locals)
+    helpers = {
+        _: _
+        marked: require('marked')
+    }
+    context = _.extend(helpers, config.globals, file, locals)
     text = template(context)
     file.contents = new Buffer(text)
     file.path = file.path.replace(/\.[^.]*?$/, '.html')

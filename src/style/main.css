@@ -2,3 +2,29 @@
 
 @import "highlight.js/styles/github.css";
 
+/* these pages export a spurious 'title' field */
+.data-page-Projects .data-field-title,
+.data-page-About .data-field-title {
+    display: none;
+}
+
+/* fields named 'type' are used for grouping rows into sections */
+.data-field-type {
+    display: none;
+}
+
+/* markdown normally produces at least one <p>. keep things inline when there is only one. */
+.data-field>p:first-child:last-child {
+    display: inline;
+}
+
+.data-field-title, .data-field-sectionheader {
+    font-size: larger;
+    font-weight: bold;
+    display: block;
+    margin-top: 0.5em;
+}
+
+.data-field-no {
+    display: none;
+}

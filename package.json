@@ -27,7 +27,6 @@
     "gulp-google-drive": "^1.0.2",
     "gulp-google-spreadsheets": "^1.1.0",
     "gulp-load-plugins": "^0.8.0",
-    "gulp-marked": "~1.0.0",
     "gulp-postcss": "~3.0.0",
     "gulp-remember": "~0.2.2",
     "gulp-sourcemaps": "~1.2.8",
@@ -35,6 +34,7 @@
     "highlight.js": "~8.4.0",
     "jade": "~1.8.0",
     "lodash": "~2.4.1",
+    "marked": "^0.3.3",
     "morgan": "^1.5.1",
     "normalize.css": "~3.0.2",
     "postcss-import": "~3.2.0"
