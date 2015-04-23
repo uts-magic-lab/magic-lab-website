@@ -1,8 +1,12 @@
 #!/bin/sh -ex
 
+COMMIT_MESSAGE="$@"
+if [ -z "$COMMIT_MESSAGE" ]; then
+    COMMIT_MESSAGE="$(git log -1 --pretty=%B) (built by $0)"
+fi
+
 SOURCE_BRANCH=$(git rev-parse HEAD)
 SOURCE_PARENT=$(git rev-parse -q --verify $SOURCE_BRANCH)
-SOURCE_MESSAGE=$(git log -1 --pretty=%B)
 PUBLISH_BRANCH=gh-pages
 PUBLISH_PARENT=$(git rev-parse -q --verify "$PUBLISH_BRANCH" || true)
 PUBLISH_DIR=public
@@ -29,7 +33,7 @@ git add --all .
 git update-ref refs/heads/"$PUBLISH_BRANCH" $(
     git commit-tree \
         ${PUBLISH_PARENT:+-p $PUBLISH_PARENT} \
-        -m "$SOURCE_MESSAGE (built by $0)" \
+        -m "$COMMIT_MESSAGE" \
         $(git write-tree)
 )
 git push origin "$PUBLISH_BRANCH"
