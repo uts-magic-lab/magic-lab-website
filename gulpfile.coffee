@@ -100,6 +100,12 @@ gulp.task('cloud-data', ->
     .pipe(gulp.dest(paths.data))
 )
 
+gulp.task('local-content', ['templates'], ->
+    gulp.src(paths.data+'/**/*.json')
+    .pipe(es.map(renderFile))
+    .pipe(gulp.dest(paths.dest))
+)
+
 gulp.task('content', ['templates', 'cloud-data'], ->
     gulp.src(paths.data+'/**/*.json')
     .pipe(es.map(renderFile))
@@ -107,7 +113,7 @@ gulp.task('content', ['templates', 'cloud-data'], ->
 )
 
 gulp.task('watch', ['build', 'serve-with-reload'], (done)->
-    gulp.watch(paths.source, ['build']).on('change', (event)->
+    gulp.watch(paths.source, ['local-assets', 'local-content', 'css']).on('change', (event)->
         if event.type is 'deleted'
             for domain, val of $.cached.caches
                 delete $.cached.caches[domain][event.path]
@@ -143,4 +149,12 @@ gulp.task('serve-static', (ready)->
         console.log("HTTP server started on port", this.address().port)
         ready()
     )
+)
+
+gulp.task('save-snapshots', ['build'], ->
+    # for each page:
+        # load it in phantomJS
+        # render it to an image
+        # save it for archival
+    # see http://phantomjs.org/api/webpage/method/render.html
 )
