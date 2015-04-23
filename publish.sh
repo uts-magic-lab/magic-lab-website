@@ -1,5 +1,6 @@
 #!/bin/sh -ex
 
+# Usage: publish.sh [commit message]
 COMMIT_MESSAGE="$@"
 if [ -z "$COMMIT_MESSAGE" ]; then
     COMMIT_MESSAGE="$(git log -1 --pretty=%B) (built by $0)"
@@ -28,7 +29,6 @@ fi
 gulp build
 
 cd "$PUBLISH_DIR"
-ln -s about.html index.html # TODO: move this into gulpfile
 git add --all .
 git update-ref refs/heads/"$PUBLISH_BRANCH" $(
     git commit-tree \

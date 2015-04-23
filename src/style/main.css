@@ -18,6 +18,10 @@
     display: inline;
 }
 
+.data-field {
+    margin-right: 0.25em;
+}
+
 .data-field-title, .data-field-sectionheader {
     font-size: larger;
     font-weight: bold;
@@ -43,13 +47,8 @@
     max-width: 100%;
 }
 
-header .logo {
-    overflow: visible;
-    height: 2em;
-}
-
 header {
-    background-image: url(../robot-background.jpg);
+    background-image: url(./robot-background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -62,6 +61,11 @@ header > h1 {
 header > .pure-menu-list {
     position: fixed;
 }
+header .logo {
+    overflow: visible;
+    height: 2em;
+}
+
 
 .data-page-People .data-item {
     clear: both;

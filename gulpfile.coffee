@@ -70,18 +70,27 @@ gulp.task('templates', ->
 
     gulp.src(paths.templates)
         .pipe($.cached('templates'))
-        .pipe(es.map((file, cb)->
+        .pipe(es.map((file, callback)->
             template = jade.compile(file.contents, {
                 filename: file.path
                 pretty: pretty
             })
             templates[file.relative] = template
-            cb()
+            callback()
         ))
         # .pipe($.remember('templates'))
 )
 
-renderFile = (file, cb)->
+renameFile = (file, newExtname)->
+    dirname = sysPath.dirname(file.path)
+    extname = sysPath.extname(file.path)
+    basename = sysPath.basename(file.path, extname)
+    if newExtname
+        extname = newExtname
+    basename = config.rename[basename] or basename
+    return sysPath.join(dirname, basename + extname)
+
+renderFile = (file, callback)->
     tmplName = file.frontMatter?.template || 'page.jade'
     template = templates[tmplName]
     locals = JSON.parse(file.contents)
@@ -92,8 +101,9 @@ renderFile = (file, cb)->
     context = _.extend(helpers, config.globals, file, locals)
     text = template(context)
     file.contents = new Buffer(text)
-    file.path = file.path.replace(/\.[^.]*?$/, '.html')
-    cb(null, file)
+
+    file.path = renameFile(file, '.html')
+    callback(null, file)
 
 gulp.task('cloud-data', ->
     $.googleSpreadsheets(process.env.GSS_ID)

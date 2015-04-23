@@ -11,7 +11,7 @@ html
                 ul.pure-menu-list
                     li.pure-menu-item
                         a.logo.pure-menu-link.pure-menu-heading(href=".")
-                            img(src="logo.png" width="160px" height="141px" alt="Magic Lab")
+                            img(src="style/logo.png" width="160px" height="141px" alt="The Magic Lab")
                     li.pure-menu-item
                         a.pure-menu-link(href="news-items.html") News
                     li.pure-menu-item
@@ -35,9 +35,11 @@ html
                         each row in sectionRows
                             div.data-item
                                 each col in Object.keys(row)
-                                    if (col[0] != '_' && col != 'id' && row.hasOwnProperty(col))
+                                    if (col[0] != '_' && col != 'id' && row[col])
                                         span(class='data-field '+className('data-field-'+col))
-                                            if (col == 'link')
+                                            if (col == 'type')
+                                                - null
+                                            else if (col == 'link')
                                                 a(href=row[col])= row[col]
                                             else if (col == 'photo' && row[col] != '')
                                                 img(src='assets/'+row[col])

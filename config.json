@@ -9,6 +9,10 @@
         "dest": "public"
     },
 
+    "rename": {
+        "about": "index"
+    },
+
     "globals": {
         "site": {
             "title": "Magic Lab"
