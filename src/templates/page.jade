@@ -7,29 +7,31 @@ html
         link(rel='stylesheet', href='/style/main.css')
     body
         .container
-            header
-                ul
-                    li
-                        a(href="/")
-                            img(src="logo.png")
-                    li
-                        a(href="/news-items.html") News
-                    li
-                        a(href="/people.html") People
-                    li
-                        a(href="/projects.html") Research
-                    li
-                        a(href="/invited-speaker-presentations.html") Speakers
-                    li
-                        a(href="/engagement.html") Join Us
+            header.pure-menu.pure-menu-horizontal
+                ul.pure-menu-list
+                    li.pure-menu-item
+                        a.logo.pure-menu-link.pure-menu-heading(href="/")
+                            img(src="/logo.png" width="160px" height="141px" alt="Magic Lab")
+                    li.pure-menu-item
+                        a.pure-menu-link(href="/news-items.html") News
+                    li.pure-menu-item
+                        a.pure-menu-link(href="/people.html") People
+                    li.pure-menu-item
+                        a.pure-menu-link(href="/projects.html") Research
+                    li.pure-menu-item
+                        a.pure-menu-link(href="/invited-speaker-presentations.html") Speakers
+                    li.pure-menu-item
+                        a.pure-menu-link(href="/engagement.html") Join Us
 
-            div(class=className('data-page-'+title))
-                h1= title
+                h1 Innovation and Enterprise Research Laboratory
+
+            div(class='data-page '+className('data-page-'+title))
+                h2= title
                 - sections = _.groupBy(rows, 'type')
                 each sectionRows, type in sections
-                    div(class='data-section '+className('data-section-'+type))
+                    section(class='data-section '+className('data-section-'+type))
                         if (type && type != 'undefined')
-                            h4= type
+                            h3= type
                         each row in sectionRows
                             div.data-item
                                 each col in Object.keys(row)

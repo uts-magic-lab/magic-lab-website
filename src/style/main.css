@@ -1,9 +1,9 @@
-@import "normalize.css";
-
+@import "purecss/build/pure.css";
 @import "highlight.js/styles/github.css";
 
 /* these pages export a spurious 'title' field */
 .data-page-Projects .data-field-title,
+.data-page-People .data-field-title,
 .data-page-About .data-field-title {
     display: none;
 }
@@ -33,3 +33,44 @@
     max-width: 100px;
     max-height: 100px;
 }
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+header .logo {
+  overflow: visible;
+  height: 2em;
+}
+
+header {
+  background-image: url(/robot-background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header > h1 {
+    padding-top: 16.5em;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+header > .pure-menu-list {
+    position: fixed;
+}
+
+.data-page-People .data-item {
+    clear: both;
+}
+.data-page-People .data-field-photo {
+    float: right;
+}
+.data-page-People .data-field-name {
+    font-weight: bold;
+}
+
+
