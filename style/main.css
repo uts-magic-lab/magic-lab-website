@@ -1597,6 +1597,10 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     display: inline;
 }
 
+.data-field {
+    margin-right: 0.25em;
+}
+
 .data-field-title, .data-field-sectionheader {
     font-size: larger;
     font-weight: bold;
@@ -1622,13 +1626,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     max-width: 100%;
 }
 
-header .logo {
-    overflow: visible;
-    height: 2em;
-}
-
 header {
-    background-image: url(../robot-background.jpg);
+    background-image: url(./robot-background.jpg);
     -webkit-background-size: 100% 100%;
             background-size: 100%;
     background-repeat: no-repeat;
@@ -1642,9 +1641,16 @@ header > h1 {
 header > .pure-menu-list {
     position: fixed;
 }
+header .logo {
+    overflow: visible;
+    height: 2em;
+}
+
+/* People styles */
 
 .data-page-People .data-item {
     clear: both;
+    margin-top: 0.5em;
 }
 .data-page-People .data-field-photo {
     float: right;
@@ -1652,7 +1658,16 @@ header > .pure-menu-list {
 .data-page-People .data-field-name {
     font-weight: bold;
 }
-
-
+.data-page-People .data-field-date:before {
+    content:"(";
+}
+.data-page-People .data-field-date:after {
+    content:")";
+    position: relative;
+    left: -0.25em;
+}
+.data-page-People .data-field-description {
+    display: block;
+}
 
 /*# sourceMappingURL=../style/main.css.map */
