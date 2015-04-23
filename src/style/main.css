@@ -66,9 +66,11 @@ header .logo {
     height: 2em;
 }
 
+/* People styles */
 
 .data-page-People .data-item {
     clear: both;
+    margin-top: 0.5em;
 }
 .data-page-People .data-field-photo {
     float: right;
@@ -76,5 +78,14 @@ header .logo {
 .data-page-People .data-field-name {
     font-weight: bold;
 }
-
-
+.data-page-People .data-field-date:before {
+    content:"(";
+}
+.data-page-People .data-field-date:after {
+    content:")";
+    position: relative;
+    left: -0.25em;
+}
+.data-page-People .data-field-description {
+    display: block;
+}
