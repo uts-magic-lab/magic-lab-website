@@ -44,14 +44,14 @@
 }
 
 header .logo {
-  overflow: visible;
-  height: 2em;
+    overflow: visible;
+    height: 2em;
 }
 
 header {
-  background-image: url(/robot-background.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
+    background-image: url(../robot-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 header > h1 {
     padding-top: 16.5em;

@@ -4,24 +4,24 @@ doctype html
 html
     head
         title= title + " | " + site.title
-        link(rel='stylesheet', href='/style/main.css')
+        link(rel='stylesheet', href='style/main.css')
     body
         .container
             header.pure-menu.pure-menu-horizontal
                 ul.pure-menu-list
                     li.pure-menu-item
-                        a.logo.pure-menu-link.pure-menu-heading(href="/")
-                            img(src="/logo.png" width="160px" height="141px" alt="Magic Lab")
+                        a.logo.pure-menu-link.pure-menu-heading(href=".")
+                            img(src="logo.png" width="160px" height="141px" alt="Magic Lab")
                     li.pure-menu-item
-                        a.pure-menu-link(href="/news-items.html") News
+                        a.pure-menu-link(href="news-items.html") News
                     li.pure-menu-item
-                        a.pure-menu-link(href="/people.html") People
+                        a.pure-menu-link(href="people.html") People
                     li.pure-menu-item
-                        a.pure-menu-link(href="/projects.html") Research
+                        a.pure-menu-link(href="projects.html") Research
                     li.pure-menu-item
-                        a.pure-menu-link(href="/invited-speaker-presentations.html") Speakers
+                        a.pure-menu-link(href="invited-speaker-presentations.html") Speakers
                     li.pure-menu-item
-                        a.pure-menu-link(href="/engagement.html") Join Us
+                        a.pure-menu-link(href="engagement.html") Join Us
 
                 h1 Innovation and Enterprise Research Laboratory
 
@@ -40,7 +40,7 @@ html
                                             if (col == 'link')
                                                 a(href=row[col])= row[col]
                                             else if (col == 'photo' && row[col] != '')
-                                                img(src='/assets/'+row[col])
+                                                img(src='assets/'+row[col])
                                             else
                                                 != marked(row[col])
 
