@@ -91,18 +91,19 @@ renameFile = (file, newExtname)->
     return sysPath.join(dirname, basename + extname)
 
 renderFile = (file, callback)->
-    tmplName = file.frontMatter?.template || 'page.jade'
-    template = templates[tmplName]
-    locals = JSON.parse(file.contents)
     helpers = {
         _: _
         marked: require('marked')
     }
+    locals = JSON.parse(file.contents)
     context = _.extend(helpers, config.globals, file, locals)
+
+    tmplName = context.template || 'page.jade'
+    template = templates[tmplName]
     text = template(context)
     file.contents = new Buffer(text)
-
     file.path = renameFile(file, '.html')
+
     callback(null, file)
 
 gulp.task('cloud-data', ->
