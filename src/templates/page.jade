@@ -3,29 +3,34 @@
 doctype html
 html
     head
+        meta(charset="utf-8")
         title= title + " | " + site.title
         link(rel='stylesheet', href='style/main.css')
     body
-        .container
-            header.pure-menu.pure-menu-horizontal
+        .background
+        header
+            .container.pure-menu.pure-menu-horizontal
                 ul.pure-menu-list
                     li.pure-menu-item
                         a.logo.pure-menu-link.pure-menu-heading(href=".")
-                            img(src="style/logo.png" width="160px" height="141px" alt="The Magic Lab")
+                            img(src="style/magic-lab-logo.svg" width="180px" alt="The Magic Lab")
                     li.pure-menu-item
-                        a.pure-menu-link(href="news-items.html") News
+                        a.pure-menu-link(href="news-items.html#start") News
                     li.pure-menu-item
-                        a.pure-menu-link(href="people.html") People
+                        a.pure-menu-link(href="people.html#start") People
                     li.pure-menu-item
-                        a.pure-menu-link(href="projects.html") Research
+                        a.pure-menu-link(href="projects.html#start") Research
                     li.pure-menu-item
-                        a.pure-menu-link(href="invited-speaker-presentations.html") Speakers
+                        a.pure-menu-link(href="invited-speaker-presentations.html#start") Speakers
                     li.pure-menu-item
-                        a.pure-menu-link(href="engagement.html") Join Us
+                        a.pure-menu-link(href="engagement.html#start") Join Us
 
-                h1 Innovation and Enterprise Research Laboratory
-
-            div(class='data-page '+className('data-page-'+title))
+        main
+            .container
+                .splash
+                a#start
+            h1 Innovation and Enterprise Research Laboratory
+            div(class='container data-page '+className('data-page-'+title))
                 h2= title
                 - sections = _.groupBy(rows, 'type')
                 each sectionRows, type in sections
@@ -47,3 +52,24 @@ html
                                                 != marked(row[col])
 
             != contents
+
+        footer
+            .container
+                .splash
+                .pure-g
+                    .pure-u-1-2
+                        h4 Contact
+                        p Professor Mary-Anne Williams
+                        p Innovation and Enterprise Research Laboratory <br/> (&ldquo;Magic Lab&rdquo;)
+                        p
+                        | Building 11, Level 7, Room 400 <br/>
+                        | 81 Broadway <br/>
+                        | Ultimo NSW 2007 <br/>
+                        | Australia
+
+                    .pure-u-1-2
+                        h4 Affiliation
+                        p Proudly part of the Centre for Quantum Computation &amp; Intelligent Systems
+                        p Faculty of Engineering and Information Technology
+                        p University of Technology, Sydney
+                        p CRICOS Provider Number: 00099F

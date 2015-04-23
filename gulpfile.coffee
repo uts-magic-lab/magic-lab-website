@@ -168,4 +168,6 @@ gulp.task('save-snapshots', ['build'], ->
         # render it to an image
         # save it for archival
     # see http://phantomjs.org/api/webpage/method/render.html
+    # see http://phantomjs.org/screen-capture.html
+    # see https://gist.github.com/crazy4groovy/3160121
 )
