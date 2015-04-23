@@ -1580,6 +1580,116 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #aaa;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: #666;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 650px;
+    background:
+        white
+        url(./robot-background.jpg)
+        fixed
+        no-repeat;
+    -webkit-background-size: 1000px auto;
+            background-size: 1000px auto;
+    background-position: 50% -60px;
+}
+
+main {
+    background: white;
+    background-image: none;
+    margin-top: 650px;
+    position: relative;
+    padding-bottom: 1em;
+}
+
+main > h1 {
+    color: white;
+    position: relative;
+    top: -1.5em;
+    height: 0;
+    text-shadow: 0px 1px 1px black;
+}
+
+.splash {
+    position: absolute;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+main .splash {
+    background: url(./splash1.svg) no-repeat;
+    height: 553px;
+    width: 526px;
+    margin-top: -270px;
+    margin-left: -180px;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    background: #666;
+    color: white;
+    border-bottom: 3px solid #333;
+    font-size: larger;
+}
+
+header .pure-menu-link {
+    padding: 8px 1em;
+    color: white;
+}
+header .pure-menu-link:hover {
+    background-color: #888;
+}
+header .logo {
+    overflow: visible;
+    height: 2em;
+}
+header .logo.pure-menu-link:hover {
+    background-color: transparent;
+}
+header .logo > img {
+    margin-top: -20px;
+}
+
+
+footer {
+    background: #666;
+    border-top: 4px solid #999;
+    padding-bottom: 3em;
+}
+
+footer .splash {
+    background: url(./splash2.svg) no-repeat;
+    width: 334px;
+    height: 331px;
+    margin-top: -75px;
+    margin-left: 160px;
+}
+
+/* styles for "dynamic" content */
+
 /* these pages export a spurious 'title' field */
 .data-page-Projects .data-field-title,
 .data-page-People .data-field-title,
@@ -1617,34 +1727,6 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     max-height: 100px;
 }
 
-.container {
-    max-width: 800px;
-    margin: auto;
-}
-
-.container img {
-    max-width: 100%;
-}
-
-header {
-    background-image: url(./robot-background.jpg);
-    -webkit-background-size: 100% 100%;
-            background-size: 100%;
-    background-repeat: no-repeat;
-}
-header > h1 {
-    padding-top: 16.5em;
-    margin-top: 0;
-    text-align: center;
-    color: white;
-}
-header > .pure-menu-list {
-    position: fixed;
-}
-header .logo {
-    overflow: visible;
-    height: 2em;
-}
 
 /* People styles */
 
