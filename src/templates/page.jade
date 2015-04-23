@@ -35,6 +35,11 @@ html
                                 each col in Object.keys(row)
                                     if (col[0] != '_' && col != 'id' && row.hasOwnProperty(col))
                                         span(class='data-field '+className('data-field-'+col))
-                                            != marked(row[col])
+                                            if (col == 'link')
+                                                a(href=row[col])= row[col]
+                                            else if (col == 'photo' && row[col] != '')
+                                                img(src='/assets/'+row[col])
+                                            else
+                                                != marked(row[col])
 
             != contents
