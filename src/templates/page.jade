@@ -6,7 +6,8 @@ html
         meta(charset="utf-8")
         title= title + " | " + site.title
         link(rel='stylesheet', href='style/main.css')
-    body
+    
+    body.data-page(class=className('data-page-'+title))
         .background
         header
             .container.pure-menu.pure-menu-horizontal
@@ -29,12 +30,11 @@ html
             .container
                 .splash
                 a#start
-            h1 Innovation and Enterprise Research Laboratory
-            div(class='container data-page '+className('data-page-'+title))
+                h1 Innovation and Enterprise Research Laboratory
                 h2= title
                 - sections = _.groupBy(rows, 'type')
                 each sectionRows, type in sections
-                    section(class='data-section '+className('data-section-'+type))
+                    section.data-section(class=className('data-section-'+type))
                         if (type && type != 'undefined')
                             h3= type
                         each row in sectionRows
