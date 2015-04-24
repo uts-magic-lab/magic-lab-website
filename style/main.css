@@ -1,3 +1,6 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 /*!
 Pure v0.6.0
 Copyright 2014 Yahoo! Inc. All rights reserved.
@@ -1580,22 +1583,34 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #aaa;
 }
 
-h1, h2 {
+body {
+    background: #666;
+    font-family: serif;
+}
+
+h1, h2, h3, h4, h5, h6, .data-field-sectionheader {
     /*text-align: center;*/
+    display: block;
     max-width: 800px;
     margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 24px;
 }
 
 h2 {
-    margin-top: 2.5em;
+    font-size: 24px;
 }
 
 img {
     max-width: 100%;
-}
-
-body {
-    background: #666;
 }
 
 .container {
@@ -1634,6 +1649,10 @@ main > h1 {
     text-shadow: 0px 1px 1px black;
 }
 
+main h2 {
+    margin-top: 2.5em;
+}
+
 .splash {
     position: absolute;
     opacity: 0.5;
@@ -1656,31 +1675,41 @@ header {
     margin: 0;
     background: #666;
     color: white;
-    border-bottom: 3px solid #333;
+    border-bottom: 4px solid #333;
     font-size: larger;
 }
 
 header .pure-menu-link {
     padding: 8px 24px;
     color: white;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 header .pure-menu-link:hover {
-    background-color: #888;
+    background-color: transparent;
+    color: #0C347D;
 }
 header .logo {
     overflow: visible;
     height: 2em;
     margin-left: -2em;
 }
-header .logo.pure-menu-link:hover {
+header .logo.pure-menu-link:hover, header .logo.pure-menu-link:active {
     background-color: transparent;
 }
 header .logo > img {
     margin-top: -20px;
 }
 
+.pure-g [class *= "pure-u"] {
+    font-family: serif;
+    font-weight: normal;
+}
+
 
 footer {
+    color: white;
     background: #666;
     border-top: 4px solid #999;
     padding-bottom: 3em;
@@ -1715,13 +1744,6 @@ footer .splash {
 
 .data-field {
     margin-right: 0.25em;
-}
-
-.data-field-title, .data-field-sectionheader {
-    font-size: larger;
-    font-weight: bold;
-    display: block;
-    margin-top: 0.5em;
 }
 
 .data-field-no {
