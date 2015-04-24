@@ -1595,6 +1595,10 @@ body {
     line-height: 1.3em;
 }
 
+.pure-g [class *= "pure-u"] {
+    font-family: serif;
+}
+
 h1, h2, h3, h4, h5, h6, .data-field-sectionheader {
     /*text-align: center;*/
     display: block;
@@ -1652,7 +1656,7 @@ main {
     padding-bottom: 2.5em;
 }
 
-main > h1 {
+main h1 {
     color: white;
     position: relative;
     top: -1.5em;
@@ -1703,7 +1707,9 @@ header .pure-menu-link {
     font-family: "Lato", sans-serif;
     font-size: 18px;
 }
-header .pure-menu-link:hover {
+header .pure-menu-link:hover,
+header .pure-menu-link:focus,
+header .pure-menu-link:active {
     background-color: transparent;
     color: #0C347D;
 }
@@ -1711,20 +1717,27 @@ header .logo {
     overflow: visible;
     height: 2em;
     margin-left: -2em;
-    margin-right: -2em;
+    margin-right: -3em;
 }
-header .logo.pure-menu-link:hover, header .logo.pure-menu-link:active {
+header .logo.pure-menu-link:hover,
+header .logo.pure-menu-link:focus,
+header .logo.pure-menu-link:active {
     background-color: transparent;
 }
 header .logo > img {
     margin-top: -20px;
 }
 
-.pure-g [class *= "pure-u"] {
-    font-family: serif;
-    font-weight: normal;
-}
+/* highlight the current page in navbar */
 
+.data-page-About .pure-menu-link[href="."],
+.data-page-News-Items .pure-menu-link[href^="news-items.html"],
+.data-page-People .pure-menu-link[href^="people.html"],
+.data-page-Projects .pure-menu-link[href^="projects.html"],
+.data-page-Invited-Speaker-Presentations .pure-menu-link[href^="invited-speaker-presentations.html"],
+.data-page-Engagement .pure-menu-link[href^="engagement.html"] {
+    color: orange;
+}
 
 footer {
     display: block;
@@ -1743,9 +1756,9 @@ footer .splash {
     margin-left: 160px;
 }
 
-/* styles for "dynamic" content */
+/* styles for dynamic content */
 
-/* these pages export a spurious 'title' field */
+/* these pages include a spurious 'title' field */
 .data-page-Projects .data-field-title,
 .data-page-People .data-field-title,
 .data-page-About .data-field-title {
