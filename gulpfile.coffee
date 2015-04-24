@@ -124,7 +124,7 @@ gulp.task('content', ['templates', 'cloud-data'], ->
 )
 
 gulp.task('watch', ['build', 'serve-with-reload'], (done)->
-    gulp.watch(paths.source, ['local-assets', 'local-content', 'css']).on('change', (event)->
+    gulp.watch([paths.source, paths.data+'/**/*.json'], ['local-assets', 'local-content', 'css']).on('change', (event)->
         if event.type is 'deleted'
             for domain, val of $.cached.caches
                 delete $.cached.caches[domain][event.path]

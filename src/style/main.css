@@ -2,7 +2,13 @@
 @import "highlight.js/styles/github.css";
 
 h1, h2 {
-    text-align: center;
+    /*text-align: center;*/
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 2.5em;
 }
 
 img {
@@ -27,7 +33,6 @@ body {
     background:
         white
         url(./robot-background.jpg)
-        fixed
         no-repeat;
     background-size: 1000px auto;
     background-position: 50% -60px;
@@ -38,7 +43,7 @@ main {
     background-image: none;
     margin-top: 650px;
     position: relative;
-    padding-bottom: 1em;
+    padding-bottom: 2.5em;
 }
 
 main > h1 {
@@ -76,7 +81,7 @@ header {
 }
 
 header .pure-menu-link {
-    padding: 8px 1em;
+    padding: 8px 24px;
     color: white;
 }
 header .pure-menu-link:hover {
@@ -85,6 +90,7 @@ header .pure-menu-link:hover {
 header .logo {
     overflow: visible;
     height: 2em;
+    margin-left: -2em;
 }
 header .logo.pure-menu-link:hover {
     background-color: transparent;
@@ -104,7 +110,7 @@ footer .splash {
     background: url(./splash2.svg) no-repeat;
     width: 334px;
     height: 331px;
-    margin-top: -75px;
+    margin-top: -95px;
     margin-left: 160px;
 }
 
@@ -170,4 +176,27 @@ footer .splash {
 }
 .data-page-People .data-field-description {
     display: block;
+}
+
+/* projects page */
+
+.data-page-Projects .data-item {
+    clear: both;
+    margin-top: 1em;
+}
+.data-page-Projects .data-field-grant {
+    font-weight: bold;
+}
+
+.data-field-date:before {
+    content:"(";
+}
+.data-field-date:after {
+    content:")";
+    position: relative;
+    left: -0.25em;
+}
+.data-page-Projects .data-field-summary {
+    display: block;
+    margin-top: 0.5em;
 }
