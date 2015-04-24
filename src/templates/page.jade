@@ -40,11 +40,9 @@ html
                         each row in sectionRows
                             div.data-item
                                 each col in Object.keys(row)
-                                    if (col[0] != '_' && col != 'id' && row[col])
+                                    if (col[0] != '_' && col != 'id' && col != 'type' && row[col])
                                         span(class='data-field '+className('data-field-'+col))
-                                            if (col == 'type')
-                                                - null
-                                            else if (col == 'link')
+                                            if (col == 'link')
                                                 a(href=row[col])= row[col]
                                             else if (col == 'photo' && row[col] != '')
                                                 img(src='assets/'+row[col])

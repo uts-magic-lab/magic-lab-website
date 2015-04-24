@@ -3,9 +3,14 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #666;
     font-family: serif;
+    line-height: 1.3em;
 }
 
 h1, h2, h3, h4, h5, h6, .data-field-sectionheader {
@@ -27,6 +32,10 @@ h1 {
 
 h2 {
     font-size: 24px;
+}
+
+.data-field-sectionheader {
+    font-size: 18px;
 }
 
 img {
@@ -72,6 +81,11 @@ main h2 {
     margin-top: 2.5em;
 }
 
+#start {
+    position: relative;
+    top: -10em;
+}
+
 .splash {
     position: absolute;
     opacity: 0.5;
@@ -101,7 +115,10 @@ header {
 header .pure-menu-link {
     padding: 8px 24px;
     color: white;
-    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
 }
 header .pure-menu-link:hover {
     background-color: transparent;
@@ -111,6 +128,7 @@ header .logo {
     overflow: visible;
     height: 2em;
     margin-left: -2em;
+    margin-right: -2em;
 }
 header .logo.pure-menu-link:hover, header .logo.pure-menu-link:active {
     background-color: transparent;
@@ -126,6 +144,8 @@ header .logo > img {
 
 
 footer {
+    display: block;
+    clear: both;
     color: white;
     background: #666;
     border-top: 4px solid #999;
@@ -173,7 +193,22 @@ footer .splash {
 }
 
 
-/* People styles */
+/* news page */
+
+.data-page-News-Items .data-field-title {
+    font-weight: bold;
+    display: block;
+    margin-top: 1em;
+}
+.data-page-News-Items .data-field-date {
+    float: right;
+    margin-top: -1.25em;
+}
+.data-page-News-Items .data-field-fulltext {
+    display: block;
+}
+
+/* people page */
 
 .data-page-People .data-item {
     clear: both;
@@ -200,22 +235,83 @@ footer .splash {
 /* projects page */
 
 .data-page-Projects .data-item {
-    clear: both;
     margin-top: 1em;
 }
 .data-page-Projects .data-field-grant {
     font-weight: bold;
 }
+.data-page-Projects .data-field-projecttitle {
+    display: block;
+    clear: both;
+}
+.data-page-Projects .data-field-projecttitle:before {
+    content: "“";
+}
+.data-page-Projects .data-field-projecttitle:after {
+    content: "”";
+    position: relative;
+    left: -0.25em;
+}
+.data-page-Projects .data-field-chiefinvestigators {
+    font-style: italic;
+    display: block;
+}
+.data-page-Projects .data-field-partners {
+    display: block;
+}
+.data-page-Projects .data-field-partners:before {
+    content: "Partners: ";
+}
+.data-page-Projects .data-field-summary {
+    display: block;
+}
 
-.data-field-date:before {
+.data-page-Projects .data-field-funding:before {
     content:"(";
 }
-.data-field-date:after {
+.data-page-Projects .data-field-funding:after {
     content:")";
     position: relative;
     left: -0.25em;
 }
-.data-page-Projects .data-field-summary {
+.data-page-Projects .data-field-date {
+    float: right;
+}
+
+/* speakers page */
+
+.data-page-Invited-Speaker-Presentations .data-item {
     display: block;
-    margin-top: 0.5em;
+    margin-top: 1em;    
+}
+.data-page-Invited-Speaker-Presentations .data-field-title {
+    float: left;
+    font-weight: bold;
+}
+.data-page-Invited-Speaker-Presentations .data-field-where {
+    display: block;
+    clear: both;
+}
+.data-page-Invited-Speaker-Presentations .data-field-when {
+    float: right;
+}
+
+
+/* engagement page */
+
+.data-page-Engagement .data-item {
+    display: block;
+    margin-top: 1em;    
+}
+.data-page-Engagement .data-field-title {
+    margin-top: 1em;
+    font-weight: bold;
+}
+.data-page-Engagement .data-field-date {
+    float: right;
+}
+.data-page-Engagement .data-field-link,
+.data-page-Engagement .data-field-location,
+.data-page-Engagement .data-field-description {
+    display: block;
 }
