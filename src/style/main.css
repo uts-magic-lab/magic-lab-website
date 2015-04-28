@@ -17,7 +17,7 @@ body {
     font-family: serif;
 }
 
-h1, h2, h3, h4, h5, h6, .data-field-sectionheader {
+h1, h2, h3, h4, h5, h6 {
     /*text-align: center;*/
     display: block;
     max-width: 800px;
@@ -38,7 +38,8 @@ h2 {
     font-size: 24px;
 }
 
-.data-field-sectionheader {
+h3 {
+    clear: both;
     font-size: 18px;
 }
 
@@ -173,17 +174,17 @@ footer .splash {
     margin-left: 160px;
 }
 
+footer .pure-g {
+    position: relative; /* appear in front of splash */
+}
+
 /* styles for dynamic content */
 
 /* these pages include a spurious 'title' field */
+.data-page-Resources .data-field-title,
 .data-page-Projects .data-field-title,
 .data-page-People .data-field-title,
 .data-page-About .data-field-title {
-    display: none;
-}
-
-/* fields named 'type' are used for grouping rows into sections */
-.data-field-type {
     display: none;
 }
 
@@ -192,10 +193,16 @@ footer .splash {
     display: inline;
 }
 
-.data-field {
-    margin-right: 0.25em;
+.data-item {
+    display: block;
+    margin: 0.5em 0 0 0;
 }
 
+.data-field {
+    display: block;
+}
+
+/* sometimes we use a "no" column to keep things organized */
 .data-field-no {
     display: none;
 }
@@ -205,33 +212,32 @@ footer .splash {
     max-height: 100px;
 }
 
-
 /* news page */
 
 .data-page-News-Items .data-field-title {
     font-weight: bold;
-    display: block;
     margin-top: 1em;
 }
 .data-page-News-Items .data-field-date {
     float: right;
     margin-top: -1.25em;
 }
-.data-page-News-Items .data-field-fulltext {
-    display: block;
-}
 
 /* people page */
 
 .data-page-People .data-item {
     clear: both;
-    margin-top: 0.5em;
 }
 .data-page-People .data-field-photo {
     float: right;
+    margin-top: -2em;
 }
 .data-page-People .data-field-name {
     font-weight: bold;
+    display: inline;
+}
+.data-page-People .data-field-date {
+    display: inline;
 }
 .data-page-People .data-field-date:before {
     content:"(";
@@ -247,11 +253,24 @@ footer .splash {
 
 /* projects page */
 
-.data-page-Projects .data-item {
-    margin-top: 1em;
-}
 .data-page-Projects .data-field-grant {
     font-weight: bold;
+    display: inline;
+}
+.data-page-Projects .data-field-funding {
+    display: inline;
+}
+.data-page-Projects .data-field-funding:before {
+    content: "(";
+    display: inline;
+}
+.data-page-Projects .data-field-funding:after {
+    content: ")";
+    display: inline;
+    margin-left: -0.25em;
+}
+.data-page-Projects .data-field-date {
+    float: right;
 }
 .data-page-Projects .data-field-projecttitle {
     display: block;
@@ -279,24 +298,8 @@ footer .splash {
     display: block;
 }
 
-.data-page-Projects .data-field-funding:before {
-    content:"(";
-}
-.data-page-Projects .data-field-funding:after {
-    content:")";
-    position: relative;
-    left: -0.25em;
-}
-.data-page-Projects .data-field-date {
-    float: right;
-}
-
 /* speakers page */
 
-.data-page-Invited-Speaker-Presentations .data-item {
-    display: block;
-    margin-top: 1em;    
-}
 .data-page-Invited-Speaker-Presentations .data-field-title {
     float: left;
     font-weight: bold;
@@ -312,10 +315,6 @@ footer .splash {
 
 /* engagement page */
 
-.data-page-Engagement .data-item {
-    display: block;
-    margin-top: 1em;    
-}
 .data-page-Engagement .data-field-title {
     margin-top: 1em;
     font-weight: bold;

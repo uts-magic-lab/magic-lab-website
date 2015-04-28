@@ -32,16 +32,16 @@ html
                 a#start
                 h1 Innovation and Enterprise Research Laboratory
                 h2= title
-                - sections = _.groupBy(rows, 'type')
-                each sectionRows, type in sections
-                    section.data-section(class=className('data-section-'+type))
-                        if (type && type != 'undefined')
-                            h3= type
+                - sections = _.groupBy(rows, 'section')
+                each sectionRows, section in sections
+                    section.data-section(class=className('data-section-'+section))
+                        if (section && section != 'undefined')
+                            h3= section
                         each row in sectionRows
                             div.data-item
                                 each col in Object.keys(row)
-                                    if (col[0] != '_' && col != 'id' && col != 'type' && row[col])
-                                        span(class='data-field '+className('data-field-'+col))
+                                    if (col[0] != '_' && col != 'id' && col != 'section' && row[col])
+                                        .data-field(class=className('data-field-'+col))
                                             if (col == 'link')
                                                 a(href=row[col])= row[col]
                                             else if (col == 'photo' && row[col] != '')

@@ -8,14 +8,29 @@ del = require('del')
 config = require('./config')
 paths = config.paths
 
+# High-level tasks
+
 gulp.task('default', ['start'])
+
 gulp.task('start', ['build', 'serve-static'])
 
 gulp.task('build', ['assets', 'css', 'content'])
 
+gulp.task('watch', ['build', 'serve-with-reload'], (done)->
+    gulp.watch([paths.source, paths.data+'/**/*.json'], ['local-assets', 'local-content', 'css']).on('change', (event)->
+        if event.type is 'deleted'
+            for domain, val of $.cached.caches
+                delete $.cached.caches[domain][event.path]
+                $.remember.forget(domain, event.path)
+            # TODO: delete from dest
+    )
+)
+
 gulp.task('clean', (done)->
     del(paths.dest, done)
 )
+
+# Assets
 
 gulp.task('assets', ['local-assets', 'cloud-assets'])
 
@@ -39,6 +54,8 @@ gulp.task('cloud-assets', ->
     .pipe(gulp.dest(paths.dest + '/assets'))
 )
 
+# Stylesheets
+
 gulp.task('css', ->
     processors = [
         require('autoprefixer-core')({
@@ -59,6 +76,8 @@ gulp.task('css', ->
         .pipe($.cached('css'))
         .pipe(gulp.dest(paths.dest))
 )
+
+# Content
 
 templates = []
 gulp.task('templates', ->
@@ -123,15 +142,7 @@ gulp.task('content', ['templates', 'cloud-data'], ->
     .pipe(gulp.dest(paths.dest))
 )
 
-gulp.task('watch', ['build', 'serve-with-reload'], (done)->
-    gulp.watch([paths.source, paths.data+'/**/*.json'], ['local-assets', 'local-content', 'css']).on('change', (event)->
-        if event.type is 'deleted'
-            for domain, val of $.cached.caches
-                delete $.cached.caches[domain][event.path]
-                $.remember.forget(domain, event.path)
-            # TODO: delete from dest
-    )
-)
+# Servers
 
 gulp.task('serve-with-reload', (ready)->
     browserSync = require('browser-sync')
