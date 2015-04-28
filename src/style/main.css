@@ -317,6 +317,7 @@ footer .pure-g {
 .data-page-Engagement .data-field-title {
     margin-top: 1em;
     font-weight: bold;
+    display: inline;
 }
 .data-page-Engagement .data-field-date {
     float: right;
