@@ -151,9 +151,9 @@ header .logo > img {
 .data-page-About .pure-menu-link[href="."],
 .data-page-News-Items .pure-menu-link[href^="news-items.html"],
 .data-page-People .pure-menu-link[href^="people.html"],
-.data-page-Projects .pure-menu-link[href^="projects.html"],
+.data-page-Research-Projects .pure-menu-link[href^="research-projects.html"],
 .data-page-Invited-Speaker-Presentations .pure-menu-link[href^="invited-speaker-presentations.html"],
-.data-page-Engagement .pure-menu-link[href^="engagement.html"] {
+.data-page-Join-Us .pure-menu-link[href^="Join-Us.html"] {
     color: orange;
 }
 
@@ -181,8 +181,9 @@ footer .pure-g {
 /* styles for dynamic content */
 
 /* these pages include a spurious 'title' field */
+.data-page-Join-Us .data-field-title,
 .data-page-Resources .data-field-title,
-.data-page-Projects .data-field-title,
+.data-page-Research-Projects .data-field-title,
 .data-page-People .data-field-title,
 .data-page-About .data-field-title {
     display: none;
@@ -252,43 +253,43 @@ footer .pure-g {
 
 /* projects page */
 
-.data-page-Projects .data-item {
+.data-page-Research-Projects .data-item {
     margin-top: 1em;
 }
-.data-page-Projects .data-field-grant {
+.data-page-Research-Projects .data-field-grant {
     font-weight: bold;
     display: inline;
 }
-.data-page-Projects .data-field-funding {
+.data-page-Research-Projects .data-field-funding {
     display: inline;
 }
-.data-page-Projects .data-field-funding:before {
+.data-page-Research-Projects .data-field-funding:before {
     content: "(";
     display: inline;
 }
-.data-page-Projects .data-field-funding:after {
+.data-page-Research-Projects .data-field-funding:after {
     content: ")";
     display: inline;
     margin-left: -0.25em;
 }
-.data-page-Projects .data-field-date {
+.data-page-Research-Projects .data-field-date {
     float: right;
 }
-.data-page-Projects .data-field-projecttitle:before {
+.data-page-Research-Projects .data-field-projecttitle:before {
     content: "“";
 }
-.data-page-Projects .data-field-projecttitle:after {
+.data-page-Research-Projects .data-field-projecttitle:after {
     content: "”";
     position: relative;
     left: -0.25em;
 }
-.data-page-Projects .data-field-chiefinvestigators {
+.data-page-Research-Projects .data-field-chiefinvestigators {
     font-style: italic;
 }
-.data-page-Projects .data-field-partners:before {
+.data-page-Research-Projects .data-field-partners:before {
     content: "Partners: ";
 }
-.data-page-Projects .data-field-summary {
+.data-page-Research-Projects .data-field-summary {
     margin-top: 0.35em;
 }
 
