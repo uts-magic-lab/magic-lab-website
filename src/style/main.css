@@ -252,6 +252,9 @@ footer .pure-g {
 
 /* projects page */
 
+.data-page-Projects .data-item {
+    margin-top: 1em;
+}
 .data-page-Projects .data-field-grant {
     font-weight: bold;
     display: inline;
@@ -271,10 +274,6 @@ footer .pure-g {
 .data-page-Projects .data-field-date {
     float: right;
 }
-.data-page-Projects .data-field-projecttitle {
-    display: block;
-    clear: both;
-}
 .data-page-Projects .data-field-projecttitle:before {
     content: "“";
 }
@@ -285,30 +284,25 @@ footer .pure-g {
 }
 .data-page-Projects .data-field-chiefinvestigators {
     font-style: italic;
-    display: block;
-}
-.data-page-Projects .data-field-partners {
-    display: block;
 }
 .data-page-Projects .data-field-partners:before {
     content: "Partners: ";
 }
 .data-page-Projects .data-field-summary {
-    display: block;
+    margin-top: 0.35em;
 }
 
 /* speakers page */
 
 .data-page-Invited-Speaker-Presentations .data-field-title {
-    float: left;
+    display: inline;
     font-weight: bold;
-}
-.data-page-Invited-Speaker-Presentations .data-field-where {
-    display: block;
-    clear: both;
 }
 .data-page-Invited-Speaker-Presentations .data-field-when {
     float: right;
+}
+.data-page-Invited-Speaker-Presentations .data-field-where {
+    clear: both;
 }
 
 
@@ -321,9 +315,4 @@ footer .pure-g {
 }
 .data-page-Engagement .data-field-date {
     float: right;
-}
-.data-page-Engagement .data-field-link,
-.data-page-Engagement .data-field-location,
-.data-page-Engagement .data-field-description {
-    display: block;
 }
