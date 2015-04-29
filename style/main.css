@@ -1731,7 +1731,7 @@ header .logo > img {
 
 /* highlight the current page in navbar */
 
-.data-page-About .pure-menu-link[href="."],
+.data-page-About-the-Magic-Lab .pure-menu-link[href="."],
 .data-page-News-Items .pure-menu-link[href^="news-items.html"],
 .data-page-People .pure-menu-link[href^="people.html"],
 .data-page-Research-Projects .pure-menu-link[href^="research-projects.html"],
@@ -1768,7 +1768,7 @@ footer .pure-g {
 .data-page-Resources .data-field-title,
 .data-page-Research-Projects .data-field-title,
 .data-page-People .data-field-title,
-.data-page-About .data-field-title {
+.data-page-About-the-Magic-Lab .data-field-title {
     display: none;
 }
 
