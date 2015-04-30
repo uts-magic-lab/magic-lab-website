@@ -14,15 +14,15 @@ gulp.task('default', ['start'])
 
 gulp.task('start', ['build', 'serve-static'])
 
-gulp.task('build', ['assets', 'css', 'content'])
+gulp.task('build', ['assets', 'content', 'css'])
 
 gulp.task('watch', ['build', 'serve-with-reload'], (done)->
-    gulp.watch([paths.source, paths.data+'/**/*.json'], ['local-assets', 'local-content', 'css']).on('change', (event)->
+    watcher = gulp.watch([paths.source, paths.data+'/**/*.json'], ['local-assets', 'local-content', 'css'])
+    watcher.on('change', (event)->
         if event.type is 'deleted'
             for domain, val of $.cached.caches
                 delete $.cached.caches[domain][event.path]
                 $.remember.forget(domain, event.path)
-            # TODO: delete from dest
     )
 )
 

@@ -180,12 +180,8 @@ footer .pure-g {
 
 /* styles for dynamic content */
 
-/* these pages include a spurious 'title' field */
-.data-page-Join-Us .data-field-title,
-.data-page-Resources .data-field-title,
-.data-page-Research-Projects .data-field-title,
-.data-page-People .data-field-title,
-.data-page-About-the-Magic-Lab .data-field-title {
+/* gss exports a spurious 'title' field for most pages. only display it when explicitly wanted. */
+.data-field-title {
     display: none;
 }
 
@@ -216,6 +212,7 @@ footer .pure-g {
 /* news page */
 
 .data-page-News-Items .data-field-title {
+    display: block;
     font-weight: bold;
     margin-top: 1em;
 }
@@ -310,9 +307,9 @@ footer .pure-g {
 /* engagement page */
 
 .data-page-Engagement .data-field-title {
+    display: inline;
     margin-top: 1em;
     font-weight: bold;
-    display: inline;
 }
 .data-page-Engagement .data-field-date {
     float: right;

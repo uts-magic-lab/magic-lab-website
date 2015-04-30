@@ -8,8 +8,6 @@ Versions of the generated site are stored in source control, which enables diff-
 
 We store data in a [normalized](http://en.wikipedia.org/wiki/Database_normalization) Google Spreadsheet and use a custom plugin to feed it into the gulp workflow. It generates one HTML page for each worksheet.
 
-On each worksheet, rows are grouped by their "section" column. Within the section a div is created for each row. Each cell is transformed with [markdown](http://daringfireball.net/projects/markdown/) and placed into a div with a class derived from its column title. This makes it easy to write custom CSS to lay out specific fields on specific pages.
-
 
 ### Installation
 
@@ -81,6 +79,14 @@ Most common tasks can be accomplished by editing the spreadsheet and running `gu
     We commit JSON data and rendered HTML to this branch, so a change on one worksheet would produce a change to the corresponding data file and HTML file.
 
 ### Spreadsheet to DOM Transformation
+
+On each worksheet, rows are grouped by their "section" column. Within the section a div is created for each row. Each cell is transformed with [markdown](http://daringfireball.net/projects/markdown/) and placed into a div with a class derived from its column title. This makes it easy to write custom CSS to lay out specific fields on specific pages.
+
+Some fields are treated specially:
+
+- **Title**: GSS inserts a field by this name if there is not one already, so we hide it by default. To show it, set its `display` property to something other than `none` in the CSS.
+- **Link**: This is automatically converted into a hyperlink, and combined with the **Name** field if both are present. This is often more convenient than using markdown to get the same result.
+- **Picture**: This is automatically converted into an image in the "assets" folder.
 
 For example, this data:
 
