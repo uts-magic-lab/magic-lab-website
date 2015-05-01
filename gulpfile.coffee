@@ -159,14 +159,9 @@ gulp.task('serve-with-reload', (ready)->
 )
 
 gulp.task('serve-static', (ready)->
-    express = require('express')
-    morgan = require('morgan')
-    app = express().use([
-        morgan('common'),
-        express.static(paths.dest)
-    ])
+    app = require('./server.coffee')
     host = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
-    port = process.env.OPENSHIFT_NODEJS_PORT || 3000
+    port = process.env.OPENSHIFT_NODEJS_PORT || 8000
     server = app.listen(port, host, ->
         console.log("HTTP server started on port", this.address().port)
         ready()
