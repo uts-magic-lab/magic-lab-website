@@ -180,6 +180,15 @@ footer .pure-g {
 
 /* styles for dynamic content */
 
+.data-item {
+    display: block;
+    margin: 0.5em 0 0 0;
+}
+
+.data-field {
+    display: block;
+}
+
 /* gss exports a spurious 'title' field for most pages. only display it when explicitly wanted. */
 .data-field-title {
     display: none;
@@ -188,15 +197,6 @@ footer .pure-g {
 /* markdown normally produces at least one <p>. keep things inline when there is only one. */
 .data-field>p:first-child:last-child {
     display: inline;
-}
-
-.data-item {
-    display: block;
-    margin: 0.5em 0 0 0;
-}
-
-.data-field {
-    display: block;
 }
 
 /* sometimes we use a "no" column to keep things organized */
