@@ -91,14 +91,14 @@ main h2 {
     top: -10em;
 }
 
-.splash {
+.splat {
     position: absolute;
     opacity: 0.5;
     pointer-events: none;
 }
 
-main .splash {
-    background: url(./splash1.svg) no-repeat;
+main .splat {
+    background: url(./splat1.svg) no-repeat;
     height: 553px;
     width: 526px;
     margin-top: -270px;
@@ -134,7 +134,7 @@ header .pure-menu-link:active {
 header .logo {
     overflow: visible;
     height: 2em;
-    margin-left: -2em;
+    margin-left: -1.6em;
     margin-right: -3em;
 }
 header .logo.pure-menu-link:hover,
@@ -166,8 +166,8 @@ footer {
     padding-bottom: 3em;
 }
 
-footer .splash {
-    background: url(./splash2.svg) no-repeat;
+footer .splat {
+    background: url(./splat2.svg) no-repeat;
     width: 334px;
     height: 331px;
     margin-top: -95px;
@@ -175,7 +175,7 @@ footer .splash {
 }
 
 footer .pure-g {
-    position: relative; /* appear in front of splash */
+    position: relative; /* appear in front of splat */
 }
 
 /* styles for dynamic content */
