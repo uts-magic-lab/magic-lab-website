@@ -87,8 +87,8 @@ main h2 {
 }
 
 #start {
-    position: relative;
-    top: -10em;
+    position: absolute;
+    top: -90px;
 }
 
 .splat {
