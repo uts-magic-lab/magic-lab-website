@@ -40,15 +40,17 @@ html
                         each row in sectionRows
                             div.data-item
                                 each col in Object.keys(row)
-                                    if (col[0] != '_' && col != 'id' && col != 'section' && row[col])
+                                    - data = row[col]
+                                    if (col[0] != '_' && col != 'id' && col != 'section' && data)
                                         .data-field(class=className('data-field-'+col))
                                             if (col == 'name' && row['link'])
-                                                a(href=row['link'])= row[col]
+                                                a(href=row['link'])= data
                                                 - delete row['link']
                                             else if (col == 'link')
-                                                a(href=row[col])= row[col]
-                                            else if (col == 'photo' && row[col] != '')
-                                                img(src='assets/'+row[col])
+                                                a(href=data)= data
+                                            else if (col == 'photo' && data != '')
+                                                a(href='assets/'+data)
+                                                    img(src='assets/t/'+data)
                                             else
                                                 != marked(row[col])
 
