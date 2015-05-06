@@ -4,7 +4,9 @@ express = require('express')
 morgan = require('morgan')
 paths = require('./config.json').paths
 child_process = require('child_process')
+_ = require('lodash')
 es = require('event-stream')
+ansi_up = require('ansi_up')
 
 app = express()
 
@@ -21,8 +23,22 @@ app.post('/rebuild', (req, res, next)->
         res.write("                                                  \n")
     res.write('<!DOCTYPE html><html><body><pre>')
 
-    child = child_process.spawn('gulp', ['build'])
-    es.merge([child.stdout, child.stderr]).pipe(res)
+    env = _.defaults(process.env, {
+        DEBUG: 'gulp-spreadsheets,gulp-drive'
+        DEBUG_COLORS: true
+    })
+
+    child = child_process.spawn('gulp', ['build', '--color'], {env: env})
+    es.merge([child.stdout, child.stderr])
+    .pipe(es.mapSync((text)->
+        ansi_up.ansi_to_html(ansi_up.escape_for_html(''+text))
+    ))
+    .pipe(res)
+
+    # support stopping the build if res.connection closes
+    res.on('close', ->
+        child.kill('SIGTERM')
+    )
 )
 
 module.exports = app
