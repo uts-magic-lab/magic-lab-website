@@ -4,6 +4,7 @@ express = require('express')
 morgan = require('morgan')
 paths = require('./config.json').paths
 child_process = require('child_process')
+es = require('event-stream')
 
 app = express()
 
@@ -18,23 +19,10 @@ app.post('/rebuild', (req, res, next)->
     res.writeContinue()
     for i in [1..20]
         res.write("                                                  \n")
-    res.write("""
-        <!DOCTYPE html>
-        <html>
-        <body>
-        <pre>
-    """)
+    res.write('<!DOCTYPE html><html><body><pre>')
 
     child = child_process.spawn('gulp', ['build'])
-    for fd in [child.stdout, child.stderr]
-        fd.on('data', (data)->
-            res.write(data)
-        )
-
-    child.on('close', (code)->
-        res.end()
-    )
-
+    es.merge([child.stdout, child.stderr]).pipe(res)
 )
 
 module.exports = app
