@@ -2,6 +2,7 @@
 
 express = require('express')
 morgan = require('morgan')
+bodyParser = require('body-parser')
 paths = require('./config.json').paths
 child_process = require('child_process')
 _ = require('lodash')
@@ -12,7 +13,8 @@ app = express()
 
 app.use([
     morgan('common'),
-    express.static(paths.dest)
+    express.static(paths.dest),
+    bodyParser.urlencoded({ extended: false })
 ])
 
 app.post('/rebuild', (req, res, next)->
@@ -31,14 +33,16 @@ app.post('/rebuild', (req, res, next)->
     child = child_process.spawn('gulp', ['build', '--color'], {env: env})
     es.merge([child.stdout, child.stderr])
     .pipe(es.mapSync((text)->
+        process.stderr.write(text)
         ansi_up.ansi_to_html(ansi_up.escape_for_html(''+text))
     ))
     .pipe(res)
 
     # support stopping the build if res.connection closes
-    res.on('close', ->
-        child.kill('SIGTERM')
-    )
+    if req.body.stop_on_close
+        res.on('close', ->
+            child.kill('SIGHUP')
+        )
 )
 
 module.exports = app
