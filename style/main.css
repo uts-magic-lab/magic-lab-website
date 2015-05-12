@@ -1670,8 +1670,8 @@ main h2 {
 }
 
 #start {
-    position: relative;
-    top: -10em;
+    position: absolute;
+    top: -90px;
 }
 
 .splat {
@@ -1787,7 +1787,7 @@ footer .pure-g {
     display: none;
 }
 
-.data-field-photo > img {
+.data-field-photo > a > img {
     max-width: 100px;
     max-height: 100px;
 }
@@ -1827,8 +1827,8 @@ footer .pure-g {
     position: relative;
     left: -0.25em;
 }
-.data-page-People .data-field-description {
-    display: block;
+.data-page-People .data-field-researchtopic {
+    font-style: italic;
 }
 
 /* projects page */

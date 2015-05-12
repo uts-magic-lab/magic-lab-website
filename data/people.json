@@ -5,20 +5,21 @@
   "colCount": "26",
   "rows": [
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cokwr</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Jesse Clark</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cokwr'/><gsx:section>Research Team</gsx:section><gsx:name>Jesse Clark</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cokwr</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Jesse Clark, link: http://jessejohnclark.com/, bio: Jesse Clark is a software engineer who has developed applications for a number of Silicon Valley startups. At NASA he worked on databases for the International Space Station and robotic simulations for the Hubble Space Telescope.</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cokwr'/><gsx:section>Research Team</gsx:section><gsx:name>Jesse Clark</gsx:name><gsx:link>http://jessejohnclark.com/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio>Jesse Clark is a software engineer who has developed applications for a number of Silicon Valley startups. At NASA he worked on databases for the International Space Station and robotic simulations for the Hubble Space Telescope.</gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cokwr",
       "title": "Research Team",
       "_links": [],
       "section": "Research Team",
       "name": "Jesse Clark",
-      "link": "",
+      "link": "http://jessejohnclark.com/",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": "Jesse Clark is a software engineer who has developed applications for a number of Silicon Valley startups. At NASA he worked on databases for the International Space Station and robotic simulations for the Hubble Space Telescope."
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cpzh4</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Peter Gärdenfors</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cpzh4'/><gsx:section>Research Team</gsx:section><gsx:name>Peter Gärdenfors</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cpzh4</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Peter Gärdenfors, bio: Peter is one of the world's leading cognitive scientists. He serves on the Nobel Prize Committee and has developed \nseveral breakthrough frameworks for decision making using probabilistic reasoning, belief revision, and conceptual spaces.</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cpzh4'/><gsx:section>Research Team</gsx:section><gsx:name>Peter Gärdenfors</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio>Peter is one of the world's leading cognitive scientists. He serves on the Nobel Prize Committee and has developed \nseveral breakthrough frameworks for decision making using probabilistic reasoning, belief revision, and conceptual spaces.</gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cpzh4",
       "title": "Research Team",
       "_links": [],
@@ -26,12 +27,13 @@
       "name": "Peter Gärdenfors",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": "Peter is one of the world's leading cognitive scientists. He serves on the Nobel Prize Committee and has developed \nseveral breakthrough frameworks for decision making using probabilistic reasoning, belief revision, and conceptual spaces."
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cre1l</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Sajjad Haider</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cre1l'/><gsx:section>Research Team</gsx:section><gsx:name>Sajjad Haider</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cre1l</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Sajjad Haider</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cre1l'/><gsx:section>Research Team</gsx:section><gsx:name>Sajjad Haider</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cre1l",
       "title": "Research Team",
       "_links": [],
@@ -39,25 +41,27 @@
       "name": "Sajjad Haider",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/chk2m</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Benjamin Johnston</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/chk2m'/><gsx:section>Research Team</gsx:section><gsx:name>Benjamin Johnston</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/chk2m</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Benjamin Johnston, link: http://www.benjaminjohnston.com.au/</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/chk2m'/><gsx:section>Research Team</gsx:section><gsx:name>Benjamin Johnston</gsx:name><gsx:link>http://www.benjaminjohnston.com.au/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/chk2m",
       "title": "Research Team",
       "_links": [],
       "section": "Research Team",
       "name": "Benjamin Johnston",
-      "link": "",
+      "link": "http://www.benjaminjohnston.com.au/",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ciyn3</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Rony Novianto, link: http://ronynovianto.com/</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ciyn3'/><gsx:section>Research Team</gsx:section><gsx:name>Rony Novianto</gsx:name><gsx:link>http://ronynovianto.com/</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ciyn3</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Rony Novianto, link: http://ronynovianto.com/</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ciyn3'/><gsx:section>Research Team</gsx:section><gsx:name>Rony Novianto</gsx:name><gsx:link>http://ronynovianto.com/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ciyn3",
       "title": "Research Team",
       "_links": [],
@@ -65,12 +69,13 @@
       "name": "Rony Novianto",
       "link": "http://ronynovianto.com/",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ckd7g</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Pavlos Peppas</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ckd7g'/><gsx:section>Research Team</gsx:section><gsx:name>Pavlos Peppas</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ckd7g</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Pavlos Peppas</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ckd7g'/><gsx:section>Research Team</gsx:section><gsx:name>Pavlos Peppas</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ckd7g",
       "title": "Research Team",
       "_links": [],
@@ -78,12 +83,13 @@
       "name": "Pavlos Peppas",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/clrrx</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Henri Prade</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/clrrx'/><gsx:section>Research Team</gsx:section><gsx:name>Henri Prade</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/clrrx</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Henri Prade</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/clrrx'/><gsx:section>Research Team</gsx:section><gsx:name>Henri Prade</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/clrrx",
       "title": "Research Team",
       "_links": [],
@@ -91,12 +97,13 @@
       "name": "Henri Prade",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cyevm</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Xun Wang</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cyevm'/><gsx:section>Research Team</gsx:section><gsx:name>Xun Wang</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cyevm</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Xun Wang</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cyevm'/><gsx:section>Research Team</gsx:section><gsx:name>Xun Wang</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cyevm",
       "title": "Research Team",
       "_links": [],
@@ -104,12 +111,13 @@
       "name": "Xun Wang",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cztg3</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Mary-Anne Williams</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cztg3'/><gsx:section>Research Team</gsx:section><gsx:name>Mary-Anne Williams</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cztg3</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Mary-Anne Williams, bio: Mary-Anne is a data scientist and roboticist with transdiscipinary expertise in computer science, business, and law.  \nShe has a passion for tech-led bio-inspired disruptive innovation.  She works with her talented and fun research team in the \nMagic Lab to bring science fiction to reality; the research goal is to design technologies that make good decisions by \nexploiting complex data to surprise and delight.</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cztg3'/><gsx:section>Research Team</gsx:section><gsx:name>Mary-Anne Williams</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio>Mary-Anne is a data scientist and roboticist with transdiscipinary expertise in computer science, business, and law.  \nShe has a passion for tech-led bio-inspired disruptive innovation.  She works with her talented and fun research team in the \nMagic Lab to bring science fiction to reality; the research goal is to design technologies that make good decisions by \nexploiting complex data to surprise and delight.</gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cztg3",
       "title": "Research Team",
       "_links": [],
@@ -117,25 +125,27 @@
       "name": "Mary-Anne Williams",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": "Mary-Anne is a data scientist and roboticist with transdiscipinary expertise in computer science, business, and law.  \nShe has a passion for tech-led bio-inspired disruptive innovation.  She works with her talented and fun research team in the \nMagic Lab to bring science fiction to reality; the research goal is to design technologies that make good decisions by \nexploiting complex data to surprise and delight."
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d180g</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Steve Wozniak</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d180g'/><gsx:section>Research Team</gsx:section><gsx:name>Steve Wozniak</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d180g</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Team</title><content type='text'>name: Steve Wozniak, link: http://woz.org/, photo: SteveWozniak.JPG</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d180g'/><gsx:section>Research Team</gsx:section><gsx:name>Steve Wozniak</gsx:name><gsx:link>http://woz.org/</gsx:link><gsx:photo>SteveWozniak.JPG</gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d180g",
       "title": "Research Team",
       "_links": [],
       "section": "Research Team",
       "name": "Steve Wozniak",
-      "link": "",
-      "photo": "",
-      "employer": "",
+      "link": "http://woz.org/",
+      "photo": "SteveWozniak.JPG",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d2mkx</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Syed Ali Raza, date: 2014, description: Big Data Analytics. International Student Pakistan. Leading Software Development of the Karachi Koalas UTS-IBA Robot Soccer Team. Note: IBA Funded on APA and ARC Linkage Top-Up</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d2mkx'/><gsx:section>Current Students</gsx:section><gsx:name>Syed Ali Raza</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date>2014</gsx:date><gsx:description>Big Data Analytics. International Student Pakistan. Leading Software Development of the Karachi Koalas UTS-IBA Robot Soccer Team. Note: IBA Funded on APA and ARC Linkage Top-Up</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d2mkx</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Syed Ali Raza, date: 2014, researchtopic: Big Data Analytics, bio: International Student Pakistan. Leading Software Development of the Karachi Koalas UTS-IBA Robot Soccer Team. Note: IBA Funded on APA and ARC Linkage Top-Up</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d2mkx'/><gsx:section>Current Students</gsx:section><gsx:name>Syed Ali Raza</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date>2014</gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Big Data Analytics</gsx:researchtopic><gsx:bio>International Student Pakistan. Leading Software Development of the Karachi Koalas UTS-IBA Robot Soccer Team. Note: IBA Funded on APA and ARC Linkage Top-Up</gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d2mkx",
       "title": "Current Students",
       "_links": [],
@@ -143,25 +153,27 @@
       "name": "Syed Ali Raza",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "2014",
-      "description": "Big Data Analytics. International Student Pakistan. Leading Software Development of the Karachi Koalas UTS-IBA Robot Soccer Team. Note: IBA Funded on APA and ARC Linkage Top-Up"
+      "employer": "",
+      "researchtopic": "Big Data Analytics",
+      "bio": "International Student Pakistan. Leading Software Development of the Karachi Koalas UTS-IBA Robot Soccer Team. Note: IBA Funded on APA and ARC Linkage Top-Up"
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cssly</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Maya Mirzaei Poueinag        </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cssly'/><gsx:section>Current Students</gsx:section><gsx:name>Maya Mirzaei Poueinag        </gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cssly</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Mahya Mirzaei Poueinag</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cssly'/><gsx:section>Current Students</gsx:section><gsx:name>Mahya Mirzaei Poueinag</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cssly",
       "title": "Current Students",
       "_links": [],
       "section": "Current Students",
-      "name": "Maya Mirzaei Poueinag        ",
+      "name": "Mahya Mirzaei Poueinag",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cu76f</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Sylvan Rudduck, description: Invention and Protecting IP</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cu76f'/><gsx:section>Current Students</gsx:section><gsx:name>Sylvan Rudduck</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Invention and Protecting IP</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cu76f</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Sylvan Rudduck, researchtopic: Invention and Protecting IP</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cu76f'/><gsx:section>Current Students</gsx:section><gsx:name>Sylvan Rudduck</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Invention and Protecting IP</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cu76f",
       "title": "Current Students",
       "_links": [],
@@ -169,12 +181,13 @@
       "name": "Sylvan Rudduck",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Invention and Protecting IP"
+      "employer": "",
+      "researchtopic": "Invention and Protecting IP",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cvlqs</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Syed Ali Raza, description: Robot Learning through Mimicry</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cvlqs'/><gsx:section>Current Students</gsx:section><gsx:name>Syed Ali Raza</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Learning through Mimicry</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cvlqs</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Syed Ali Raza, researchtopic: Robot Learning through Mimicry</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cvlqs'/><gsx:section>Current Students</gsx:section><gsx:name>Syed Ali Raza</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Learning through Mimicry</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cvlqs",
       "title": "Current Students",
       "_links": [],
@@ -182,25 +195,27 @@
       "name": "Syed Ali Raza",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Learning through Mimicry"
+      "employer": "",
+      "researchtopic": "Robot Learning through Mimicry",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cx0b9</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Jonathan Vitale, description: Robot Representations of Emotions through Social Signals</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cx0b9'/><gsx:section>Current Students</gsx:section><gsx:name>Jonathan Vitale</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Representations of Emotions through Social Signals</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cx0b9</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Jonathan Vitale, link: http://jonathan-vitale.netsons.org/, researchtopic: Robot Representations of Emotions through Social Signals, bio: Jonathan Vitale is a PhD candidate at University of Technology Sydney. He graduated in 2010 from University of Milan with a Bachelor degree in Digital Communication and in 2012 from University of Milan - Bicocca with a Master degree in Computer Science. He is currently holding a UTS Presidents Scholarship and collaborating at the MagicLab since July 2013. His current investigation is the representation of emotions in social robots through social signals and models of artificial empathy. Other interests are: Human-Robot social interactions, developmental robotics, affective computing, cognitive sciences/psychology/neuroscience of emotions, biologically inspired models for robots intelligence, dimensionality reduction and manifolds learning, roboethics.</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cx0b9'/><gsx:section>Current Students</gsx:section><gsx:name>Jonathan Vitale</gsx:name><gsx:link>http://jonathan-vitale.netsons.org/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Representations of Emotions through Social Signals</gsx:researchtopic><gsx:bio>Jonathan Vitale is a PhD candidate at University of Technology Sydney. He graduated in 2010 from University of Milan with a Bachelor degree in Digital Communication and in 2012 from University of Milan - Bicocca with a Master degree in Computer Science. He is currently holding a UTS Presidents Scholarship and collaborating at the MagicLab since July 2013. His current investigation is the representation of emotions in social robots through social signals and models of artificial empathy. Other interests are: Human-Robot social interactions, developmental robotics, affective computing, cognitive sciences/psychology/neuroscience of emotions, biologically inspired models for robots intelligence, dimensionality reduction and manifolds learning, roboethics.</gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/cx0b9",
       "title": "Current Students",
       "_links": [],
       "section": "Current Students",
       "name": "Jonathan Vitale",
-      "link": "",
+      "link": "http://jonathan-vitale.netsons.org/",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Representations of Emotions through Social Signals"
+      "employer": "",
+      "researchtopic": "Robot Representations of Emotions through Social Signals",
+      "bio": "Jonathan Vitale is a PhD candidate at University of Technology Sydney. He graduated in 2010 from University of Milan with a Bachelor degree in Digital Communication and in 2012 from University of Milan - Bicocca with a Master degree in Computer Science. He is currently holding a UTS Presidents Scholarship and collaborating at the MagicLab since July 2013. His current investigation is the representation of emotions in social robots through social signals and models of artificial empathy. Other interests are: Human-Robot social interactions, developmental robotics, affective computing, cognitive sciences/psychology/neuroscience of emotions, biologically inspired models for robots intelligence, dimensionality reduction and manifolds learning, roboethics."
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d9ney</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Robert Grange, description: Learning to Forget</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d9ney'/><gsx:section>Current Students</gsx:section><gsx:name>Robert Grange</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Learning to Forget</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d9ney</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Robert Grange, researchtopic: Learning to Forget</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d9ney'/><gsx:section>Current Students</gsx:section><gsx:name>Robert Grange</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Learning to Forget</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d9ney",
       "title": "Current Students",
       "_links": [],
@@ -208,12 +223,13 @@
       "name": "Robert Grange",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Learning to Forget"
+      "employer": "",
+      "researchtopic": "Learning to Forget",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/db1zf</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Nima Ramezani, description: Robot Motion Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/db1zf'/><gsx:section>Current Students</gsx:section><gsx:name>Nima Ramezani</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Motion Behaviour</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/db1zf</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Nima Ramezani, researchtopic: Robot Motion Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/db1zf'/><gsx:section>Current Students</gsx:section><gsx:name>Nima Ramezani</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Motion Behaviour</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/db1zf",
       "title": "Current Students",
       "_links": [],
@@ -221,12 +237,13 @@
       "name": "Nima Ramezani",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Motion Behaviour"
+      "employer": "",
+      "researchtopic": "Robot Motion Behaviour",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dcgjs</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Srinivas Madhisetty, description: Privacy on Social Media</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dcgjs'/><gsx:section>Current Students</gsx:section><gsx:name>Srinivas Madhisetty</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Privacy on Social Media</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dcgjs</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Srinivas Madhisetty, researchtopic: Privacy on Social Media</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dcgjs'/><gsx:section>Current Students</gsx:section><gsx:name>Srinivas Madhisetty</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Privacy on Social Media</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dcgjs",
       "title": "Current Students",
       "_links": [],
@@ -234,38 +251,41 @@
       "name": "Srinivas Madhisetty",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Privacy on Social Media"
+      "employer": "",
+      "researchtopic": "Privacy on Social Media",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ddv49</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Muh. Anshar, description: Robot Empathy and Artificial  Pain</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ddv49'/><gsx:section>Current Students</gsx:section><gsx:name>Muh. Anshar</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Empathy and Artificial  Pain</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ddv49</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Muh. Anshar, link: http://unhas.ac.id/anshar, researchtopic: Robot Empathy and Artificial  Pain, bio: Muh Anshar  commences his PhD study in 2012 under the scheme of Australian Leadership Scholarship which is a prestigious award for young leaders in their speficied fields. Graduated from UTS in 2009 with a Master's Degree by Research in  the field of machine learning application for evolving robot locomotion. He receives a Bachelor Degree in Control Systems and Instrumentation from the University of Hasanuddin- UNHAS in 2003, which is one out of ten best universities in Indonesia. Current research interest is Artificial Pain, Self-Awareness Framework for Robot and Robot Empathy. Upon completion, he will continue his work as a lecturer at UNHAS Indonesia</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ddv49'/><gsx:section>Current Students</gsx:section><gsx:name>Muh. Anshar</gsx:name><gsx:link>http://unhas.ac.id/anshar</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Empathy and Artificial  Pain</gsx:researchtopic><gsx:bio>Muh Anshar  commences his PhD study in 2012 under the scheme of Australian Leadership Scholarship which is a prestigious award for young leaders in their speficied fields. Graduated from UTS in 2009 with a Master's Degree by Research in  the field of machine learning application for evolving robot locomotion. He receives a Bachelor Degree in Control Systems and Instrumentation from the University of Hasanuddin- UNHAS in 2003, which is one out of ten best universities in Indonesia. Current research interest is Artificial Pain, Self-Awareness Framework for Robot and Robot Empathy. Upon completion, he will continue his work as a lecturer at UNHAS Indonesia</gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ddv49",
       "title": "Current Students",
       "_links": [],
       "section": "Current Students",
       "name": "Muh. Anshar",
-      "link": "",
+      "link": "http://unhas.ac.id/anshar",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Empathy and Artificial  Pain"
+      "employer": "",
+      "researchtopic": "Robot Empathy and Artificial  Pain",
+      "bio": "Muh Anshar  commences his PhD study in 2012 under the scheme of Australian Leadership Scholarship which is a prestigious award for young leaders in their speficied fields. Graduated from UTS in 2009 with a Master's Degree by Research in  the field of machine learning application for evolving robot locomotion. He receives a Bachelor Degree in Control Systems and Instrumentation from the University of Hasanuddin- UNHAS in 2003, which is one out of ten best universities in Indonesia. Current research interest is Artificial Pain, Self-Awareness Framework for Robot and Robot Empathy. Upon completion, he will continue his work as a lecturer at UNHAS Indonesia"
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d415a</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Shaukat Abedi, description: Recognising Human Activities using Vision </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d415a'/><gsx:section>Current Students</gsx:section><gsx:name>Shaukat Abedi</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Recognising Human Activities using Vision </gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d415a</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Shaukat Abedi, photo: PR2lowresM-AShaukat.jpg, researchtopic: Recognising Human Activities using Vision , bio: Shaukat Abidi is a final year PhD student in Magic Lab. He is working over different techniques to recognize human actions from single image.  </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d415a'/><gsx:section>Current Students</gsx:section><gsx:name>Shaukat Abedi</gsx:name><gsx:link></gsx:link><gsx:photo>PR2lowresM-AShaukat.jpg</gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Recognising Human Activities using Vision </gsx:researchtopic><gsx:bio>Shaukat Abidi is a final year PhD student in Magic Lab. He is working over different techniques to recognize human actions from single image.  </gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d415a",
       "title": "Current Students",
       "_links": [],
       "section": "Current Students",
       "name": "Shaukat Abedi",
       "link": "",
-      "photo": "",
-      "employer": "",
+      "photo": "PR2lowresM-AShaukat.jpg",
       "date": "",
-      "description": "Recognising Human Activities using Vision "
+      "employer": "",
+      "researchtopic": "Recognising Human Activities using Vision ",
+      "bio": "Shaukat Abidi is a final year PhD student in Magic Lab. He is working over different techniques to recognize human actions from single image.  "
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d5fpr</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Pramod Parajuli, description: Risk Management</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d5fpr'/><gsx:section>Current Students</gsx:section><gsx:name>Pramod Parajuli</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Risk Management</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d5fpr</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Pramod Parajuli, researchtopic: Risk Management</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d5fpr'/><gsx:section>Current Students</gsx:section><gsx:name>Pramod Parajuli</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Risk Management</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d5fpr",
       "title": "Current Students",
       "_links": [],
@@ -273,12 +293,13 @@
       "name": "Pramod Parajuli",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Risk Management"
+      "employer": "",
+      "researchtopic": "Risk Management",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d6ua4</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Wei Wang, description: Robot Peer Learning</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d6ua4'/><gsx:section>Current Students</gsx:section><gsx:name>Wei Wang</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Peer Learning</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d6ua4</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Current Students</title><content type='text'>name: Wei Wang, researchtopic: Robot Peer Learning</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d6ua4'/><gsx:section>Current Students</gsx:section><gsx:name>Wei Wang</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Peer Learning</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d6ua4",
       "title": "Current Students",
       "_links": [],
@@ -286,12 +307,13 @@
       "name": "Wei Wang",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Peer Learning"
+      "employer": "",
+      "researchtopic": "Robot Peer Learning",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d88ul</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Shan Chen, description: Privacy and Personal Information Management</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d88ul'/><gsx:section>Graduates</gsx:section><gsx:name>Shan Chen</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Privacy and Personal Information Management</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d88ul</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Shan Chen, researchtopic: Privacy and Personal Information Management</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d88ul'/><gsx:section>Graduates</gsx:section><gsx:name>Shan Chen</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Privacy and Personal Information Management</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/d88ul",
       "title": "Graduates",
       "_links": [],
@@ -299,12 +321,13 @@
       "name": "Shan Chen",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Privacy and Personal Information Management"
+      "employer": "",
+      "researchtopic": "Privacy and Personal Information Management",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dkvya</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Rony Novianto, description: Bio-Inspired Cognitive Archtiectures for Robots</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dkvya'/><gsx:section>Graduates</gsx:section><gsx:name>Rony Novianto</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Bio-Inspired Cognitive Archtiectures for Robots</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dkvya</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Rony Novianto, researchtopic: Bio-Inspired Cognitive Archtiectures for Robots</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dkvya'/><gsx:section>Graduates</gsx:section><gsx:name>Rony Novianto</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Bio-Inspired Cognitive Archtiectures for Robots</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dkvya",
       "title": "Graduates",
       "_links": [],
@@ -312,12 +335,13 @@
       "name": "Rony Novianto",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Bio-Inspired Cognitive Archtiectures for Robots"
+      "employer": "",
+      "researchtopic": "Bio-Inspired Cognitive Archtiectures for Robots",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dmair</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Edward Wei, description: Business and Decision Making</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dmair'/><gsx:section>Graduates</gsx:section><gsx:name>Edward Wei</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Business and Decision Making</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dmair</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Edward Wei, researchtopic: Business and Decision Making</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dmair'/><gsx:section>Graduates</gsx:section><gsx:name>Edward Wei</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Business and Decision Making</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dmair",
       "title": "Graduates",
       "_links": [],
@@ -325,12 +349,13 @@
       "name": "Edward Wei",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Business and Decision Making"
+      "employer": "",
+      "researchtopic": "Business and Decision Making",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dnp34</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Jebrin Sharawneh, description: Software Engineering for Robots</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dnp34'/><gsx:section>Graduates</gsx:section><gsx:name>Jebrin Sharawneh</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Software Engineering for Robots</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dnp34</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Jebrin Sharawneh, researchtopic: Software Engineering for Robots</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dnp34'/><gsx:section>Graduates</gsx:section><gsx:name>Jebrin Sharawneh</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Software Engineering for Robots</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dnp34",
       "title": "Graduates",
       "_links": [],
@@ -338,12 +363,13 @@
       "name": "Jebrin Sharawneh",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Software Engineering for Robots"
+      "employer": "",
+      "researchtopic": "Software Engineering for Robots",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dp3nl</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Christopher Stanton, description: Cognitive Robotics</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dp3nl'/><gsx:section>Graduates</gsx:section><gsx:name>Christopher Stanton</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Cognitive Robotics</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dp3nl</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Christopher Stanton, researchtopic: Cognitive Robotics</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dp3nl'/><gsx:section>Graduates</gsx:section><gsx:name>Christopher Stanton</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Cognitive Robotics</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dp3nl",
       "title": "Graduates",
       "_links": [],
@@ -351,12 +377,13 @@
       "name": "Christopher Stanton",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Cognitive Robotics"
+      "employer": "",
+      "researchtopic": "Cognitive Robotics",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/df9om</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Benjamin Johnston, description: Commonsense Reasonig</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/df9om'/><gsx:section>Graduates</gsx:section><gsx:name>Benjamin Johnston</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Commonsense Reasonig</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/df9om</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Benjamin Johnston, researchtopic: Commonsense Reasonig</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/df9om'/><gsx:section>Graduates</gsx:section><gsx:name>Benjamin Johnston</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Commonsense Reasonig</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/df9om",
       "title": "Graduates",
       "_links": [],
@@ -364,12 +391,13 @@
       "name": "Benjamin Johnston",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Commonsense Reasonig"
+      "employer": "",
+      "researchtopic": "Commonsense Reasonig",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dgo93</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Xun Wang, description: Risk and Uncertainty</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dgo93'/><gsx:section>Graduates</gsx:section><gsx:name>Xun Wang</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Risk and Uncertainty</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dgo93</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Xun Wang, researchtopic: Risk and Uncertainty</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dgo93'/><gsx:section>Graduates</gsx:section><gsx:name>Xun Wang</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Risk and Uncertainty</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dgo93",
       "title": "Graduates",
       "_links": [],
@@ -377,12 +405,13 @@
       "name": "Xun Wang",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Risk and Uncertainty"
+      "employer": "",
+      "researchtopic": "Risk and Uncertainty",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/di2tg</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Mario Ye, link: http://www.linkedin.com/pub/mario-ye/20/393/675, photo: Mario Ye.jpg, employer: Amazon, description: Intelligent Robot Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/di2tg'/><gsx:section>Graduates</gsx:section><gsx:name>Mario Ye</gsx:name><gsx:link>http://www.linkedin.com/pub/mario-ye/20/393/675</gsx:link><gsx:photo>Mario Ye.jpg</gsx:photo><gsx:employer>Amazon</gsx:employer><gsx:date></gsx:date><gsx:description>Intelligent Robot Behaviour</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/di2tg</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Mario Ye, link: http://www.linkedin.com/pub/mario-ye/20/393/675, photo: Mario Ye.jpg, employer: Amazon, researchtopic: Intelligent Robot Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/di2tg'/><gsx:section>Graduates</gsx:section><gsx:name>Mario Ye</gsx:name><gsx:link>http://www.linkedin.com/pub/mario-ye/20/393/675</gsx:link><gsx:photo>Mario Ye.jpg</gsx:photo><gsx:date></gsx:date><gsx:employer>Amazon</gsx:employer><gsx:researchtopic>Intelligent Robot Behaviour</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/di2tg",
       "title": "Graduates",
       "_links": [],
@@ -390,12 +419,13 @@
       "name": "Mario Ye",
       "link": "http://www.linkedin.com/pub/mario-ye/20/393/675",
       "photo": "Mario Ye.jpg",
-      "employer": "Amazon",
       "date": "",
-      "description": "Intelligent Robot Behaviour"
+      "employer": "Amazon",
+      "researchtopic": "Intelligent Robot Behaviour",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/djhdx</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Jenny Lui, link: https://www.linkedin.com/profile/view?id=116861319, employer: Space company, description: Robot Learning Skills</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/djhdx'/><gsx:section>Graduates</gsx:section><gsx:name>Jenny Lui</gsx:name><gsx:link>https://www.linkedin.com/profile/view?id=116861319</gsx:link><gsx:photo></gsx:photo><gsx:employer>Space company</gsx:employer><gsx:date></gsx:date><gsx:description>Robot Learning Skills</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/djhdx</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Jenny Lui, link: https://www.linkedin.com/profile/view?id=116861319, employer: Space company, researchtopic: Robot Learning Skills</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/djhdx'/><gsx:section>Graduates</gsx:section><gsx:name>Jenny Lui</gsx:name><gsx:link>https://www.linkedin.com/profile/view?id=116861319</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Space company</gsx:employer><gsx:researchtopic>Robot Learning Skills</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/djhdx",
       "title": "Graduates",
       "_links": [],
@@ -403,12 +433,13 @@
       "name": "Jenny Lui",
       "link": "https://www.linkedin.com/profile/view?id=116861319",
       "photo": "",
-      "employer": "Space company",
       "date": "",
-      "description": "Robot Learning Skills"
+      "employer": "Space company",
+      "researchtopic": "Robot Learning Skills",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dw4je</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Cameron Batt, link: http://cameronbatt.com, photo: Cameron Batt.jpg, employer: Car startup, Co-Founder / Designer at Helperific &amp; Study Socket, description: Intelligent Robot Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dw4je'/><gsx:section>Graduates</gsx:section><gsx:name>Cameron Batt</gsx:name><gsx:link>http://cameronbatt.com</gsx:link><gsx:photo>Cameron Batt.jpg</gsx:photo><gsx:employer>Car startup, Co-Founder / Designer at Helperific &amp; Study Socket</gsx:employer><gsx:date></gsx:date><gsx:description>Intelligent Robot Behaviour</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dw4je</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Cameron Batt, link: http://cameronbatt.com, photo: Cameron Batt.jpg, employer: Car startup, Co-Founder / Designer at Helperific &amp; Study Socket, researchtopic: Intelligent Robot Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dw4je'/><gsx:section>Graduates</gsx:section><gsx:name>Cameron Batt</gsx:name><gsx:link>http://cameronbatt.com</gsx:link><gsx:photo>Cameron Batt.jpg</gsx:photo><gsx:date></gsx:date><gsx:employer>Car startup, Co-Founder / Designer at Helperific &amp; Study Socket</gsx:employer><gsx:researchtopic>Intelligent Robot Behaviour</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dw4je",
       "title": "Graduates",
       "_links": [],
@@ -416,12 +447,13 @@
       "name": "Cameron Batt",
       "link": "http://cameronbatt.com",
       "photo": "Cameron Batt.jpg",
-      "employer": "Car startup, Co-Founder / Designer at Helperific & Study Socket",
       "date": "",
-      "description": "Intelligent Robot Behaviour"
+      "employer": "Car startup, Co-Founder / Designer at Helperific & Study Socket",
+      "researchtopic": "Intelligent Robot Behaviour",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dxj3v</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Edward Ratanasena, link: https://www.linkedin.com/pub/edward-ratanasena/21/a0a/649, photo: Edward Ratanasena.jpg, employer: Accenture, description: Robot Learning New Skills</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dxj3v'/><gsx:section>Graduates</gsx:section><gsx:name>Edward Ratanasena</gsx:name><gsx:link>https://www.linkedin.com/pub/edward-ratanasena/21/a0a/649</gsx:link><gsx:photo>Edward Ratanasena.jpg</gsx:photo><gsx:employer>Accenture</gsx:employer><gsx:date></gsx:date><gsx:description>Robot Learning New Skills</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dxj3v</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Edward Ratanasena, link: https://www.linkedin.com/pub/edward-ratanasena/21/a0a/649, photo: Edward Ratanasena.jpg, employer: Accenture, researchtopic: Robot Learning New Skills</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dxj3v'/><gsx:section>Graduates</gsx:section><gsx:name>Edward Ratanasena</gsx:name><gsx:link>https://www.linkedin.com/pub/edward-ratanasena/21/a0a/649</gsx:link><gsx:photo>Edward Ratanasena.jpg</gsx:photo><gsx:date></gsx:date><gsx:employer>Accenture</gsx:employer><gsx:researchtopic>Robot Learning New Skills</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dxj3v",
       "title": "Graduates",
       "_links": [],
@@ -429,12 +461,13 @@
       "name": "Edward Ratanasena",
       "link": "https://www.linkedin.com/pub/edward-ratanasena/21/a0a/649",
       "photo": "Edward Ratanasena.jpg",
-      "employer": "Accenture",
       "date": "",
-      "description": "Robot Learning New Skills"
+      "employer": "Accenture",
+      "researchtopic": "Robot Learning New Skills",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dyxo8</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Michelle Youssef, link: https://www.linkedin.com/pub/michelle-youssef/52/86a/102, photo: Michelle Youssef.jpg, employer: Engineer at Provecta Process Automation, description: Robot Learning New Skills</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dyxo8'/><gsx:section>Graduates</gsx:section><gsx:name>Michelle Youssef</gsx:name><gsx:link>https://www.linkedin.com/pub/michelle-youssef/52/86a/102</gsx:link><gsx:photo>Michelle Youssef.jpg</gsx:photo><gsx:employer>Engineer at Provecta Process Automation</gsx:employer><gsx:date></gsx:date><gsx:description>Robot Learning New Skills</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dyxo8</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Michelle Youssef, link: https://www.linkedin.com/pub/michelle-youssef/52/86a/102, photo: Michelle Youssef.jpg, employer: Engineer at Provecta Process Automation, researchtopic: Robot Learning New Skills</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dyxo8'/><gsx:section>Graduates</gsx:section><gsx:name>Michelle Youssef</gsx:name><gsx:link>https://www.linkedin.com/pub/michelle-youssef/52/86a/102</gsx:link><gsx:photo>Michelle Youssef.jpg</gsx:photo><gsx:date></gsx:date><gsx:employer>Engineer at Provecta Process Automation</gsx:employer><gsx:researchtopic>Robot Learning New Skills</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dyxo8",
       "title": "Graduates",
       "_links": [],
@@ -442,12 +475,13 @@
       "name": "Michelle Youssef",
       "link": "https://www.linkedin.com/pub/michelle-youssef/52/86a/102",
       "photo": "Michelle Youssef.jpg",
-      "employer": "Engineer at Provecta Process Automation",
       "date": "",
-      "description": "Robot Learning New Skills"
+      "employer": "Engineer at Provecta Process Automation",
+      "researchtopic": "Robot Learning New Skills",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e0c8p</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: James Hornitzky, link: https://www.linkedin.com/pub/james-hornitzky/12/2a5/74, photo: James Hornitzky.jpg, employer: Leafcutter Creative Digital, description: Innovation and Enterprise</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e0c8p'/><gsx:section>Graduates</gsx:section><gsx:name>James Hornitzky</gsx:name><gsx:link>https://www.linkedin.com/pub/james-hornitzky/12/2a5/74</gsx:link><gsx:photo>James Hornitzky.jpg</gsx:photo><gsx:employer>Leafcutter Creative Digital</gsx:employer><gsx:date></gsx:date><gsx:description>Innovation and Enterprise</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e0c8p</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: James Hornitzky, link: https://www.linkedin.com/pub/james-hornitzky/12/2a5/74, photo: James Hornitzky.jpg, employer: Leafcutter Creative Digital, researchtopic: Innovation and Enterprise</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e0c8p'/><gsx:section>Graduates</gsx:section><gsx:name>James Hornitzky</gsx:name><gsx:link>https://www.linkedin.com/pub/james-hornitzky/12/2a5/74</gsx:link><gsx:photo>James Hornitzky.jpg</gsx:photo><gsx:date></gsx:date><gsx:employer>Leafcutter Creative Digital</gsx:employer><gsx:researchtopic>Innovation and Enterprise</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e0c8p",
       "title": "Graduates",
       "_links": [],
@@ -455,12 +489,13 @@
       "name": "James Hornitzky",
       "link": "https://www.linkedin.com/pub/james-hornitzky/12/2a5/74",
       "photo": "James Hornitzky.jpg",
-      "employer": "Leafcutter Creative Digital",
       "date": "",
-      "description": "Innovation and Enterprise"
+      "employer": "Leafcutter Creative Digital",
+      "researchtopic": "Innovation and Enterprise",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dqi9q</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Astrid Zeman, link: https://www.linkedin.com/pub/astrid-zeman/5/945/a9, photo: Astrid Zeman.jpg, employer: CSIRO, description: Robot Decision Making and Intelligent Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dqi9q'/><gsx:section>Graduates</gsx:section><gsx:name>Astrid Zeman</gsx:name><gsx:link>https://www.linkedin.com/pub/astrid-zeman/5/945/a9</gsx:link><gsx:photo>Astrid Zeman.jpg</gsx:photo><gsx:employer>CSIRO</gsx:employer><gsx:date></gsx:date><gsx:description>Robot Decision Making and Intelligent Behaviour</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dqi9q</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Astrid Zeman, link: https://www.linkedin.com/pub/astrid-zeman/5/945/a9, photo: Astrid Zeman.jpg, employer: CSIRO, researchtopic: Robot Decision Making and Intelligent Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dqi9q'/><gsx:section>Graduates</gsx:section><gsx:name>Astrid Zeman</gsx:name><gsx:link>https://www.linkedin.com/pub/astrid-zeman/5/945/a9</gsx:link><gsx:photo>Astrid Zeman.jpg</gsx:photo><gsx:date></gsx:date><gsx:employer>CSIRO</gsx:employer><gsx:researchtopic>Robot Decision Making and Intelligent Behaviour</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dqi9q",
       "title": "Graduates",
       "_links": [],
@@ -468,12 +503,13 @@
       "name": "Astrid Zeman",
       "link": "https://www.linkedin.com/pub/astrid-zeman/5/945/a9",
       "photo": "Astrid Zeman.jpg",
-      "employer": "CSIRO",
       "date": "",
-      "description": "Robot Decision Making and Intelligent Behaviour"
+      "employer": "CSIRO",
+      "researchtopic": "Robot Decision Making and Intelligent Behaviour",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/drwu7</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Liam Tong, employer: Google, description: Robot Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/drwu7'/><gsx:section>Graduates</gsx:section><gsx:name>Liam Tong</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer>Google</gsx:employer><gsx:date></gsx:date><gsx:description>Robot Behaviour</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/drwu7</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Liam Tong, employer: Google, researchtopic: Robot Behaviour</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/drwu7'/><gsx:section>Graduates</gsx:section><gsx:name>Liam Tong</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Google</gsx:employer><gsx:researchtopic>Robot Behaviour</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/drwu7",
       "title": "Graduates",
       "_links": [],
@@ -481,12 +517,13 @@
       "name": "Liam Tong",
       "link": "",
       "photo": "",
-      "employer": "Google",
       "date": "",
-      "description": "Robot Behaviour"
+      "employer": "Google",
+      "researchtopic": "Robot Behaviour",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dtbek</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Numi Tran, description: Agent Software Methodology </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dtbek'/><gsx:section>Graduates</gsx:section><gsx:name>Numi Tran</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Agent Software Methodology </gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dtbek</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Numi Tran, researchtopic: Agent Software Methodology </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dtbek'/><gsx:section>Graduates</gsx:section><gsx:name>Numi Tran</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Agent Software Methodology </gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dtbek",
       "title": "Graduates",
       "_links": [],
@@ -494,12 +531,13 @@
       "name": "Numi Tran",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Agent Software Methodology "
+      "employer": "",
+      "researchtopic": "Agent Software Methodology ",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dupz1</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Suku Sinnappan , description: Brand Personality </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dupz1'/><gsx:section>Graduates</gsx:section><gsx:name>Suku Sinnappan </gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Brand Personality </gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dupz1</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Suku Sinnappan , researchtopic: Brand Personality </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dupz1'/><gsx:section>Graduates</gsx:section><gsx:name>Suku Sinnappan </gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Brand Personality </gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/dupz1",
       "title": "Graduates",
       "_links": [],
@@ -507,12 +545,13 @@
       "name": "Suku Sinnappan ",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Brand Personality "
+      "employer": "",
+      "researchtopic": "Brand Personality ",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e7d2q</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Wei Liu, description: Agent-Oriented Belief Revision.</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e7d2q'/><gsx:section>Graduates</gsx:section><gsx:name>Wei Liu</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Agent-Oriented Belief Revision.</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e7d2q</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Wei Liu, researchtopic: Agent-Oriented Belief Revision.</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e7d2q'/><gsx:section>Graduates</gsx:section><gsx:name>Wei Liu</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Agent-Oriented Belief Revision.</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e7d2q",
       "title": "Graduates",
       "_links": [],
@@ -520,12 +559,13 @@
       "name": "Wei Liu",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Agent-Oriented Belief Revision."
+      "employer": "",
+      "researchtopic": "Agent-Oriented Belief Revision.",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e8rn7</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Manh Tuan Vu, description: Cogntive Robotics</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e8rn7'/><gsx:section>Graduates</gsx:section><gsx:name>Manh Tuan Vu</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Cogntive Robotics</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e8rn7</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Manh Tuan Vu, researchtopic: Cogntive Robotics</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e8rn7'/><gsx:section>Graduates</gsx:section><gsx:name>Manh Tuan Vu</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Cogntive Robotics</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e8rn7",
       "title": "Graduates",
       "_links": [],
@@ -533,12 +573,13 @@
       "name": "Manh Tuan Vu",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Cogntive Robotics"
+      "employer": "",
+      "researchtopic": "Cogntive Robotics",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ea67k</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Francis Ilagan, description: iPad Applications</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ea67k'/><gsx:section>Graduates</gsx:section><gsx:name>Francis Ilagan</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>iPad Applications</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ea67k</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Francis Ilagan, researchtopic: iPad Applications</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ea67k'/><gsx:section>Graduates</gsx:section><gsx:name>Francis Ilagan</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>iPad Applications</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ea67k",
       "title": "Graduates",
       "_links": [],
@@ -546,12 +587,13 @@
       "name": "Francis Ilagan",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "iPad Applications"
+      "employer": "",
+      "researchtopic": "iPad Applications",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ebks1</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Peter Brownlow, link: https://www.linkedin.com/profile/view?id=3177043, description: Robot Vision</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ebks1'/><gsx:section>Graduates</gsx:section><gsx:name>Peter Brownlow</gsx:name><gsx:link>https://www.linkedin.com/profile/view?id=3177043</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Vision</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ebks1</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Peter Brownlow, link: https://www.linkedin.com/profile/view?id=3177043, researchtopic: Robot Vision</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ebks1'/><gsx:section>Graduates</gsx:section><gsx:name>Peter Brownlow</gsx:name><gsx:link>https://www.linkedin.com/profile/view?id=3177043</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Vision</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ebks1",
       "title": "Graduates",
       "_links": [],
@@ -559,12 +601,13 @@
       "name": "Peter Brownlow",
       "link": "https://www.linkedin.com/profile/view?id=3177043",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Vision"
+      "employer": "",
+      "researchtopic": "Robot Vision",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e1qt2</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Nicholas Agnew, description: Robot Learning</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e1qt2'/><gsx:section>Graduates</gsx:section><gsx:name>Nicholas Agnew</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Learning</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e1qt2</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Nicholas Agnew, researchtopic: Robot Learning</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e1qt2'/><gsx:section>Graduates</gsx:section><gsx:name>Nicholas Agnew</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Learning</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e1qt2",
       "title": "Graduates",
       "_links": [],
@@ -572,12 +615,13 @@
       "name": "Nicholas Agnew",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Learning"
+      "employer": "",
+      "researchtopic": "Robot Learning",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e35dj</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Dinesh Gurram, description: Robot Locomotion</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e35dj'/><gsx:section>Graduates</gsx:section><gsx:name>Dinesh Gurram</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Locomotion</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e35dj</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Dinesh Gurram, researchtopic: Robot Locomotion</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e35dj'/><gsx:section>Graduates</gsx:section><gsx:name>Dinesh Gurram</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Locomotion</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e35dj",
       "title": "Graduates",
       "_links": [],
@@ -585,12 +629,13 @@
       "name": "Dinesh Gurram",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Locomotion"
+      "employer": "",
+      "researchtopic": "Robot Locomotion",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e4jxw</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Yohan Hartanto, description: Robot Navigation</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e4jxw'/><gsx:section>Graduates</gsx:section><gsx:name>Yohan Hartanto</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Navigation</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e4jxw</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Yohan Hartanto, researchtopic: Robot Navigation</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e4jxw'/><gsx:section>Graduates</gsx:section><gsx:name>Yohan Hartanto</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Navigation</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e4jxw",
       "title": "Graduates",
       "_links": [],
@@ -598,12 +643,13 @@
       "name": "Yohan Hartanto",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Navigation"
+      "employer": "",
+      "researchtopic": "Robot Navigation",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e5yid</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Hong Son Nguyen, description: Robot Planning</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e5yid'/><gsx:section>Graduates</gsx:section><gsx:name>Hong Son Nguyen</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Planning</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e5yid</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Hong Son Nguyen, researchtopic: Robot Planning</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e5yid'/><gsx:section>Graduates</gsx:section><gsx:name>Hong Son Nguyen</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Planning</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/e5yid",
       "title": "Graduates",
       "_links": [],
@@ -611,12 +657,13 @@
       "name": "Hong Son Nguyen",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Planning"
+      "employer": "",
+      "researchtopic": "Robot Planning",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eilm2</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Michael Trieu, description: Robot Locomotion </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eilm2'/><gsx:section>Graduates</gsx:section><gsx:name>Michael Trieu</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Robot Locomotion </gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eilm2</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Michael Trieu, researchtopic: Robot Locomotion </content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eilm2'/><gsx:section>Graduates</gsx:section><gsx:name>Michael Trieu</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Robot Locomotion </gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eilm2",
       "title": "Graduates",
       "_links": [],
@@ -624,12 +671,13 @@
       "name": "Michael Trieu",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Robot Locomotion "
+      "employer": "",
+      "researchtopic": "Robot Locomotion ",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ek06j</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Yves-Alexlandre Vander Schelden, description: Decision Making and Intelligent Action</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ek06j'/><gsx:section>Graduates</gsx:section><gsx:name>Yves-Alexlandre Vander Schelden</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Decision Making and Intelligent Action</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ek06j</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Yves-Alexlandre Vander Schelden, researchtopic: Decision Making and Intelligent Action</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ek06j'/><gsx:section>Graduates</gsx:section><gsx:name>Yves-Alexlandre Vander Schelden</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Decision Making and Intelligent Action</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ek06j",
       "title": "Graduates",
       "_links": [],
@@ -637,12 +685,13 @@
       "name": "Yves-Alexlandre Vander Schelden",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Decision Making and Intelligent Action"
+      "employer": "",
+      "researchtopic": "Decision Making and Intelligent Action",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eleqw</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Javier Vazquez Romera, description: Interactive Knowledge Management</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eleqw'/><gsx:section>Graduates</gsx:section><gsx:name>Javier Vazquez Romera</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description>Interactive Knowledge Management</gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eleqw</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Graduates</title><content type='text'>name: Javier Vazquez Romera, researchtopic: Interactive Knowledge Management</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eleqw'/><gsx:section>Graduates</gsx:section><gsx:name>Javier Vazquez Romera</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic>Interactive Knowledge Management</gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eleqw",
       "title": "Graduates",
       "_links": [],
@@ -650,12 +699,13 @@
       "name": "Javier Vazquez Romera",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": "Interactive Knowledge Management"
+      "employer": "",
+      "researchtopic": "Interactive Knowledge Management",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/emtbd</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: CBA, link: www.commonwealthbank.com.au</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/emtbd'/><gsx:section>Partners</gsx:section><gsx:name>CBA</gsx:name><gsx:link>www.commonwealthbank.com.au</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/emtbd</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: CBA, link: www.commonwealthbank.com.au</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/emtbd'/><gsx:section>Partners</gsx:section><gsx:name>CBA</gsx:name><gsx:link>www.commonwealthbank.com.au</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/emtbd",
       "title": "Partners",
       "_links": [],
@@ -663,12 +713,13 @@
       "name": "CBA",
       "link": "www.commonwealthbank.com.au",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eczce</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Cisco, link: http://www.cisco.com/</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eczce'/><gsx:section>Partners</gsx:section><gsx:name>Cisco</gsx:name><gsx:link>http://www.cisco.com/</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eczce</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Cisco, link: http://www.cisco.com/</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eczce'/><gsx:section>Partners</gsx:section><gsx:name>Cisco</gsx:name><gsx:link>http://www.cisco.com/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eczce",
       "title": "Partners",
       "_links": [],
@@ -676,12 +727,13 @@
       "name": "Cisco",
       "link": "http://www.cisco.com/",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eedwv</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Disrupt, link: http://disruptdevs.com/</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eedwv'/><gsx:section>Partners</gsx:section><gsx:name>Disrupt</gsx:name><gsx:link>http://disruptdevs.com/</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eedwv</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Disrupt, link: http://disruptdevs.com/</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eedwv'/><gsx:section>Partners</gsx:section><gsx:name>Disrupt</gsx:name><gsx:link>http://disruptdevs.com/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eedwv",
       "title": "Partners",
       "_links": [],
@@ -689,12 +741,13 @@
       "name": "Disrupt",
       "link": "http://disruptdevs.com/",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/efsh8</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Google, link: www.google.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/efsh8'/><gsx:section>Partners</gsx:section><gsx:name>Google</gsx:name><gsx:link>www.google.com</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/efsh8</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Google, link: www.google.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/efsh8'/><gsx:section>Partners</gsx:section><gsx:name>Google</gsx:name><gsx:link>www.google.com</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/efsh8",
       "title": "Partners",
       "_links": [],
@@ -702,12 +755,13 @@
       "name": "Google",
       "link": "www.google.com",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eh71p</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: IBM, link: www.ibm.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eh71p'/><gsx:section>Partners</gsx:section><gsx:name>IBM</gsx:name><gsx:link>www.ibm.com</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eh71p</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: IBM, link: www.ibm.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eh71p'/><gsx:section>Partners</gsx:section><gsx:name>IBM</gsx:name><gsx:link>www.ibm.com</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eh71p",
       "title": "Partners",
       "_links": [],
@@ -715,12 +769,13 @@
       "name": "IBM",
       "link": "www.ibm.com",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/etu5e</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: LinkedIn, link: www.linkedin.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/etu5e'/><gsx:section>Partners</gsx:section><gsx:name>LinkedIn</gsx:name><gsx:link>www.linkedin.com</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/etu5e</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: LinkedIn, link: www.linkedin.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/etu5e'/><gsx:section>Partners</gsx:section><gsx:name>LinkedIn</gsx:name><gsx:link>www.linkedin.com</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/etu5e",
       "title": "Partners",
       "_links": [],
@@ -728,12 +783,13 @@
       "name": "LinkedIn",
       "link": "www.linkedin.com",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ev8pv</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Samsung, link: www.samsung.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ev8pv'/><gsx:section>Partners</gsx:section><gsx:name>Samsung</gsx:name><gsx:link>www.samsung.com</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ev8pv</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Samsung, link: www.samsung.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ev8pv'/><gsx:section>Partners</gsx:section><gsx:name>Samsung</gsx:name><gsx:link>www.samsung.com</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ev8pv",
       "title": "Partners",
       "_links": [],
@@ -741,12 +797,13 @@
       "name": "Samsung",
       "link": "www.samsung.com",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ewna8</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Sony, link: www.sony.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ewna8'/><gsx:section>Partners</gsx:section><gsx:name>Sony</gsx:name><gsx:link>www.sony.com</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ewna8</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Sony, link: www.sony.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ewna8'/><gsx:section>Partners</gsx:section><gsx:name>Sony</gsx:name><gsx:link>www.sony.com</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ewna8",
       "title": "Partners",
       "_links": [],
@@ -754,12 +811,13 @@
       "name": "Sony",
       "link": "www.sony.com",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ey1up</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Telstra, link: www.telstra.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ey1up'/><gsx:section>Partners</gsx:section><gsx:name>Telstra</gsx:name><gsx:link>www.telstra.com</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ey1up</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Telstra, link: www.telstra.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ey1up'/><gsx:section>Partners</gsx:section><gsx:name>Telstra</gsx:name><gsx:link>www.telstra.com</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ey1up",
       "title": "Partners",
       "_links": [],
@@ -767,12 +825,13 @@
       "name": "Telstra",
       "link": "www.telstra.com",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eo7vq</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Visual Risk, link: www.visualrisk.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eo7vq'/><gsx:section>Partners</gsx:section><gsx:name>Visual Risk</gsx:name><gsx:link>www.visualrisk.com</gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eo7vq</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Partners</title><content type='text'>name: Visual Risk, link: www.visualrisk.com</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eo7vq'/><gsx:section>Partners</gsx:section><gsx:name>Visual Risk</gsx:name><gsx:link>www.visualrisk.com</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/eo7vq",
       "title": "Partners",
       "_links": [],
@@ -780,12 +839,13 @@
       "name": "Visual Risk",
       "link": "www.visualrisk.com",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/epmg7</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Alankar Karol, link: http://www.visualrisk.com/about/, employer: Visual Risk</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/epmg7'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Alankar Karol</gsx:name><gsx:link>http://www.visualrisk.com/about/</gsx:link><gsx:photo></gsx:photo><gsx:employer>Visual Risk</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/epmg7</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Alankar Karol, link: http://www.visualrisk.com/about/, employer: Visual Risk</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/epmg7'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Alankar Karol</gsx:name><gsx:link>http://www.visualrisk.com/about/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Visual Risk</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/epmg7",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -793,12 +853,13 @@
       "name": "Alankar Karol",
       "link": "http://www.visualrisk.com/about/",
       "photo": "",
-      "employer": "Visual Risk",
       "date": "",
-      "description": ""
+      "employer": "Visual Risk",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/er10k</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Bernhard Nebel, link: http://www2.informatik.uni-freiburg.de/~nebel/, employer: University of Frieberg</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/er10k'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Bernhard Nebel</gsx:name><gsx:link>http://www2.informatik.uni-freiburg.de/~nebel/</gsx:link><gsx:photo></gsx:photo><gsx:employer>University of Frieberg</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/er10k</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Bernhard Nebel, link: http://www2.informatik.uni-freiburg.de/~nebel/, employer: University of Frieberg</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/er10k'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Bernhard Nebel</gsx:name><gsx:link>http://www2.informatik.uni-freiburg.de/~nebel/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>University of Frieberg</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/er10k",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -806,12 +867,13 @@
       "name": "Bernhard Nebel",
       "link": "http://www2.informatik.uni-freiburg.de/~nebel/",
       "photo": "",
-      "employer": "University of Frieberg",
       "date": "",
-      "description": ""
+      "employer": "University of Frieberg",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/esfl1</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Bruce Bargmeyer, link: http://dst.lbl.gov/people.php?p=BruceBargmeyer, employer: UC Berkeley</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/esfl1'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Bruce Bargmeyer</gsx:name><gsx:link>http://dst.lbl.gov/people.php?p=BruceBargmeyer</gsx:link><gsx:photo></gsx:photo><gsx:employer>UC Berkeley</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/esfl1</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Bruce Bargmeyer, link: http://dst.lbl.gov/people.php?p=BruceBargmeyer, employer: UC Berkeley</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/esfl1'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Bruce Bargmeyer</gsx:name><gsx:link>http://dst.lbl.gov/people.php?p=BruceBargmeyer</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>UC Berkeley</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/esfl1",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -819,12 +881,13 @@
       "name": "Bruce Bargmeyer",
       "link": "http://dst.lbl.gov/people.php?p=BruceBargmeyer",
       "photo": "",
-      "employer": "UC Berkeley",
       "date": "",
-      "description": ""
+      "employer": "UC Berkeley",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a59y2</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Chris Welty, link: http://en.wikipedia.org/wiki/Chris_Welty, employer: Google</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a59y2'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Chris Welty</gsx:name><gsx:link>http://en.wikipedia.org/wiki/Chris_Welty</gsx:link><gsx:photo></gsx:photo><gsx:employer>Google</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a59y2</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Chris Welty, link: http://en.wikipedia.org/wiki/Chris_Welty, employer: Google</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a59y2'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Chris Welty</gsx:name><gsx:link>http://en.wikipedia.org/wiki/Chris_Welty</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Google</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a59y2",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -832,12 +895,13 @@
       "name": "Chris Welty",
       "link": "http://en.wikipedia.org/wiki/Chris_Welty",
       "photo": "",
-      "employer": "Google",
       "date": "",
-      "description": ""
+      "employer": "Google",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a6oij</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: David Makinson, link: http://en.wikipedia.org/wiki/David_Makinson, employer: Kings College London</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a6oij'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>David Makinson</gsx:name><gsx:link>http://en.wikipedia.org/wiki/David_Makinson</gsx:link><gsx:photo></gsx:photo><gsx:employer>Kings College London</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a6oij</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: David Makinson, link: http://en.wikipedia.org/wiki/David_Makinson, employer: Kings College London</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a6oij'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>David Makinson</gsx:name><gsx:link>http://en.wikipedia.org/wiki/David_Makinson</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Kings College London</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a6oij",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -845,12 +909,13 @@
       "name": "David Makinson",
       "link": "http://en.wikipedia.org/wiki/David_Makinson",
       "photo": "",
-      "employer": "Kings College London",
       "date": "",
-      "description": ""
+      "employer": "Kings College London",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a832w</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Ian Horrocks, link: http://www.cs.ox.ac.uk/ian.horrocks/, employer: Oxford University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a832w'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Ian Horrocks</gsx:name><gsx:link>http://www.cs.ox.ac.uk/ian.horrocks/</gsx:link><gsx:photo></gsx:photo><gsx:employer>Oxford University</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a832w</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Ian Horrocks, link: http://www.cs.ox.ac.uk/ian.horrocks/, employer: Oxford University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a832w'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Ian Horrocks</gsx:name><gsx:link>http://www.cs.ox.ac.uk/ian.horrocks/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Oxford University</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a832w",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -858,12 +923,13 @@
       "name": "Ian Horrocks",
       "link": "http://www.cs.ox.ac.uk/ian.horrocks/",
       "photo": "",
-      "employer": "Oxford University",
       "date": "",
-      "description": ""
+      "employer": "Oxford University",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a9hnd</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: John McCarthy, link: http://jmc.stanford.edu, employer: Stanford University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a9hnd'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>John McCarthy</gsx:name><gsx:link>http://jmc.stanford.edu</gsx:link><gsx:photo></gsx:photo><gsx:employer>Stanford University</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a9hnd</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: John McCarthy, link: http://jmc.stanford.edu, employer: Stanford University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a9hnd'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>John McCarthy</gsx:name><gsx:link>http://jmc.stanford.edu</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Stanford University</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a9hnd",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -871,12 +937,13 @@
       "name": "John McCarthy",
       "link": "http://jmc.stanford.edu",
       "photo": "",
-      "employer": "Stanford University",
       "date": "",
-      "description": ""
+      "employer": "Stanford University",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/9znoe</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: John Mylopoulos, link: http://www.cs.toronto.edu/~jm/, employer: University of Toronto</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/9znoe'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>John Mylopoulos</gsx:name><gsx:link>http://www.cs.toronto.edu/~jm/</gsx:link><gsx:photo></gsx:photo><gsx:employer>University of Toronto</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/9znoe</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: John Mylopoulos, link: http://www.cs.toronto.edu/~jm/, employer: University of Toronto</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/9znoe'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>John Mylopoulos</gsx:name><gsx:link>http://www.cs.toronto.edu/~jm/</gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>University of Toronto</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/9znoe",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -884,12 +951,13 @@
       "name": "John Mylopoulos",
       "link": "http://www.cs.toronto.edu/~jm/",
       "photo": "",
-      "employer": "University of Toronto",
       "date": "",
-      "description": ""
+      "employer": "University of Toronto",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a128v</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: John Salasin, employer: DARPA</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a128v'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>John Salasin</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer>DARPA</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a128v</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: John Salasin, employer: DARPA</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a128v'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>John Salasin</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>DARPA</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a128v",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -897,12 +965,13 @@
       "name": "John Salasin",
       "link": "",
       "photo": "",
-      "employer": "DARPA",
       "date": "",
-      "description": ""
+      "employer": "DARPA",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a2gt8</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Michael Genesereth, employer: Stanford University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a2gt8'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Michael Genesereth</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer>Stanford University</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a2gt8</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Michael Genesereth, employer: Stanford University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a2gt8'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Michael Genesereth</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Stanford University</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a2gt8",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -910,12 +979,13 @@
       "name": "Michael Genesereth",
       "link": "",
       "photo": "",
-      "employer": "Stanford University",
       "date": "",
-      "description": ""
+      "employer": "Stanford University",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a3vdp</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Niels Bjorn-Andersen, employer: Copenhagen Business School, Denmark</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a3vdp'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Niels Bjorn-Andersen</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer>Copenhagen Business School, Denmark</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a3vdp</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Niels Bjorn-Andersen, employer: Copenhagen Business School, Denmark</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a3vdp'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Niels Bjorn-Andersen</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Copenhagen Business School, Denmark</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/a3vdp",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -923,12 +993,13 @@
       "name": "Niels Bjorn-Andersen",
       "link": "",
       "photo": "",
-      "employer": "Copenhagen Business School, Denmark",
       "date": "",
-      "description": ""
+      "employer": "Copenhagen Business School, Denmark",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/agihe</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Patrick Doherty, employer: Linkopping University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/agihe'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Patrick Doherty</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer>Linkopping University</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/agihe</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Patrick Doherty, employer: Linkopping University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/agihe'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Patrick Doherty</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Linkopping University</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/agihe",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -936,12 +1007,13 @@
       "name": "Patrick Doherty",
       "link": "",
       "photo": "",
-      "employer": "Linkopping University",
       "date": "",
-      "description": ""
+      "employer": "Linkopping University",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ahx1v</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Reuben Coppa, employer: Disrupt</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ahx1v'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Reuben Coppa</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer>Disrupt</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ahx1v</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Reuben Coppa, employer: Disrupt</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ahx1v'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Reuben Coppa</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Disrupt</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ahx1v",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -949,12 +1021,13 @@
       "name": "Reuben Coppa",
       "link": "",
       "photo": "",
-      "employer": "Disrupt",
       "date": "",
-      "description": ""
+      "employer": "Disrupt",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ajbm8</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Roland Vogl, employer: Stanford University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ajbm8'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Roland Vogl</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer>Stanford University</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ajbm8</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Roland Vogl, employer: Stanford University</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ajbm8'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Roland Vogl</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>Stanford University</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/ajbm8",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -962,12 +1035,13 @@
       "name": "Roland Vogl",
       "link": "",
       "photo": "",
-      "employer": "Stanford University",
       "date": "",
-      "description": ""
+      "employer": "Stanford University",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/akq6p</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Xiaoping Chen, employer: University of Science and Technology of China</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/akq6p'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Xiaoping Chen</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer>University of Science and Technology of China</gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/akq6p</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'>name: Xiaoping Chen, employer: University of Science and Technology of China</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/akq6p'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name>Xiaoping Chen</gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer>University of Science and Technology of China</gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/akq6p",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -975,12 +1049,13 @@
       "name": "Xiaoping Chen",
       "link": "",
       "photo": "",
-      "employer": "University of Science and Technology of China",
       "date": "",
-      "description": ""
+      "employer": "University of Science and Technology of China",
+      "researchtopic": "",
+      "bio": ""
     },
     {
-      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/aaw7q</id><updated>2015-05-01T11:15:59.884Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'></content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/aaw7q'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name></gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:employer></gsx:employer><gsx:date></gsx:date><gsx:description></gsx:description></entry>",
+      "_xml": "<entry><id>https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/aaw7q</id><updated>2015-05-06T04:28:42.801Z</updated><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title type='text'>Research Collaborators and Visitors</title><content type='text'></content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/aaw7q'/><gsx:section>Research Collaborators and Visitors</gsx:section><gsx:name></gsx:name><gsx:link></gsx:link><gsx:photo></gsx:photo><gsx:date></gsx:date><gsx:employer></gsx:employer><gsx:researchtopic></gsx:researchtopic><gsx:bio></gsx:bio></entry>",
       "id": "https://spreadsheets.google.com/feeds/list/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/od6/public/values/aaw7q",
       "title": "Research Collaborators and Visitors",
       "_links": [],
@@ -988,9 +1063,10 @@
       "name": "",
       "link": "",
       "photo": "",
-      "employer": "",
       "date": "",
-      "description": ""
+      "employer": "",
+      "researchtopic": "",
+      "bio": ""
     }
   ]
 }
