@@ -45,12 +45,12 @@ gulp.task('cloud-assets', ->
         clientId: process.env.OAUTH_CLIENT_ID
         clientSecret: process.env.OAUTH_CLIENT_SECRET
         refreshToken: process.env.OAUTH_REFRESH_TOKEN
+        maxSockets: 16
     }
     drive = require("gulp-google-drive")(options)
     drive.src(process.env.GOOGLE_DRIVE_FOLDER_ID)
     .pipe($.cached('cloud-assets'))
     .pipe(drive.fetch)
-    .pipe($.remember('cloud-assets'))
     .pipe(gulp.dest(paths.dest + '/assets'))
 )
 
