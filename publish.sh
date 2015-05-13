@@ -9,6 +9,7 @@ fi
 SOURCE_BRANCH=$(git rev-parse HEAD)
 SOURCE_PARENT=$(git rev-parse -q --verify $SOURCE_BRANCH)
 PUBLISH_BRANCH=gh-pages
+git fetch origin ${PUBLISH_BRANCH}:${PUBLISH_BRANCH}
 PUBLISH_PARENT=$(git rev-parse -q --verify "$PUBLISH_BRANCH" || true)
 PUBLISH_DIR=public
 

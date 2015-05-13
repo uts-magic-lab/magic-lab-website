@@ -2,10 +2,38 @@
 <head>
     <meta charset="utf-8">
     <title>Admin Panel</title>
+    <style>
+        fieldset {
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
     <form action="/rebuild" method="POST">
-        <label><input type="checkbox" name="stop_on_close" checked> stop build if window closes</label><br>
-        <button type="submit">Rebuild</button>
+        <fieldset>
+            <legend>Rebuild with latest data</legend>
+            <label>
+                <input type="checkbox" name="stop_on_close" checked>
+                stop build if window closes
+            </label>
+            <br>
+            <button type="submit">Rebuild</button>
+        </fieldset>
+    </form>
+
+    <form action="/publish" method="POST">
+        <fieldset>
+            <legend>Commit a revision</legend>
+            <label>
+                Message:
+                <input type="text" name="commit_message">
+            </label>
+            <label>
+                Author:
+                <input type="text" name="author">
+            </label>
+            <br>
+            <button type="submit">Commit</button>
+        </fieldset>
     </form>
 </body>

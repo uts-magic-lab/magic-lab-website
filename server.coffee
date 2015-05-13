@@ -45,6 +45,11 @@ app.post('/rebuild', (req, res, next)->
         )
 )
 
+app.post('/publish', (req, res, next)->
+    res.status(501)
+    res.end("not implemented")
+)
+
 module.exports = app
 
 if module is require.main
