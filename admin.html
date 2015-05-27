@@ -2,10 +2,66 @@
 <head>
     <meta charset="utf-8">
     <title>Admin Panel</title>
+    <link rel='stylesheet', href='style/main.css'>
+    <style>
+        body {
+            background: white;
+        }
+        form {
+            margin: 1em;
+            float: left;
+        }
+    </style>
 </head>
 <body>
-    <form action="/rebuild" method="POST">
-        <label><input type="checkbox" name="stop_on_close" checked> stop build if window closes</label><br>
-        <button type="submit">Rebuild</button>
+    <form action="/rebuild" method="POST" class="pure-form pure-form-stacked">
+        <fieldset>
+            <legend>Rebuild with latest data</legend>
+            <label>
+                <input type="checkbox" name="stop_on_close" checked>
+                Stop if window closes
+            </label>
+            <button type="submit" class="pure-button pure-button-primary">Rebuild</button>
+        </fieldset>
+    </form>
+
+    <form action="/commit" method="POST" class="pure-form pure-form-stacked">
+        <fieldset>
+            <legend>Commit a version</legend>
+            <label>
+                Commit Message:
+                <input type="text" name="commit_message">
+            </label>
+            <label>
+                Author:
+                <input type="text" name="commit_author">
+            </label>
+            <label>
+                <input type="checkbox" name="stop_on_close" checked>
+                Stop if window closes
+            </label>
+            <button type="submit" class="pure-button pure-button-primary">Commit</button>
+        </fieldset>
+    </form>
+
+    <form action="/publish" method="POST" class="pure-form pure-form-stacked">
+        <fieldset>
+            <legend>Publish a version</legend>
+            <label>
+                Version:
+                <select name="commit_id">
+                    <option value="latest" selected>Latest</option>
+                </select>
+            </label>
+            <label>
+                Publication Password:
+                <input type="text" name="password">
+            </label>
+            <label>
+                <input type="checkbox" name="stop_on_close" checked>
+                Stop if window closes
+            </label>
+            <button type="submit" class="pure-button pure-button-primary">Publish</button>
+        </fieldset>
     </form>
 </body>
