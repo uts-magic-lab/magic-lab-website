@@ -11,38 +11,42 @@ ansi_up = require('ansi_up')
 
 app = express()
 
-app.use([
-    morgan('common'),
-    express.static(paths.dest),
-    bodyParser.urlencoded({ extended: false })
-])
+app.use(morgan('common'))
+app.use(express.static(paths.dest))
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use((req, res, next)->
+    res.runCommand = (cmd, args=[], env={})->
+        res.type('html')
+        res.status(200)
+        res.writeContinue()
+        for i in [1..20]
+            res.write("                                                  \n")
+        res.write('<!DOCTYPE html><html><body><pre>')
+        res.write("<b>$ #{cmd} #{args.join(' ')}\n</b>")
+
+        childEnv = _.defaults(env, process.env, {
+            DEBUG: 'gulp-spreadsheets,gulp-drive'
+            DEBUG_COLORS: true
+        })
+        child = child_process.spawn(cmd, args, {env: childEnv})
+        es.merge([child.stdout, child.stderr])
+        .pipe(es.mapSync((text)->
+            process.stderr.write(text)
+            ansi_up.ansi_to_html(ansi_up.escape_for_html(''+text))
+        ))
+        .pipe(res)
+
+        # support stopping the build if res.connection closes
+        if req.body.stop_on_close
+            res.on('close', ->
+                child.kill('SIGHUP')
+            )
+
+    next()
+)
 
 app.post('/rebuild', (req, res, next)->
-    res.type('html')
-    res.status(200)
-    res.writeContinue()
-    for i in [1..20]
-        res.write("                                                  \n")
-    res.write('<!DOCTYPE html><html><body><pre>')
-
-    env = _.defaults(process.env, {
-        DEBUG: 'gulp-spreadsheets,gulp-drive'
-        DEBUG_COLORS: true
-    })
-
-    child = child_process.spawn('gulp', ['build', '--color'], {env: env})
-    es.merge([child.stdout, child.stderr])
-    .pipe(es.mapSync((text)->
-        process.stderr.write(text)
-        ansi_up.ansi_to_html(ansi_up.escape_for_html(''+text))
-    ))
-    .pipe(res)
-
-    # support stopping the build if res.connection closes
-    if req.body.stop_on_close
-        res.on('close', ->
-            child.kill('SIGHUP')
-        )
+    res.runCommand('gulp', ['build', '--color'])
 )
 
 app.post('/publish', (req, res, next)->
@@ -52,6 +56,7 @@ app.post('/publish', (req, res, next)->
 
 module.exports = app
 
+# support running this file directly
 if module is require.main
     host = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
     port = process.env.OPENSHIFT_NODEJS_PORT || 8000
