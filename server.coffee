@@ -60,7 +60,9 @@ app.post('/commit', (req, res, next)->
 
 app.post('/publish', (req, res, next)->
     res.status(501)
-    res.runCommand('echo', ["not implemented"])
+    res.runCommand('./publish.sh', [req.body.commit_message], {
+        GIT_AUTHOR_NAME: req.body.commit_author
+    })
 )
 
 module.exports = app
