@@ -30,9 +30,13 @@ app.use((req, res, next)->
         })
         child = child_process.spawn(cmd, args, {env: childEnv})
         es.merge([child.stdout, child.stderr])
-        .pipe(es.mapSync((text)->
+        .pipe(es.through((text)->
             process.stderr.write(text)
-            ansi_up.ansi_to_html(ansi_up.escape_for_html(''+text))
+            html = ansi_up.ansi_to_html(ansi_up.escape_for_html(''+text))
+            @emit('data', html)
+        , (end)->
+            @emit('data', '</pre><a href="admin.html">Back to Admin Panel</a>')
+            @emit('end')
         ))
         .pipe(res)
 
@@ -49,9 +53,14 @@ app.post('/rebuild', (req, res, next)->
     res.runCommand('gulp', ['build', '--color'])
 )
 
+app.post('/commit', (req, res, next)->
+    res.status(501)
+    res.runCommand('echo', ["not implemented"])
+)
+
 app.post('/publish', (req, res, next)->
     res.status(501)
-    res.end("not implemented")
+    res.runCommand('echo', ["not implemented"])
 )
 
 module.exports = app
