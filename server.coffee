@@ -14,10 +14,12 @@ app = express()
 app.use(morgan('common'))
 app.use(express.static(paths.dest))
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use((req, res, next)->
+admin = express.Router()
+app.use('/admin', admin)
+
+admin.use((req, res, next)->
     res.runCommand = (cmd, args=[], env={})->
         res.type('html')
-        res.status(200)
         res.writeContinue()
         for i in [1..20]
             res.write("                                                  \n")
@@ -49,16 +51,16 @@ app.use((req, res, next)->
     next()
 )
 
-app.post('/rebuild', (req, res, next)->
+admin.post('/rebuild', (req, res, next)->
     res.runCommand('gulp', ['build', '--color'])
 )
 
-app.post('/commit', (req, res, next)->
+admin.post('/commit', (req, res, next)->
     res.status(501)
     res.runCommand('echo', ["not implemented"])
 )
 
-app.post('/publish', (req, res, next)->
+admin.post('/publish', (req, res, next)->
     res.status(501)
     res.runCommand('./publish.sh', [req.body.commit_message], {
         GIT_AUTHOR_NAME: req.body.commit_author
