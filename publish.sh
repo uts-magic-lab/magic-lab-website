@@ -23,24 +23,24 @@ if [ -z "$COMMIT_MESSAGE" ]; then
     COMMIT_MESSAGE="$(git log -1 --pretty=%B) (built by $0)"
 fi
 
-
 # ensure the publish branch is up to date and in place in the publish folder
 git fetch --force origin "${PUBLISH_BRANCH}:${PUBLISH_BRANCH}"
-PUBLISH_PARENT=$(git rev-parse -q --verify "$PUBLISH_BRANCH" || true)
 
 rm -rf "$PUBLISH_DIR"
 git clone --no-checkout "$GIT_DIR" "$PUBLISH_DIR"
-
-if [ -n "$PUBLISH_PARENT" ]; then
-    (cd "$PUBLISH_DIR"; git checkout --force "$PUBLISH_BRANCH"; rm -rf *)
-else
-    (cd "$PUBLISH_DIR"; git checkout --orphan "$PUBLISH_BRANCH"; rm -rf *)
-fi
+(
+    cd "$PUBLISH_DIR"
+    unset GIT_DIR
+    git checkout --force "$PUBLISH_BRANCH" || git checkout --orphan "$PUBLISH_BRANCH"
+    rm -rf *
+)
 
 # build with a script that will terminate
 gulp build ${DEBUG_COLORS:+--color}
 
 (
+    cd "$PUBLISH_DIR"
+    unset GIT_DIR
     git add --all .
     git commit -m "$COMMIT_MESSAGE"
     git push origin "${PUBLISH_BRANCH}:${PUBLISH_BRANCH}"
