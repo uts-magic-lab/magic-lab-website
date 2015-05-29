@@ -27,7 +27,8 @@ fi
 git fetch --force origin "${PUBLISH_BRANCH}:${PUBLISH_BRANCH}"
 
 rm -rf "$PUBLISH_DIR"
-git clone --no-checkout "$GIT_DIR" "$PUBLISH_DIR"
+git clone --shared --no-checkout "$GIT_DIR" "$PUBLISH_DIR"
+echo "ref: refs/heads/${PUBLISH_BRANCH}" > "${PUBLISH_DIR}/.git/HEAD"
 (
     cd "$PUBLISH_DIR"
     unset GIT_DIR
