@@ -1752,7 +1752,7 @@ header .logo > img {
 .data-page-News-Items .pure-menu-link[href^="news-items.html"],
 .data-page-People .pure-menu-link[href^="people.html"],
 .data-page-Research-Projects .pure-menu-link[href^="research-projects.html"],
-.data-page-Invited-Speaker-Presentations .pure-menu-link[href^="invited-speaker-presentations.html"],
+.data-page-Leadership .pure-menu-link[href^="leadership.html"],
 .data-page-Join-Us .pure-menu-link[href^="Join-Us.html"] {
     color: orange;
 }
@@ -1890,28 +1890,9 @@ footer .pure-g {
     margin-top: 0.35em;
 }
 
-/* speakers page */
+/* leadership page */
 
-.data-page-Invited-Speaker-Presentations .data-field-title {
-    display: inline;
-    font-weight: bold;
-}
-.data-page-Invited-Speaker-Presentations .data-field-when {
-    float: right;
-}
-.data-page-Invited-Speaker-Presentations .data-field-where {
-    clear: both;
-}
-
-
-/* engagement page */
-
-.data-page-Engagement .data-field-title {
-    display: inline;
-    margin-top: 1em;
-    font-weight: bold;
-}
-.data-page-Engagement .data-field-date {
+.data-page-Leadership .data-field-date {
     float: right;
 }
 
