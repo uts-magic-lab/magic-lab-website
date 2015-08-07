@@ -16,15 +16,15 @@ html
                         a.logo.pure-menu-link.pure-menu-heading(href=".")
                             img(src="style/magic-lab-logo.svg" width="160px" alt="The Magic Lab")
                     li.pure-menu-item
-                        a.pure-menu-link(href="news-items.html#start") News
+                        a.pure-menu-link(href="news-items.html") News
                     li.pure-menu-item
-                        a.pure-menu-link(href="people.html#start") People
+                        a.pure-menu-link(href="people.html") People
                     li.pure-menu-item
-                        a.pure-menu-link(href="research-projects.html#start") Research
+                        a.pure-menu-link(href="research-projects.html") Research
                     li.pure-menu-item
-                        a.pure-menu-link(href="leadership.html#start") Leadership
+                        a.pure-menu-link(href="leadership.html") Leadership
                     li.pure-menu-item
-                        a.pure-menu-link(href="join-us.html#start") Join Us
+                        a.pure-menu-link(href="join-us.html") Join Us
 
         main
             .container
@@ -32,28 +32,32 @@ html
                 a#start
                 h1 Innovation and Enterprise Research Laboratory
                 h2= title
-                - sections = _.groupBy(rows, 'section')
-                each sectionRows, section in sections
-                    section.data-section(class=className('data-section-'+section))
-                        if (section && section != 'undefined')
-                            h3= section
-                        each row in sectionRows
-                            div.data-item
-                                each col in Object.keys(row)
-                                    - data = row[col]
-                                    if (col[0] != '_' && col != 'id' && col != 'section' && data)
-                                        .data-field(class=className('data-field-'+col))
-                                            if (col == 'name' && row['link'])
-                                                a(href=row['link'])= data
-                                                - delete row['link']
-                                            else if (col == 'link')
-                                                a(href=data)= data
-                                            else if (col == 'photo' && data != '')
-                                                a(href='assets/'+data)
-                                                    img(src='assets/t/'+data)
-                                            else
-                                                != marked(row[col])
+                article
+                    - sections = _.groupBy(rows, 'section')
+                    each sectionRows, section in sections
+                        section.data-section(class=className('data-section-'+section))
+                            if (section && section != 'undefined')
+                                h3
+                                    a.section-link(id=className(section))
+                                    = section
+                            each row in sectionRows
+                                div.data-item
+                                    each col in Object.keys(row)
+                                        - data = row[col]
+                                        if (col[0] != '_' && col != 'id' && col != 'section' && data)
+                                            .data-field(class=className('data-field-'+col))
+                                                if (col == 'name' && row['link'])
+                                                    a(href=row['link'])= data
+                                                    - delete row['link']
+                                                else if (col == 'link')
+                                                    a(href=data)= data
+                                                else if (col == 'photo' && data != '')
+                                                    a(href='assets/'+data)
+                                                        img(src='assets/t/'+data)
+                                                else
+                                                    != marked(row[col])
 
+                    div(style="clear:both;")
             != contents
 
         footer

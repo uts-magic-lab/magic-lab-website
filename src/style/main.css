@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.1em;
     font-family: "Lato", sans-serif;
     font-weight: normal;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 0;
 }
 
@@ -164,6 +164,11 @@ header .logo > img {
     margin-top: -20px;
 }
 
+.section-link {
+    position: absolute;
+    margin-top: -7em;
+}
+
 /* highlight the current page in navbar */
 
 .data-page-About-the-Magic-Lab .pure-menu-link[href="."],
@@ -225,6 +230,7 @@ footer .pure-g {
 .data-field-photo > a > img {
     max-width: 100px;
     max-height: 100px;
+    border: 2px solid navy;
 }
 
 /* news page */
@@ -241,11 +247,29 @@ footer .pure-g {
 
 /* people page */
 
+.data-page-People article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 3500px;
+    margin-right: -2em;
+}
+
+.data-page-People .data-section {
+    /*float: left;*/
+    width: 50%;
+    padding-right: 2em;
+}
+
 .data-page-People .data-item {
     clear: both;
+    margin-top: 1em;
 }
 .data-page-People .data-field-photo {
-    float: right;
+    float: left;
+    /*border-radius: 1em;*/
+    margin: 0 0.5em 0.5em 0;
+    line-height: 0;
 }
 .data-page-People .data-field-name {
     font-weight: bold;
@@ -311,5 +335,10 @@ footer .pure-g {
 /* leadership page */
 
 .data-page-Leadership .data-field-date {
+    float: right;
+}
+
+
+.data-page-Invited-Speaker-Presentations .data-field-date {
     float: right;
 }
