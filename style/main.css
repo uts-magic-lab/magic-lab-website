@@ -1787,7 +1787,7 @@ footer .pure-g {
 
 .data-item {
     display: block;
-    margin: 0.5em 0 2em 0;
+    margin: 0.5em 0 1em 0;
 }
 
 .data-field {
@@ -1928,7 +1928,11 @@ footer .pure-g {
 .data-page-Leadership .data-field-date {
     float: right;
 }
+.data-page-Leadership .data-item {
+    margin-bottom: 0;
+}
 
+/* speaker presentations page */
 
 .data-page-Invited-Speaker-Presentations .data-field-date {
     float: right;
