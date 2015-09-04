@@ -40,6 +40,7 @@ echo "ref: refs/heads/${PUBLISH_BRANCH}" > "${PUBLISH_DIR}/.git/HEAD"
 # build with a script that will terminate
 gulp build ${DEBUG_COLORS:+--color}
 
+# save the result
 (
     cd "$PUBLISH_DIR"
     unset GIT_DIR
@@ -47,3 +48,8 @@ gulp build ${DEBUG_COLORS:+--color}
     git commit -m "$COMMIT_MESSAGE"
     git push origin "${PUBLISH_BRANCH}:${PUBLISH_BRANCH}"
 )
+
+# upload result
+if [ -n "$OPENSHIFT_APP_NAME" ]; then
+    git push origin "${PUBLISH_BRANCH}:${PUBLISH_BRANCH}"
+fi
