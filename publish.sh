@@ -11,7 +11,8 @@ PUBLISH_BRANCH=gh-pages
 # OpenShift support
 if [ -n "$OPENSHIFT_APP_NAME" ]; then
     export GIT_DIR="${OPENSHIFT_HOMEDIR}git/${OPENSHIFT_APP_NAME}.git"
-    echo "ssh -i $OPENSHIFT_APP_SSH_KEY \$@" > /tmp/git_ssh
+    mkdir -p "$OPENSHIFT_DATA_DIR/.ssh"
+    echo "ssh -o UserKnownHostsFile=$OPENSHIFT_DATA_DIR/.ssh/known_hosts -i $OPENSHIFT_APP_SSH_KEY \$@" > /tmp/git_ssh
     chmod +x /tmp/git_ssh
     export GIT_SSH=/tmp/git_ssh
 else
