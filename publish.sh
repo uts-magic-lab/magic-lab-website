@@ -2,8 +2,8 @@
 
 # Usage: publish.sh [commit message]
 
-SOURCE_DIR=$( cd "$( dirname "$0" )" && pwd )
-PUBLISH_DIR="$SOURCE_DIR"/public
+SOURCE_DIR="$( cd "$( dirname "$0" )" && pwd )"
+PUBLISH_DIR="$SOURCE_DIR/public"
 
 SOURCE_BRANCH=master
 PUBLISH_BRANCH=gh-pages

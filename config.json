@@ -6,6 +6,7 @@
         "templates": ["src/templates/**/*.jade"],
         "content": ["src/content/**/*.md"],
         "data": "public/data",
+        "cloudAssets": "public/assets",
         "dest": "public"
     },
 

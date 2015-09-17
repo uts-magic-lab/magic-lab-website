@@ -39,7 +39,8 @@
     "marked": "^0.3.3",
     "morgan": "^1.5.1",
     "postcss-import": "~3.2.0",
-    "purecss": "^0.6.0"
+    "purecss": "^0.6.0",
+    "vinyl": "^0.5.3"
   },
   "devDependencies": {
     "browser-sync": "~1.7.2"

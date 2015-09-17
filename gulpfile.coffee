@@ -40,18 +40,48 @@ gulp.task('local-assets', ->
         .pipe(gulp.dest(paths.dest))
 )
 
-gulp.task('cloud-assets', ->
+gulp.task('prime-cloud-asset-cache', (done)->
+    File = require('vinyl')
+    gulp.src(paths.data+'/checksums.json')
+    .pipe(es.mapSync((file)->file.contents))
+    .pipe(es.parse())
+    .pipe(es.through((data)->
+        for path, checksum of data
+            file = new File({
+                path: path
+                contents: new es.Stream.PassThrough
+            })
+            file.checksum = checksum
+            @emit('data', file)
+    ))
+    .pipe($.cached('cloud-assets'))
+)
+
+saveCloudAssetCache = es.through((item)->
+    @emit('data', item)
+, (end)->
+    fs = require('fs')
+    checksumData = JSON.stringify($.cached.caches['cloud-assets'])
+    checksumFilename = paths.data+'/checksums.json'
+    fs.writeFile(checksumFilename, checksumData, (err)=>
+        if err then @emit('err', err)
+        @emit('end')
+    )
+)
+
+gulp.task('cloud-assets', ['prime-cloud-asset-cache'], ->
     options = {
         clientId: process.env.OAUTH_CLIENT_ID
         clientSecret: process.env.OAUTH_CLIENT_SECRET
         refreshToken: process.env.OAUTH_REFRESH_TOKEN
         maxSockets: 16
     }
-    drive = require("gulp-google-drive")(options)
+    drive = require('gulp-google-drive')(options)
     drive.src(process.env.GOOGLE_DRIVE_FOLDER_ID)
     .pipe($.cached('cloud-assets'))
+    .pipe(saveCloudAssetCache)
     .pipe(drive.fetch)
-    .pipe(gulp.dest(paths.dest + '/assets'))
+    .pipe(gulp.dest(paths.cloudAssets))
 )
 
 # Stylesheets
