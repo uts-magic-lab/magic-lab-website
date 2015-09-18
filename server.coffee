@@ -8,14 +8,30 @@ child_process = require('child_process')
 _ = require('lodash')
 es = require('event-stream')
 ansi_up = require('ansi_up')
+basicAuth = require('basic-auth')
 
 app = express()
 
+# top-level middleware
+
 app.use(morgan('common'))
-app.use(express.static(paths.dest))
-app.use(bodyParser.urlencoded({ extended: false }))
 admin = express.Router()
 app.use('/admin', admin)
+app.use('/preview', express.static(paths.preview))
+app.use('/', express.static(paths.public))
+
+# admin functions
+# TODO: basic auth
+
+admin.use((req, res, next)->
+    user = basicAuth(req) or {}
+    if user.pass is process.env.ADMIN_PASSWORD
+        return next()
+    else
+        res.set('WWW-Authenticate', 'Basic realm=Authorization Required')
+        res.sendStatus(401)
+)
+admin.use(bodyParser.urlencoded({ extended: false }))
 
 admin.use((req, res, next)->
     res.runCommand = (cmd, args=[], env={})->
@@ -43,7 +59,7 @@ admin.use((req, res, next)->
         .pipe(res)
 
         # support stopping the build if res.connection closes
-        if req.body.stop_on_close
+        unless req.body.nohup
             res.on('close', ->
                 child.kill('SIGHUP')
             )
@@ -62,9 +78,10 @@ admin.post('/commit', (req, res, next)->
 
 admin.post('/publish', (req, res, next)->
     res.status(501)
-    res.runCommand('./publish.sh', [req.body.commit_message], {
-        GIT_AUTHOR_NAME: req.body.commit_author
-    })
+    env = {}
+    if req.body.commit_author?
+        env.GIT_AUTHOR_NAME = req.body.commit_author
+    res.runCommand('./publish.sh', [req.body.commit_message], env)
 )
 
 module.exports = app

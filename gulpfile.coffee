@@ -7,6 +7,9 @@ del = require('del')
 
 config = require('./config')
 paths = config.paths
+paths.dest = process.env.DEST_PATH or paths.public
+paths.data = sysPath.join(paths.dest, 'data')
+paths.cloudAssets = sysPath.join(paths.dest, 'assets')
 
 # High-level tasks
 
@@ -42,7 +45,7 @@ gulp.task('local-assets', ->
 
 gulp.task('prime-cloud-asset-cache', (done)->
     File = require('vinyl')
-    gulp.src(paths.data+'/checksums.json')
+    gulp.src(paths.cloudAssets+'/checksums.json')
     .pipe(es.mapSync((file)->file.contents))
     .pipe(es.parse())
     .pipe(es.through((data)->
@@ -62,7 +65,7 @@ saveCloudAssetCache = es.through((item)->
 , (end)->
     fs = require('fs')
     checksumData = JSON.stringify($.cached.caches['cloud-assets'])
-    checksumFilename = paths.data+'/checksums.json'
+    checksumFilename = paths.cloudAssets+'/checksums.json'
     fs.writeFile(checksumFilename, checksumData, (err)=>
         if err then @emit('err', err)
         @emit('end')

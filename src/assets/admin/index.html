@@ -15,19 +15,22 @@
             margin: 1em;
             clear: both;
         }
+        label.nohup {
+            display: none;
+        }
     </style>
 </head>
 <body>
     <form action="rebuild" method="POST" class="pure-form pure-form-stacked">
         <fieldset>
-            <legend>Rebuild with latest data</legend>
+            <legend>Rebuild preview from latest data</legend>
             <label>
-                <input type="checkbox" name="clean_build" checked>
+                <input type="checkbox" name="clean_build">
                 Delete old version first
             </label>
-            <label>
-                <input type="checkbox" name="stop_on_close" checked>
-                Stop if window closes
+            <label class="nohup">
+                <input type="checkbox" name="nohup">
+                Continue even if broswer closes
             </label>
             <button type="submit" class="pure-button pure-button-primary">Rebuild</button>
         </fieldset>
@@ -35,7 +38,7 @@
 
     <form action="commit" method="POST" class="pure-form pure-form-stacked">
         <fieldset>
-            <legend>Commit a version</legend>
+            <legend>Commit current version</legend>
             <label>
                 Commit Message:
                 <input type="text" name="commit_message">
@@ -45,12 +48,16 @@
                 <input type="text" name="commit_author">
             </label>
             <label>
-                <input type="checkbox" name="clean_build" checked>
-                Delete old version first
+                <input type="checkbox" name="rebuild_first" >
+                Rebuild first
+            </label>
+            <label class="nohup">
+                <input type="checkbox" name="nohup">
+                Continue even if broswer closes
             </label>
             <label>
-                <input type="checkbox" name="stop_on_close" checked>
-                Stop if window closes
+                <input type="checkbox" name="publish_immediately" checked>
+                Publish immediately
             </label>
             <button type="submit" class="pure-button pure-button-primary">Commit</button>
         </fieldset>
@@ -60,36 +67,22 @@
         <fieldset>
             <legend>Publish a version</legend>
             <label>
-                Commit Message:
-                <input type="text" name="commit_message">
-            </label>
-            <label>
-                Author:
-                <input type="text" name="commit_author">
-            </label>
-            <label>
                 Version:
                 <select name="commit_id">
                     <option value="latest" selected>Latest</option>
                 </select>
             </label>
-            <label>
-                Publication Password:
-                <input type="text" name="password">
-            </label>
-            <label>
-                <input type="checkbox" name="clean_build" checked>
-                Delete old version first
-            </label>
-            <label>
-                <input type="checkbox" name="stop_on_close" checked>
-                Stop if window closes
+            <label class="nohup">
+                <input type="checkbox" name="nohup">
+                Continue even if broswer closes
             </label>
             <button type="submit" class="pure-button pure-button-primary">Publish</button>
         </fieldset>
     </form>
 
     <p>
+        <a href="/preview">Website Preview</a>
+        <br>
         <a href="https://docs.google.com/spreadsheets/d/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/edit#gid=0">Data Spreadsheet</a>
         <br>
         <a href="https://drive.google.com/drive/folders/0B6jBTtR7_-U_Wl96bU5pOUx4Nlk">Asset Folder</a>
