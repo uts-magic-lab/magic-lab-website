@@ -45,17 +45,20 @@ admin.get('/', (req, res, next)->
 )
 
 admin.get('/versions', (req, res, next)->
+    env = {}
+    if process.env.OPENSHIFT_HOMEDIR
+        env.GIT_DIR = "#{process.env.OPENSHIFT_HOMEDIR}git/#{process.env.OPENSHIFT_APP_NAME}.git"
     rs = String.fromCharCode(30)
     us = String.fromCharCode(31)
     fmt = ['%H','%an <%ae>','%ai','%s'].join(us)+rs # {"commit": "%H", "author": "%an <%ae>", "date": "%ad", "message": "%f"}'+rs
-    child = child_process.spawn('git', ['log', '--pretty=format:'+fmt, 'gh-pages'])
+    child = child_process.spawn('git', ['log', '--pretty=format:'+fmt, 'gh-pages'], {env: env})
     child.stdout
     .pipe(es.split(rs))
     .pipe(es.mapSync((record)->
         fields = record.split(us)
         if fields.length > 1
             return {
-                commit: fields[0]
+                commit: fields[0].replace(/\W/g, '')
                 author: fields[1]
                 date: fields[2]
                 subject: fields[3]
