@@ -47,7 +47,7 @@ admin.get('/', (req, res, next)->
 admin.get('/versions', (req, res, next)->
     rs = String.fromCharCode(30)
     us = String.fromCharCode(31)
-    fmt = '%H'+us+'%an <%ae>'+us+'%ai'+us+'%s'+rs # {"commit": "%H", "author": "%an <%ae>", "date": "%ad", "message": "%f"}'+rs
+    fmt = ['%H','%an <%ae>','%ai','%s'].join(us)+rs # {"commit": "%H", "author": "%an <%ae>", "date": "%ad", "message": "%f"}'+rs
     child = child_process.spawn('git', ['log', '--pretty=format:'+fmt, 'gh-pages'])
     child.stdout
     .pipe(es.split(rs))
@@ -89,33 +89,45 @@ admin.use((req, res, next)->
             html = ansi_up.ansi_to_html(ansi_up.escape_for_html(''+text))
             @emit('data', html)
         , (end)->
-            @emit('data', '</pre><a href=".">Back to Admin Panel</a>')
-            @emit('end')
         ))
         .pipe(res)
+
+        child.on('exit', (code, signal)->
+            if code isnt 0
+                res.write('<b>Error '+code+"</b>\n")
+            res.write('</pre><a href=".">Back to Admin Panel</a>')
+            res.end()
+        )
 
         # support stopping the build if res.connection closes
         unless req.body.nohup
             res.on('close', ->
                 child.kill('SIGHUP')
             )
-
     next()
 )
 
 admin.post('/rebuild', (req, res, next)->
+    env = {
+        DEST_PATH: 'preview'
+    }
     res.runCommand('gulp', ['build', '--color'])
 )
 
 admin.post('/commit', (req, res, next)->
-    env = {}
-    env.GIT_AUTHOR_NAME = req.body.commit_author or 'Anonymous'
-    res.runCommand('./publish.sh', [req.body.commit_message], env)
+    env = {
+        DEST_PATH: 'preview'
+        GIT_AUTHOR_NAME: req.body.commit_author or 'Anonymous'
+    }
+    if req.body.rebuild_first
+        env.REBUILD_FIRST = 1
+    if req.body.publish_immediately
+        env.PUBLISH_IMMEDIATELY = 1
+    res.runCommand('./commit.sh', [req.body.commit_message], env)
 )
 
 admin.post('/publish', (req, res, next)->
-    res.status(501)
-    res.runCommand('echo', ["not implemented"])
+    res.runCommand('./publish.sh', [req.body.commit_id])
 )
 
 module.exports = app

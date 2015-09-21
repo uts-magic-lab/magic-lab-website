@@ -61,7 +61,8 @@ html
                     legend Publish a version
                     label Version:
                         select(name="commit_id")
-                            option(value="_latest") Latest
+                            option(value="gh-pages") Latest
+                            option(value="gh-pages^") Previous
                             each version in versions
                                 option(value=version.commit) version.message
                         button#load-versions-btn(type="button" onclick="fetchVersions()") Load versions
