@@ -1753,7 +1753,9 @@ header .logo > img {
 
 /* highlight the current page in navbar */
 
+.data-page-Admin-Panel .pure-menu-link[href="/admin/"],
 .data-page-About-the-Magic-Lab .pure-menu-link[href="."],
+.data-page-About-the-Magic-Lab .pure-menu-link[href="/"],
 .data-page-News-Items .pure-menu-link[href^="news-items.html"],
 .data-page-People .pure-menu-link[href^="people.html"],
 .data-page-Research-Projects .pure-menu-link[href^="research-projects.html"],
@@ -1936,6 +1938,32 @@ footer .pure-g {
 
 .data-page-Invited-Speaker-Presentations .data-field-date {
     float: right;
+}
+
+
+/* admin page */
+
+body.data-page-Admin-Panel {
+    background: white;
+}
+.data-page-Admin-Panel form {
+    margin: 1em;
+    float: left;
+}
+.data-page-Admin-Panel body > p {
+    margin: 1em;
+    clear: both;
+}
+.data-page-Admin-Panel label.nohup {
+    display: none;
+}
+.data-page-Admin-Panel .background {
+    background: white;
+}
+.data-page-Admin-Panel main {
+    margin: 120px auto;
+    max-width: 800px;
+
 }
 
 /*# sourceMappingURL=../style/main.css.map */
