@@ -33,14 +33,38 @@ admin.use((req, res, next)->
 )
 
 # display page with version data
-adminTemplate = null
 admin.get('/', (req, res, next)->
-    adminTemplate or= jade.compileFile('./src/templates/admin.jade', {pretty: '  '})
+    options = {
+        pretty: true
+        cache: false#process.env.NODE_ENV isnt 'development'
+    }
+    adminTemplate = jade.compileFile('./src/templates/admin.jade', options)
     context = _.extend({}, config.globals, {versions: []})
     html = adminTemplate(context)
     res.send(html)
-    if process.env.NODE_ENV is 'development'
-        adminTemplate = null
+)
+
+admin.get('/versions', (req, res, next)->
+    rs = String.fromCharCode(30)
+    us = String.fromCharCode(31)
+    fmt = '%H'+us+'%an <%ae>'+us+'%ai'+us+'%s'+rs # {"commit": "%H", "author": "%an <%ae>", "date": "%ad", "message": "%f"}'+rs
+    child = child_process.spawn('git', ['log', '--pretty=format:'+fmt, 'gh-pages'])
+    child.stdout
+    .pipe(es.split(rs))
+    .pipe(es.mapSync((record)->
+        fields = record.split(us)
+        if fields.length > 1
+            return {
+                commit: fields[0]
+                author: fields[1]
+                date: fields[2]
+                subject: fields[3]
+            }
+    ))
+    .pipe(es.writeArray((err, versions)->
+        if err then return next(err)
+        res.jsonp(versions)
+    ))
 )
 
 # support streaming responses

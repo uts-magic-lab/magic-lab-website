@@ -61,10 +61,32 @@ html
                     legend Publish a version
                     label Version:
                         select(name="commit_id")
-                            option(value="latest") Latest
+                            option(value="_latest") Latest
                             each version in versions
-                                option(value=version.commit_id) version.commit_message
+                                option(value=version.commit) version.message
+                        button#load-versions-btn(type="button" onclick="fetchVersions()") Load versions
                     label.nohup
                         input(type="checkbox" name="nohup")
                         |  Continue even if browser closes
                     button.pure-button.pure-button-primary(type="submit") Publish
+
+        script.
+            function fetchVersions() {
+                document.getElementById('load-versions-btn').disabled = true;
+                var script = document.createElement('script');
+                script.src = './versions?callback=receiveVersions';
+                script.async = 'async';
+                document.body.appendChild(script);
+            }
+            function receiveVersions(versions) {
+                document.getElementById('load-versions-btn').disabled = false;
+                var select = document.querySelector('[name="commit_id"]');
+                select.innerHTML = '';
+                for (var i = 0; i < versions.length; i++) {
+                    var version = versions[i];
+                    var option = document.createElement('option');
+                    option.value = version.commit;
+                    option.innerHTML = version.date + ' - ' + version.subject;
+                    select.appendChild(option);
+                }
+            }
