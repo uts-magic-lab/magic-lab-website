@@ -9,6 +9,8 @@ _ = require('lodash')
 es = require('event-stream')
 ansi_up = require('ansi_up')
 basicAuth = require('basic-auth')
+jade = require('jade')
+config = require('./config.json')
 
 app = express()
 
@@ -20,9 +22,7 @@ app.use('/admin', admin)
 app.use('/preview', express.static(paths.preview))
 app.use('/', express.static(paths.public))
 
-# admin functions
-# TODO: basic auth
-
+# password-protected admin page
 admin.use((req, res, next)->
     user = basicAuth(req) or {}
     if user.pass is process.env.ADMIN_PASSWORD
@@ -31,8 +31,20 @@ admin.use((req, res, next)->
         res.set('WWW-Authenticate', 'Basic realm=Authorization Required')
         res.sendStatus(401)
 )
-admin.use(bodyParser.urlencoded({ extended: false }))
 
+# display page with version data
+adminTemplate = null
+admin.get('/', (req, res, next)->
+    adminTemplate or= jade.compileFile('./src/templates/admin.jade', {pretty: '  '})
+    context = _.extend({}, config.globals, {versions: []})
+    html = adminTemplate(context)
+    res.send(html)
+    if process.env.NODE_ENV is 'development'
+        adminTemplate = null
+)
+
+# support streaming responses
+admin.use(bodyParser.urlencoded({ extended: false }))
 admin.use((req, res, next)->
     res.runCommand = (cmd, args=[], env={})->
         res.type('html')
@@ -43,7 +55,7 @@ admin.use((req, res, next)->
         res.write("<b>$ #{cmd} #{args.join(' ')}\n</b>")
 
         childEnv = _.defaults(env, process.env, {
-            DEBUG: 'gulp-spreadsheets,gulp-drive'
+            DEBUG: 'gulp-spreadsheets'#,gulp-drive'
             DEBUG_COLORS: true
         })
         child = child_process.spawn(cmd, args, {env: childEnv})
@@ -53,7 +65,7 @@ admin.use((req, res, next)->
             html = ansi_up.ansi_to_html(ansi_up.escape_for_html(''+text))
             @emit('data', html)
         , (end)->
-            @emit('data', '</pre><a href="admin.html">Back to Admin Panel</a>')
+            @emit('data', '</pre><a href=".">Back to Admin Panel</a>')
             @emit('end')
         ))
         .pipe(res)
@@ -72,16 +84,14 @@ admin.post('/rebuild', (req, res, next)->
 )
 
 admin.post('/commit', (req, res, next)->
-    res.status(501)
-    res.runCommand('echo', ["not implemented"])
+    env = {}
+    env.GIT_AUTHOR_NAME = req.body.commit_author or 'Anonymous'
+    res.runCommand('./publish.sh', [req.body.commit_message], env)
 )
 
 admin.post('/publish', (req, res, next)->
     res.status(501)
-    env = {}
-    if req.body.commit_author?
-        env.GIT_AUTHOR_NAME = req.body.commit_author
-    res.runCommand('./publish.sh', [req.body.commit_message], env)
+    res.runCommand('echo', ["not implemented"])
 )
 
 module.exports = app

@@ -1,0 +1,70 @@
+- className = function(str) { return str.replace(/\W+/g, '-') }
+- title = "Admin Panel"
+
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        title= title + " | " + site.title
+        link(rel='stylesheet', href='/style/main.css')
+    body.data-page(class=className('data-page-'+title))
+        .background
+        header
+            .container.pure-menu.pure-menu-horizontal
+                ul.pure-menu-list
+                    li.pure-menu-item
+                        a.logo.pure-menu-link.pure-menu-heading(href="/")
+                            img(src="/style/magic-lab-logo.svg" width="160px" alt="The Magic Lab")
+                    //- li.pure-menu-item
+                    //-     a.pure-menu-link(href="/") Main Website
+                    li.pure-menu-item
+                        a.pure-menu-link(href="/preview/") Preview
+                    li.pure-menu-item
+                        a.pure-menu-link(href="/admin/") Admin
+                    li.pure-menu-item
+                        a.pure-menu-link(href="https://docs.google.com/spreadsheets/d/1onlrprRlJbrsMw9GCxTGQO-tYqlKfZP3jBaCRaWDLd0/edit#gid=0") Data
+                    li.pure-menu-item
+                        a.pure-menu-link(href="https://drive.google.com/drive/folders/0B6jBTtR7_-U_Wl96bU5pOUx4Nlk") Assets
+
+        main
+            form.pure-form.pure-form-stacked(action="rebuild" method="POST")
+                fieldset
+                    legend Rebuild preview from latest data
+                    label
+                        input(type="checkbox" name="clean_build") 
+                        |  Delete old version first
+                    label.nohup
+                        input(type="checkbox" name="nohup")
+                        |  Continue even if browser closes
+                    button.pure-button.pure-button-primary(type="submit") Rebuild
+
+            form.pure-form.pure-form-stacked(action="commit" method="POST")
+                fieldset
+                    legend Commit current version
+                    label Commit Message:
+                        input(type="text" name="commit_message" required)
+                    label Author:
+                        input(type="text" name="commit_author" required)
+                    label
+                        input(type="checkbox" name="rebuild_first")
+                        |  Rebuild first
+                    label.nohup
+                        input(type="checkbox" name="nohup")
+                        |  Continue even if browser closes
+                    label
+                        input(type="checkbox" name="publish_immediately" checked)                        
+                        |  Publish immediately
+                    button.pure-button.pure-button-primary(type="submit") Commit
+
+            form.pure-form.pure-form-stacked(action="publish" method="POST")
+                fieldset
+                    legend Publish a version
+                    label Version:
+                        select(name="commit_id")
+                            option(value="latest") Latest
+                            each version in versions
+                                option(value=version.commit_id) version.commit_message
+                    label.nohup
+                        input(type="checkbox" name="nohup")
+                        |  Continue even if browser closes
+                    button.pure-button.pure-button-primary(type="submit") Publish
