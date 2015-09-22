@@ -80,8 +80,8 @@ img {
         white
         url(./robot-background.jpg)
         no-repeat;
-    background-size: 1000px auto;
-    background-position: 50% -60px;
+    background-size: auto 800px;
+    background-position: center;
 }
 
 main {
@@ -237,6 +237,10 @@ footer .pure-g {
 
 /* news page */
 
+.data-page-News-Items .background {
+    background-image: url(/assets/FuchsiaTashiMoke.jpg);
+}
+
 .data-page-News-Items .data-field-title {
     display: block;
     font-weight: bold;
@@ -249,6 +253,9 @@ footer .pure-g {
 
 /* people page */
 
+.data-page-People .background {
+    background-image: url(/assets/IMG_1298.JPG);
+}
 .data-page-People article {
     display: flex;
     flex-direction: column;
@@ -256,13 +263,11 @@ footer .pure-g {
     height: 3500px;
     margin-right: -2em;
 }
-
 .data-page-People .data-section {
     /*float: left;*/
     width: 50%;
     padding-right: 2em;
 }
-
 .data-page-People .data-item {
     clear: both;
     margin-top: 1em;
@@ -292,8 +297,10 @@ footer .pure-g {
     font-style: italic;
 }
 
-/* projects page */
-
+/* research projects page */
+.data-page-Research-Projects .background {
+    background-image: url(/assets/Moke_GPSApp_NoColour.jpg);
+}
 .data-page-Research-Projects .data-item {
     margin-top: 1em;
 }
@@ -335,7 +342,9 @@ footer .pure-g {
 }
 
 /* leadership page */
-
+.data-page-Leadership .background {
+    background-image: url(/assets/icsr-nao.jpg);
+}
 .data-page-Leadership .data-field-date {
     float: right;
 }
@@ -344,11 +353,27 @@ footer .pure-g {
 }
 
 /* speaker presentations page */
-
+.data-page-Invited-Speaker-Presentations .background {
+    background-image: url(/assets/magic-lab-speech.jpg);
+}
 .data-page-Invited-Speaker-Presentations .data-field-date {
     float: right;
 }
 
+/* resources page */
+.data-page-Resources .background {
+    background-image: url(/assets/Moke_Robot_NoColour.jpg);
+}
+
+/* hardware page */
+.data-page-Hardware .background {
+    background-image: url(/assets/Moke_Helicopter_NoColour.jpg);
+}
+
+/* join us page */
+.data-page-Join-Us .background {
+    background-image: url(/assets/Moke_Submarine_V2.jpg);
+}
 
 /* admin page */
 
