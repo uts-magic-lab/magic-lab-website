@@ -114,7 +114,7 @@ admin.post('/rebuild', (req, res, next)->
     env = {
         DEST_PATH: 'preview'
     }
-    res.runCommand('gulp', ['build', '--color'])
+    res.runCommand('gulp', ['build', '--color'], env)
 )
 
 admin.post('/commit', (req, res, next)->
