@@ -18,7 +18,7 @@ app = express()
 
 app.use(morgan('common'))
 admin = express.Router()
-app.use('/admin', admin)
+app.use('/admin/', admin)
 app.use('/preview', express.static(paths.preview))
 app.use('/', express.static(paths.public))
 
@@ -26,7 +26,7 @@ app.use('/', express.static(paths.public))
 admin.use((req, res, next)->
     user = basicAuth(req) or {}
     if user.pass is process.env.ADMIN_PASSWORD
-        return next()
+        next()
     else
         res.set('WWW-Authenticate', 'Basic realm=Authorization Required')
         res.sendStatus(401)
@@ -34,6 +34,9 @@ admin.use((req, res, next)->
 
 # display page with version data
 admin.get('/', (req, res, next)->
+    unless req.originalUrl.match(/\/$|\/\?/)
+        return res.redirect(301, req.baseUrl + req.url)
+
     options = {
         pretty: true
         cache: false#process.env.NODE_ENV isnt 'development'
