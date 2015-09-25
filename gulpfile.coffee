@@ -13,7 +13,11 @@ paths.cloudAssets = sysPath.join(paths.dest, 'assets')
 
 # High-level tasks
 
-gulp.task('default', ['start'])
+gulp.task('default', ['publish', 'serve-static'])
+
+gulp.task('publish', (done)->
+    $.run('./publish.sh').exec()
+)
 
 gulp.task('start', ['build', 'serve-static'])
 
