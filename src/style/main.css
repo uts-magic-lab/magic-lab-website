@@ -254,13 +254,13 @@ footer .pure-g {
 /* people page */
 
 .data-page-People .background {
-    background-image: url(/assets/IMG_1298.JPG);
+    background-image: url(/assets/attila-and-mahya.jpg);
 }
 .data-page-People article {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 3500px;
+    height: 275em;
     margin-right: -2em;
 }
 .data-page-People .data-section {
