@@ -243,7 +243,7 @@ footer .pure-g {
 /* news page */
 
 .data-page-News-Items .background {
-    background-image: url(/assets/FuchsiaTashiMoke.jpg);
+    background-image: url(../assets/FuchsiaTashiMoke.jpg);
 }
 
 .data-page-News-Items .data-field-title {
@@ -259,7 +259,7 @@ footer .pure-g {
 /* people page */
 
 .data-page-People .background {
-    background-image: url(/assets/attila-and-mahya.jpg);
+    background-image: url(../assets/attila-and-mahya.jpg);
 }
 .data-page-People article {
     display: flex;
@@ -304,7 +304,7 @@ footer .pure-g {
 
 /* research projects page */
 .data-page-Research-Projects .background {
-    background-image: url(/assets/background-research.jpg);
+    background-image: url(../assets/background-research.jpg);
 }
 .data-page-Research-Projects .data-item {
     margin-top: 1em;
@@ -348,7 +348,7 @@ footer .pure-g {
 
 /* leadership page */
 .data-page-Leadership .background {
-    background-image: url(/assets/icsr-nao.jpg);
+    background-image: url(../assets/icsr-nao.jpg);
 }
 .data-page-Leadership .data-field-date {
     float: right;
@@ -359,7 +359,7 @@ footer .pure-g {
 
 /* speaker presentations page */
 .data-page-Invited-Speaker-Presentations .background {
-    background-image: url(/assets/magic-lab-speech.jpg);
+    background-image: url(../assets/magic-lab-speech.jpg);
 }
 .data-page-Invited-Speaker-Presentations .data-field-date {
     float: right;
@@ -367,17 +367,17 @@ footer .pure-g {
 
 /* resources page */
 .data-page-Resources .background {
-    background-image: url(/assets/Moke_Robot_NoColour.jpg);
+    background-image: url(../assets/Moke_Robot_NoColour.jpg);
 }
 
 /* hardware page */
 .data-page-Robots-and-Other-Systems .background {
-    background-image: url(/assets/Moke_Helicopter_NoColour.jpg);
+    background-image: url(../assets/Moke_Helicopter_NoColour.jpg);
 }
 
 /* join us page */
 .data-page-Join-Us .background {
-    background-image: url(/assets/background-join-us.jpg);
+    background-image: url(../assets/background-join-us.jpg);
 }
 
 /* admin page */
@@ -407,5 +407,5 @@ body.data-page-Admin-Panel {
 
 
 .data-page-Social-Robotics .background {
-    background-image: url(/assets/background-social-robotics.jpg);
+    background-image: url(../assets/background-social-robotics.jpg);
 }
