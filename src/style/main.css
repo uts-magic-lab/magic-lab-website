@@ -79,7 +79,7 @@ img {
     background:
         white
         url(./robot-background.jpg)
-        no-repeat;
+        no-repeat; /* maybe default to no background instead? */
     background-size: auto 800px;
     background-position: center;
 }
@@ -235,6 +235,11 @@ footer .pure-g {
     border: 2px solid navy;
 }
 
+/* front page */
+.data-page-About-the-Magic-Lab .background {
+    background-image: url(./robot-background.jpg);
+}
+
 /* news page */
 
 .data-page-News-Items .background {
@@ -299,7 +304,7 @@ footer .pure-g {
 
 /* research projects page */
 .data-page-Research-Projects .background {
-    background-image: url(/assets/Moke_GPSApp_NoColour.jpg);
+    background-image: url(/assets/background-research.jpg);
 }
 .data-page-Research-Projects .data-item {
     margin-top: 1em;
@@ -366,13 +371,13 @@ footer .pure-g {
 }
 
 /* hardware page */
-.data-page-Hardware .background {
+.data-page-Robots-and-Other-Systems .background {
     background-image: url(/assets/Moke_Helicopter_NoColour.jpg);
 }
 
 /* join us page */
 .data-page-Join-Us .background {
-    background-image: url(/assets/Moke_Submarine_V2.jpg);
+    background-image: url(/assets/background-join-us.jpg);
 }
 
 /* admin page */
@@ -398,4 +403,9 @@ body.data-page-Admin-Panel {
     margin: 120px auto;
     max-width: 800px;
 
+}
+
+
+.data-page-Social-Robotics .background {
+    background-image: url(/assets/background-social-robotics.jpg);
 }
