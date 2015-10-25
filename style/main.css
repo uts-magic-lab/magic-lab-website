@@ -1660,7 +1660,7 @@ img {
     background:
         white
         url(./robot-background.jpg)
-        no-repeat;
+        no-repeat; /* maybe default to no background instead? */
     -webkit-background-size: auto 800px;
             background-size: auto 800px;
     background-position: center;
@@ -1817,10 +1817,15 @@ footer .pure-g {
     border: 2px solid navy;
 }
 
+/* front page */
+.data-page-About-the-Magic-Lab .background {
+    background-image: url(./robot-background.jpg);
+}
+
 /* news page */
 
 .data-page-News-Items .background {
-    background-image: url(/assets/FuchsiaTashiMoke.jpg);
+    background-image: url(../assets/FuchsiaTashiMoke.jpg);
 }
 
 .data-page-News-Items .data-field-title {
@@ -1836,7 +1841,7 @@ footer .pure-g {
 /* people page */
 
 .data-page-People .background {
-    background-image: url(/assets/attila-and-mahya.jpg);
+    background-image: url(../assets/attila-and-mahya.jpg);
 }
 .data-page-People article {
     display: -webkit-box;
@@ -1890,7 +1895,7 @@ footer .pure-g {
 
 /* research projects page */
 .data-page-Research-Projects .background {
-    background-image: url(/assets/Moke_GPSApp_NoColour.jpg);
+    background-image: url(../assets/background-research.jpg);
 }
 .data-page-Research-Projects .data-item {
     margin-top: 1em;
@@ -1934,7 +1939,7 @@ footer .pure-g {
 
 /* leadership page */
 .data-page-Leadership .background {
-    background-image: url(/assets/icsr-nao.jpg);
+    background-image: url(../assets/icsr-nao.jpg);
 }
 .data-page-Leadership .data-field-date {
     float: right;
@@ -1945,7 +1950,7 @@ footer .pure-g {
 
 /* speaker presentations page */
 .data-page-Invited-Speaker-Presentations .background {
-    background-image: url(/assets/magic-lab-speech.jpg);
+    background-image: url(../assets/magic-lab-speech.jpg);
 }
 .data-page-Invited-Speaker-Presentations .data-field-date {
     float: right;
@@ -1953,17 +1958,17 @@ footer .pure-g {
 
 /* resources page */
 .data-page-Resources .background {
-    background-image: url(/assets/Moke_Robot_NoColour.jpg);
+    background-image: url(../assets/Moke_Robot_NoColour.jpg);
 }
 
 /* hardware page */
-.data-page-Hardware .background {
-    background-image: url(/assets/Moke_Helicopter_NoColour.jpg);
+.data-page-Robots-and-Other-Systems .background {
+    background-image: url(../assets/Moke_Helicopter_NoColour.jpg);
 }
 
 /* join us page */
 .data-page-Join-Us .background {
-    background-image: url(/assets/Moke_Submarine_V2.jpg);
+    background-image: url(../assets/background-join-us.jpg);
 }
 
 /* admin page */
@@ -1989,6 +1994,11 @@ body.data-page-Admin-Panel {
     margin: 120px auto;
     max-width: 800px;
 
+}
+
+
+.data-page-Social-Robotics .background {
+    background-image: url(../assets/background-social-robotics.jpg);
 }
 
 /*# sourceMappingURL=../style/main.css.map */
