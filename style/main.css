@@ -1760,7 +1760,7 @@ header .logo > img {
 .data-page-People .pure-menu-link[href^="people.html"],
 .data-page-Research-Projects .pure-menu-link[href^="research-projects.html"],
 .data-page-Leadership .pure-menu-link[href^="leadership.html"],
-.data-page-Join-Us .pure-menu-link[href^="Join-Us.html"] {
+.data-page-Join-Us .pure-menu-link[href^="join-us.html"] {
     color: orange;
 }
 
