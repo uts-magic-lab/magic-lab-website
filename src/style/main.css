@@ -348,7 +348,7 @@ footer .pure-g {
 
 /* leadership page */
 .data-page-Leadership .background {
-    background-image: url(../assets/icsr-nao.jpg);
+    background-image: url(/assets/background-leadership.jpg);
 }
 .data-page-Leadership .data-field-date {
     float: right;
