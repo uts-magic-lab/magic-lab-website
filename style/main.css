@@ -1965,6 +1965,27 @@ footer .pure-g {
 .data-page-Robots-and-Other-Systems .background {
     background-image: url(../assets/Moke_Helicopter_NoColour.jpg);
 }
+.data-page-Robots-and-Other-Systems .data-field-name,
+.data-page-Robots-and-Other-Systems .data-field-nickname,
+.data-page-Robots-and-Other-Systems .data-field-quantity {
+    display: inline;
+}
+.data-page-Robots-and-Other-Systems .data-field-nickname:before {
+    content: "“";
+}
+.data-page-Robots-and-Other-Systems .data-field-nickname:after {
+    content: "”";
+    position: relative;
+    left: -0.25em;
+}
+.data-page-Robots-and-Other-Systems .data-field-quantity:before {
+    content: "(";
+}
+.data-page-Robots-and-Other-Systems .data-field-quantity:after {
+    content: ")";
+    position: relative;
+    left: -0.125em;
+}
 
 /* join us page */
 .data-page-Join-Us .background {
