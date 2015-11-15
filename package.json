@@ -6,7 +6,7 @@
   "homepage": "http://themagiclab.org/",
   "main": "node_modules/gulp/bin/gulp",
   "scripts": {
-    "start": "./publish.sh & gulp serve-static",
+    "start": "./publish.sh && cp -rp public preview && gulp serve-static",
     "build": "gulp build",
     "watch": "gulp watch",
     "test": "echo 'Error: no test specified' && exit 1"
